@@ -195,7 +195,7 @@ CREATE TABLE `order_details` (
   `Shipping_mobile` varchar(20) NOT NULL,
   `shiping` varchar(255) NOT NULL,
   `order_time` timestamp NULL DEFAULT current_timestamp(),
-  `order_date` date DEFAULT current_timestamp()
+  `order_date` date 
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --

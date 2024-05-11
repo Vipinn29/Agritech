@@ -49,8 +49,7 @@ if (isset($_POST['remove_product'])) {
 
                         <li class="menu-item"><a href="index.php">Home</a></li>
                         <li class="menu-item"><a href="all_product.php">All Product</a></li>
-                        <li class="menu-item"><a href="#">About Us</a></li>
-                       
+                        <li class="menu-item"><a href="AboutUs.php">About Us</a></li>
                         <li class="menu-item"><a href="#">Privacy Policy </a></li>
                         <?php 
                             if(isset($_SESSION['user_id'])){
