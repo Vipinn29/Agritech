@@ -54,7 +54,38 @@ include_once("includes/head.php");
         ?>
 
     </header>
+    
+    <!-- Page Contain -->
+    <div class="page-contain">
+
+        <!-- Main content -->
+        <div id="main-content" class="main-content">
 
     <p>This Page Gives Visitors An Insight Into Our Business, Its History And Its Values. It Can Include Information About Our Team, Your Mission And Vision Statements, And Your Unique Selling Proposition.
 
 At Koytur Fish Farming Private Limited, We Take Pride In What We Do. We’re Not Just A Company, We’re A Community Of People Who Are Passionate About Providing High-Quality Fish To The People India, And We’re Just Getting Started.</p>
+
+<!-- FOOTER -->
+    <?php
+    include_once("includes/footer.php");
+    ?>
+
+    <!--Footer For Mobile-->
+    <?php
+    include_once("includes/mobile_footer.php");
+    ?>
+
+    <?php
+    include_once("includes/mobile_global.php")
+    ?>
+
+
+    <!-- Scroll Top Button -->
+    <a class="btn-scroll-top"><i class="biolife-icon icon-left-arrow"></i></a>
+
+    <?php
+    include_once("includes/script.php")
+    ?>
+</body>
+
+</html>
