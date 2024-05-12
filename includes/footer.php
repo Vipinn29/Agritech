@@ -78,7 +78,7 @@ $obj= new adminback();
                                     <li>
                                         <p class="info-item">
                                             <i class="biolife-icon icon-location"></i>
-                                            <b class="desc"> </b>
+                                            <b class="desc"> Office Address – Paikara Badi, Ahiwara Road, Kumhari, Dstt. Durg Chattisgargh. </b>
                                         </p>
                                     </li>
                                     <li>

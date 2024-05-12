@@ -2968,7 +2968,7 @@ $dark-layout-color: #3b4650;
         }
     }
 
-    &.nocollapsed[theme-layout="vertical"][pcoded-device-type="phone"] {
+    &.nocollapsed[theme-layout="vertical"][pcoded-device-type=""] {
         .pcoded-navbar {
             top: 0;
             z-index: 1030;
