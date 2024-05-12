@@ -78,7 +78,7 @@ $obj= new adminback();
                                     <li>
                                         <p class="info-item">
                                             <i class="biolife-icon icon-location"></i>
-                                            <b class="desc">7563 St. Vicent Place, Glasgow, Greater Newyork NH7689, UK </b>
+                                            <b class="desc"> </b>
                                         </p>
                                     </li>
                                     <li>
