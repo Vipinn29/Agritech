@@ -21,10 +21,34 @@ while($pdt_ftecth = mysqli_fetch_assoc($pdt_info)){
             $pdt_datas[] = $pdt_ftecth;
 }
 
-
-
-
 ?>
+<?php
+include_once("includes/head.php");
+?>
+
+<body class="biolife-body">
+    <!-- Preloader -->
+
+    <?php
+    include_once("includes/preloader.php");
+    ?>
+
+    <!-- HEADER -->
+    <header id="header" class="header-area style-01 layout-03">
+
+        <?php
+        include_once("includes/header_top.php");
+        ?>
+
+        <?php
+        include_once("includes/header_middle.php");
+        ?>
+
+        <?php
+        include_once("includes/header_bottom.php");
+        ?>
+
+    </header>
 
 <body>
     <h2>Track Order</h2>
@@ -72,6 +96,27 @@ while($pdt_ftecth = mysqli_fetch_assoc($pdt_info)){
             echo "<p>No orders found matching Order ID $order_id and Name $customer_name</p>";
         }
     }
+    ?>
+    <!-- FOOTER -->
+    <?php
+    include_once("includes/footer.php");
+    ?>
+
+    <!--Footer For Mobile-->
+    <?php
+    include_once("includes/mobile_footer.php");
+    ?>
+
+    <?php
+    include_once("includes/mobile_global.php")
+    ?>
+
+
+    <!-- Scroll Top Button -->
+    <a class="btn-scroll-top"><i class="biolife-icon icon-left-arrow"></i></a>
+
+    <?php
+    include_once("includes/script.php")
     ?>
 
 </body>
