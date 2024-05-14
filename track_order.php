@@ -44,13 +44,15 @@ include_once("includes/head.php");
         include_once("includes/header_middle.php");
         ?>
 
-        <?php
+     
+       <!-- <?php
         include_once("includes/header_bottom.php");
-        ?>
+        ?>  -->
+    
 
     </header>
-
 <body>
+    
     <h2>Track Order</h2>
     <form method="post" action="">
         <label for="order_id">Order ID:</label><br>

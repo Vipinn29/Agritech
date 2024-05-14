@@ -230,7 +230,7 @@ include_once("includes/head.php");
                                     <p class="desc">Quisque quis ipsum venenatis, fermentum ante volutpat, ornare enim. Phasellus molestie risus non aliquet cursus. Integer vestibulum mi lorem, id hendrerit ante lobortis non. Nunc ante ante, lobortis non pretium non, vulputate vel nisi. Maecenas dolor elit, fringilla nec turpis ac, auctor vulputate nulla. Phasellus sed laoreet velit.
                                         Proin fringilla urna vel mattis euismod. Etiam sodales, massa non tincidunt iaculis, mauris libero scelerisque justo, ut rutrum lectus urna sit amet quam. Nulla maximus vestibulum mi vitae accumsan. Donec sit amet ligula et enim semper viverra a in arcu. Vestibulum enim ligula, varius sed enim vitae, posuere molestie velit. Morbi risus orci, congue in nulla at, sodales fermentum magna.</p>
                                     <div class="desc-expand">
-                                        <span class="title">Organic Fresh Fruit</span>
+                                        <span class="title">Organic Fresh Fish</span>
                                         <ul class="list">
                                             <li>100% real fruit ingredients</li>
                                             <li>100 fresh fruit bags individually wrapped</li>
