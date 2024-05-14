@@ -35,7 +35,7 @@ if (isset($_POST['remove_product'])) {
     <?php while($logo = mysqli_fetch_assoc( $logo_info)) {
 
         ?>
-                    <img src="admin/uploads/<?php echo $logo['img']; ?>" alt="biolife logo" width="135" height="36">
+                    <img src="assets/new/logo.png" alt="biolife logo" width="135" height="36">
 
 
                 </a>
@@ -50,8 +50,9 @@ if (isset($_POST['remove_product'])) {
                         <li class="menu-item"><a href="index.php">Home</a></li>
                         <li class="menu-item"><a href="all_product.php">All Product</a></li>
                         <li class="menu-item"><a href="track_order.php">Track Order</a></li>
+                        <li class="menu-item"><a href="SellYourFish.php">Sell Your Fish</a></li>
                         <li class="menu-item"><a href="AboutUs.php">About Us</a></li>
-                        <li class="menu-item"><a href="#">Privacy Policy </a></li>
+                        <!-- <li class="menu-item"><a href="#">Privacy Policy </a></li> -->
                         <?php 
                             if(isset($_SESSION['user_id'])){
                                  ?>
