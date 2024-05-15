@@ -24,7 +24,7 @@ $obj= new adminback();
 
                    
                         </i>
-                        <li><a href="#">Free Shipping</a></li>
+                        <li><a href="#">Shipping all over India</a></li>
                     </ul>
                 </div>
                 <div class="top-bar right">
