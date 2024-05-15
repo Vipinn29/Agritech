@@ -25,8 +25,8 @@
             $rec_pass = $rec_result['admin_pass'];
     
             $to_email = $rec_email;
-            $subject = "Password Recovery from Fruits Bazar";
-            $body = "Dear".PHP_EOL."Please visit this link to reset your password:https://localhost/projects/Fruits_bazar_ecommerce_project/admin/admin_password_update.php?status=update&&id={$rec_id}".PHP_EOL."Thank you";
+            $subject = "Password Recovery from Fish Bazar";
+            $body = "Dear".PHP_EOL."Please visit this link to reset your password:https://localhost/projects/Fish_bazar_ecommerce_project/admin/admin_password_update.php?status=update&&id={$rec_id}".PHP_EOL."Thank you";
             $headers = "From: graphicsapon@gmail.com";
     
             if (mail($to_email, $subject, $body, $headers)) {

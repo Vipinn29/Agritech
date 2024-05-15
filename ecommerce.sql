@@ -106,7 +106,7 @@ INSERT INTO `catagory` (`ctg_id`, `ctg_name`, `ctg_des`, `ctg_status`) VALUES
 (4, 'Orange', 'All kinds Mangos are available in this category ', 1),
 (5, 'Dates', 'All kinds Deates are available in this catagory ', 1),
 (6, 'Coconut', 'Here will display all Coconut', 1),
-(7, 'Fruits', 'Here will display all laptop', 1),
+(7, 'Fish', 'Here will display all laptop', 1),
 (8, 'Mango', 'Here will display all Mango', 1);
 
 -- --------------------------------------------------------
@@ -128,7 +128,7 @@ CREATE TABLE `cupon` (
 --
 
 INSERT INTO `cupon` (`cupon_id`, `cupon_code`, `description`, `discount`, `status`) VALUES
-(1, 'fruitsbazar', 'It\'s a discount coupon.', 10, 1),
+(1, 'Fishbazar', 'It\'s a discount coupon.', 10, 1),
 (2, 'eid2021', 'Eid discount', 15, 1),
 (3, 'eid2021', 'Eid discount', 15, 1);
 
@@ -175,7 +175,7 @@ CREATE TABLE `header_info` (
 --
 
 INSERT INTO `header_info` (`id`, `email`, `tweeter`, `fb_link`, `pinterest`, `phone`) VALUES
-(10, 'fruitsbazar@gmail.com', 'https://twitter.com/', 'https://facebook.com/', 'https://pinerest.com/', '01982364958');
+(10, 'Fishbazar@gmail.com', 'https://twitter.com/', 'https://facebook.com/', 'https://pinerest.com/', '01982364958');
 
 -- --------------------------------------------------------
 
@@ -208,8 +208,8 @@ INSERT INTO `order_details` (`order_id`, `user_id`, `product_name`, `pdt_quantit
 (3, 1, ' Banana (Shobri) (1 P)', 1, 10, '', 2, 'afasffa', '1246798', ' SubarnaChar, Noakhali ', '2021-09-11 09:22:16', '2021-09-13'),
 (4, 1, ' Grapes Red (Kg)', 1, 300, '', 2, 'afasffa', '1246798', ' SubarnaChar, Noakhali ', '2021-09-11 09:22:16', '2021-09-11'),
 (5, 1, 'Coconut', 1, 10, '', 2, 'afasfsaf', '1246798', ' SubarnaChar, Noakhali ', '2021-09-11 09:31:12', '2021-09-13'),
-(6, 1, ' Apple Gala(1 kg)', 1, 245, 'fruitsbazar', 2, 'afasfsaf', '1246798', ' SubarnaChar, Noakhali ', '2021-09-11 10:21:33', '2021-09-11'),
-(7, 1, ' Grapes White (Kg)', 1, 250, 'fruitsbazar', 1, 'afasfsaf', '1246798', ' SubarnaChar, Noakhali ', '2021-09-11 10:21:33', '2021-09-11'),
+(6, 1, ' Apple Gala(1 kg)', 1, 245, 'Fishbazar', 2, 'afasfsaf', '1246798', ' SubarnaChar, Noakhali ', '2021-09-11 10:21:33', '2021-09-11'),
+(7, 1, ' Grapes White (Kg)', 1, 250, 'Fishbazar', 1, 'afasfsaf', '1246798', ' SubarnaChar, Noakhali ', '2021-09-11 10:21:33', '2021-09-11'),
 (8, 1, ' Banana (Shobri) (1 P)', 1, 10, '', 2, 'afasfsaf', '1246798', ' SubarnaChar, Noakhali ', '2021-09-12 19:34:21', '2021-09-12'),
 (9, 1, 'Black Apple', 1, 150, '', 1, 'afasfsaf', '1246798', ' SubarnaChar, Noakhali ', '2021-09-12 19:34:21', '2021-09-12'),
 (10, 2, ' Banana (Shagor Kola) (1 P)', 1, 12, '', 0, '156464631afdasf', '1246798', ' Maijdee, Noakhali ', '2021-09-12 20:52:40', '2021-09-13'),
@@ -224,13 +224,13 @@ INSERT INTO `order_details` (`order_id`, `user_id`, `product_name`, `pdt_quantit
 (19, 5, ' Grapes Black (Kg)', 1, 250, '', 0, '164614618', '1840239402', ' Jatrabari, Dhaka ', '2021-09-15 09:05:37', '2021-09-15'),
 (20, 1, ' Banana (Shagor Kola) (1 P)', 1, 12, '', 0, 'afasfsaf', '1246798', ' SubarnaChar, Noakhali ', '2021-09-15 10:28:12', '2021-09-15'),
 (21, 1, '  Apple Golden Delicious (1kg)', 1, 250, '', 0, 'afasfsaf', '1246798', ' SubarnaChar, Noakhali ', '2021-09-15 10:28:12', '2021-09-15'),
-(22, 1, ' Navel Oranges.', 1, 150, 'fruitsbazar', 0, 'afasfsaf', '1246798', ' SubarnaChar, Noakhali ', '2021-09-16 09:23:53', '2021-09-16'),
-(23, 1, ' Banana (Shobri) (1 P)', 1, 10, 'fruitsbazar', 0, 'afasfsaf', '1246798', ' SubarnaChar, Noakhali ', '2021-09-16 09:23:53', '2021-09-16'),
-(24, 1, 'Black Apple', 1, 150, 'fruitsbazar', 0, 'afasfsaf', '1246798', ' SubarnaChar, Noakhali ', '2021-09-16 09:23:53', '2021-09-16'),
-(25, 1, ' Apple Fuji(1 Kg)', 1, 208, 'fruitsbazar', 0, 'avxev125', '1246798', ' SubarnaChar, Noakhali ', '2021-09-16 09:25:36', '2021-09-16'),
-(26, 1, ' Apple Gala(1 kg)', 1, 245, 'fruitsbazar', 1, 'afasfsaf', '1246798', ' SubarnaChar, Noakhali ', '2021-09-16 09:57:19', '2021-09-16'),
-(27, 1, '  Apple Golden Delicious (1kg)', 1, 250, 'fruitsbazar', 0, 'afasfsaf', '1246798', ' SubarnaChar, Noakhali ', '2021-09-16 09:57:19', '2021-09-16'),
-(28, 1, ' Grapes White (Kg)', 1, 250, 'fruitsbazar', 0, 'afasfsaf', '1246798', ' SubarnaChar, Noakhali ', '2021-09-16 09:59:31', '2021-09-16');
+(22, 1, ' Navel Oranges.', 1, 150, 'Fishbazar', 0, 'afasfsaf', '1246798', ' SubarnaChar, Noakhali ', '2021-09-16 09:23:53', '2021-09-16'),
+(23, 1, ' Banana (Shobri) (1 P)', 1, 10, 'Fishbazar', 0, 'afasfsaf', '1246798', ' SubarnaChar, Noakhali ', '2021-09-16 09:23:53', '2021-09-16'),
+(24, 1, 'Black Apple', 1, 150, 'Fishbazar', 0, 'afasfsaf', '1246798', ' SubarnaChar, Noakhali ', '2021-09-16 09:23:53', '2021-09-16'),
+(25, 1, ' Apple Fuji(1 Kg)', 1, 208, 'Fishbazar', 0, 'avxev125', '1246798', ' SubarnaChar, Noakhali ', '2021-09-16 09:25:36', '2021-09-16'),
+(26, 1, ' Apple Gala(1 kg)', 1, 245, 'Fishbazar', 1, 'afasfsaf', '1246798', ' SubarnaChar, Noakhali ', '2021-09-16 09:57:19', '2021-09-16'),
+(27, 1, '  Apple Golden Delicious (1kg)', 1, 250, 'Fishbazar', 0, 'afasfsaf', '1246798', ' SubarnaChar, Noakhali ', '2021-09-16 09:57:19', '2021-09-16'),
+(28, 1, ' Grapes White (Kg)', 1, 250, 'Fishbazar', 0, 'afasfsaf', '1246798', ' SubarnaChar, Noakhali ', '2021-09-16 09:59:31', '2021-09-16');
 
 -- --------------------------------------------------------
 
@@ -254,8 +254,8 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`pdt_id`, `pdt_name`, `pdt_price`, `pdt_des`, `pdt_ctg`, `pdt_img`, `product_stock`, `pdt_status`) VALUES
-(1, '  Apple Golden Delicious (1kg)', 250, 'Fruits bazar is an online shop for providing fresh fruits in Dhaka city. Here you can get huge collection of local and foreign fruits in your finger tips          ', 1, 'apple1.jpg', 10, 1),
-(2, ' Apple Gala(1 kg)', 245, 'fruits bazar is an online shop for providing fresh fruits in Dhaka city. Here you can get huge collection of local and foreign fruits in your finger tips ', 1, '2901459.jpg', 15, 1),
+(1, '  Apple Golden Delicious (1kg)', 250, 'Fish bazar is an online shop for providing fresh Fish in Dhaka city. Here you can get huge collection of local and foreign Fish in your finger tips          ', 1, 'apple1.jpg', 10, 1),
+(2, ' Apple Gala(1 kg)', 245, 'Fish bazar is an online shop for providing fresh Fish in Dhaka city. Here you can get huge collection of local and foreign Fish in your finger tips ', 1, '2901459.jpg', 15, 1),
 (3, ' Apple Fuji(1 Kg)', 208, 'Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator. ', 1, '2901460.jpg', 10, 1),
 (4, ' Banana (Shagor Kola) (1 P)', 12, 'Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator. ', 2, '2901099.jpg', 10, 1),
 (5, ' Banana (Shobri) (1 P)', 10, 'Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator. ', 2, '2901100.jpg', 8, 1),
@@ -308,10 +308,10 @@ CREATE TABLE `slider` (
 --
 
 INSERT INTO `slider` (`slider_id`, `first_line`, `second_line`, `third_line`, `btn_left`, `btn_right`, `slider_img`) VALUES
-(1, 'Pomegranate', 'Fruits 100% Organic', 'A blend of freshly squeezed green apple & fruits', 'Shop now', 'View lookbook', 'green-slide-01.jpg'),
-(2, 'Pomegranate', 'Orange 100% Organic', 'A blend of freshly squeezed green apple & fruits', 'Shop now', 'View lookbook', 'green-slide-02.jpg'),
-(3, 'Pomegranate', 'Banana 100% Organic', 'A blend of freshly squeezed green apple & fruits', 'Shop now', 'View lookbook', 'green-slide-01.jpg'),
-(4, 'Pomegranate', 'Apple 100% Organic', 'A blend of freshly squeezed green apple & fruits', 'Shop now', 'View lookbook', 'green-slide-02.jpg');
+(1, 'Pomegranate', 'Fish 100% Organic', 'A blend of freshly squeezed green apple & Fish', 'Shop now', 'View lookbook', 'green-slide-01.jpg'),
+(2, 'Pomegranate', 'Orange 100% Organic', 'A blend of freshly squeezed green apple & Fish', 'Shop now', 'View lookbook', 'green-slide-02.jpg'),
+(3, 'Pomegranate', 'Banana 100% Organic', 'A blend of freshly squeezed green apple & Fish', 'Shop now', 'View lookbook', 'green-slide-01.jpg'),
+(4, 'Pomegranate', 'Apple 100% Organic', 'A blend of freshly squeezed green apple & Fish', 'Shop now', 'View lookbook', 'green-slide-02.jpg');
 
 -- --------------------------------------------------------
 

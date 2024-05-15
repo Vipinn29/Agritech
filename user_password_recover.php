@@ -31,8 +31,8 @@ if (isset($_POST['u_pass_recover'])) {
         $rec_pass = $rec_result['user_password'];
 
         $to_email = $rec_email;
-        $subject = "Recover Password From Fruits Bazar";
-        $body = "Dear {$rec_name}".PHP_EOL. "Please visit this link to reset your password: http://localhost/projects/Fruits_bazar_ecommerce_project/user_password_update.php?status=update&&id={$rec_id}".PHP_EOL."Thank you";
+        $subject = "Recover Password From Fish Bazar";
+        $body = "Dear {$rec_name}".PHP_EOL. "Please visit this link to reset your password: http://localhost/projects/Fish_bazar_ecommerce_project/user_password_update.php?status=update&&id={$rec_id}".PHP_EOL."Thank you";
         $headers = "From: graphicsapon@gmail.com";
 
         if (mail($to_email, $subject, $body, $headers)) {

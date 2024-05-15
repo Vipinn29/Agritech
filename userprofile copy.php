@@ -271,7 +271,7 @@ include_once("includes/head.php");
                             </div>
 
                             <div class="subtotal-line ">
-                                <p class="stt-name" style="font-weight: normal;">Use Cupon (fruitsbazar)</p>
+                                <p class="stt-name" style="font-weight: normal;">Use Cupon (Fishbazar)</p>
                                 <br>
                                 <input type="text" id="cupon" class="form-control" style="width:40%; padding:5px; display:inline">
 
