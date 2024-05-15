@@ -29,8 +29,8 @@ $obj= new adminback();
                 </div>
                 <div class="top-bar right">
                     <ul class="social-list">
-                        <li><a href="#<?php  echo $link['tweeter'];  ?>"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#<?php  echo $link['fb_link'];  ?>"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="https://follow.it/koytur-fish-farming?action=followPub"<?php  echo $link['tweeter'];  ?> target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.facebook.com/koyturfishfarming/" <?php  echo $link['fb_link'];  ?> target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                         <li><a href="#<?php  echo $link['pinterest'];  ?>"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
                                <?php } ?>
 
