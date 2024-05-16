@@ -232,8 +232,8 @@ include_once("includes/head.php");
                                     <div class="desc-expand">
                                         <span class="title">Organic Fresh Fish</span>
                                         <ul class="list">
-                                            <li>100% real fruit ingredients</li>
-                                            <li>100 fresh fruit bags individually wrapped</li>
+                                            <li>100% real fish ingredients</li>
+                                            <li>100 fresh fish bags individually wrapped</li>
                                             <li>Blending Eastern & Western traditions, naturally</li>
                                         </ul>
                                     </div>
