@@ -15,8 +15,8 @@
                                             </div>
                                             <div class="info">
                                                 <div class="biolife-countdown" data-datetime="2020-01-18 00:00 +00:00"></div>
-                                                <b class="categories">Fresh Fruit</b>
-                                                <h4 class="product-title"><a href="#" class="pr-name">National Fresh Fruit</a></h4>
+                                                <b class="categories">Fresh Fish</b>
+                                                <h4 class="product-title"><a href="#" class="pr-name">National Fresh fish</a></h4>
                                                 <div class="price ">
                                                     <ins><span class="price-amount"><span class="currencySymbol">£</span>85.00</span></ins>
                                                     <del><span class="price-amount"><span class="currencySymbol">£</span>95.00</span></del>
@@ -44,8 +44,8 @@
                                             </div>
                                             <div class="info">
                                                 <div class="biolife-countdown" data-datetime="2020-01-03 00:00 +00:00"></div>
-                                                <b class="categories">Fresh Fruit</b>
-                                                <h4 class="product-title"><a href="#" class="pr-name">National Fresh Fruit</a></h4>
+                                                <b class="categories">Fresh fish</b>
+                                                <h4 class="product-title"><a href="#" class="pr-name">National Fresh Fish</a></h4>
                                                 <div class="price ">
                                                     <ins><span class="price-amount"><span class="currencySymbol">£</span>85.00</span></ins>
                                                     <del><span class="price-amount"><span class="currencySymbol">£</span>95.00</span></del>
