@@ -19,7 +19,8 @@
                                 <h3 class="second-line"> <?php echo $row['second_line']; ?> </h3>
                                 <p class="third-line"><?php echo $row['third_line']; ?></p>
                                 <p class="buttons">
-                                    <a href="./all_product.php" class="btn btn-bold"><?php echo $row['btn_left']; ?></a>
+                                     <!-- <a href="./all_product.php" class="btn btn-bold"><?php echo $row['btn_left']; ?></a> -->
+                                    <a href="#" class="btn btn-bold"><?php echo $row['btn_left']; ?></a>
                                     <a href="#" class="btn btn-thin"><?php echo $row['btn_right']; ?></a>
                                 </p>
                             </div>
@@ -33,7 +34,7 @@
                     ?>
                   
                  
-                     <li>
+                     <!-- <li>
                         <div class="slide-contain slider-opt03__layout02 slide_animation type_02">
                             <div class="media background-geen-02"></div>
                             <div class="text-content">
@@ -47,6 +48,6 @@
                             </div>
                         </div>
                     </li>
-                
+                 -->
                 </ul>
             </div>
