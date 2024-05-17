@@ -13,7 +13,7 @@
                 
                 <li>
                         <div class="slide-contain slider-opt03__layout02 slide_animation type_02">
-                            <div class="media background-geen-01" style="background-image: url('admin/uploads/<?php echo $row["slider_img"]?>');"></div>
+                            <div class="media background-geen-01" style="background-image: url('admin/uploads/fish1.jpg');"></div>
                             <div class="text-content">
                                 <i class="first-line"><?php echo $row['first_line']; ?></i>
                                 <h3 class="second-line"> <?php echo $row['second_line']; ?> </h3>

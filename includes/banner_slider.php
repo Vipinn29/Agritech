@@ -55,7 +55,7 @@ while ($pdt_ftecth = mysqli_fetch_assoc($pdt_info)) {
 
         </ul>
         <div class="biolife-service type01 biolife-service__type01 sm-margin-top-0 xs-margin-top-45px">
-            <b class="txt-show-01">100%Nature</b>
+            <b class="txt-show-01">100% Nature</b>
             <i class="txt-show-02">Fresh Fish </i>
             <ul class="services-list">
                 <li>
