@@ -101,9 +101,9 @@ CREATE TABLE `catagory` (
 --
 
 INSERT INTO `catagory` (`ctg_id`, `ctg_name`, `ctg_des`, `ctg_status`) VALUES
-(1, 'Apple', 'All kinds apple are available in this catagory ', 1),
-(2, 'Banana', 'All kinds Banana are available in this category ', 1),
-(3, 'Grapes', 'Reference site about Lorem Ipsum', 1),
+(1, 'Hilsa (Ilish)', 'All kinds Hilsa are available in this catagory ', 1),
+(2, 'Katla:', 'All kinds Katla: are available in this category ', 1),
+(3, 'Tilapia', '', 1),
 (4, 'Orange', 'All kinds Mangos are available in this category ', 1),
 (5, 'Dates', 'All kinds Deates are available in this catagory ', 1),
 (6, 'Coconut', 'Here will display all Coconut', 1),
@@ -255,9 +255,9 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`pdt_id`, `pdt_name`, `pdt_price`, `pdt_des`, `pdt_ctg`, `pdt_img`, `product_stock`, `pdt_status`) VALUES
-(1, '  Apple Golden Delicious (1kg)', 250, 'Fruits bazar is an online shop for providing fresh fruits in Dhaka city. Here you can get huge collection of local and foreign fruits in your finger tips          ', 1, 'apple1.jpg', 10, 1),
+(1, 'Tilapia', 250, 'Cultivated widely and known for its mild flavor', 1, 'product1.jfif', 10, 1),
 (2, ' Apple Gala(1 kg)', 245, 'fruits bazar is an online shop for providing fresh fruits in Dhaka city. Here you can get huge collection of local and foreign fruits in your finger tips ', 1, '2901459.jpg', 15, 1),
-(3, ' Apple Fuji(1 Kg)', 208, 'Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator. ', 1, '2901460.jpg', 10, 1),
+(3, 'hilsa', 208, 'A sought-after fish known for its distinct taste and abundant in the Bay of Bengal.', 1, 'product2.jfif', 10, 1),
 (4, ' Banana (Shagor Kola) (1 P)', 12, 'Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator. ', 2, '2901099.jpg', 10, 1),
 (5, ' Banana (Shobri) (1 P)', 10, 'Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator. ', 2, '2901100.jpg', 8, 1),
 (6, ' Banana (Chini Chompa) (1 P)', 10, 'Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator. ', 2, '2901141.jpg', 12, 1),
@@ -309,10 +309,10 @@ CREATE TABLE `slider` (
 --
 
 INSERT INTO `slider` (`slider_id`, `first_line`, `second_line`, `third_line`, `btn_left`, `btn_right`, `slider_img`) VALUES
-(1, 'Pomegranate', 'Pomegranate 100% Organic', 'A blend of freshly squeezed green apple & fruits', 'Shop now', 'View lookbook', 'green-slide-01.jpg'),
-(2, 'Pomegranate', 'Orange 100% Organic', 'A blend of freshly squeezed green apple & fruits', 'Shop now', 'View lookbook', 'green-slide-02.jpg'),
-(3, 'Pomegranate', 'Banana 100% Organic', 'A blend of freshly squeezed green apple & fruits', 'Shop now', 'View lookbook', 'green-slide-01.jpg'),
-(4, 'Pomegranate', 'Apple 100% Organic', 'A blend of freshly squeezed green apple & fruits', 'Shop now', 'View lookbook', 'green-slide-02.jpg');
+(1, 'Hilsa ', 'Fish 100% Organic', 'A blend of freshly squeezed fish ', 'Shop now', 'View lookbook', 'fish5.jpg'),
+(2, 'Khopsi', 'Fish  100% Organic', 'Khopsi fish are popular in local markets and are often used in traditional culinary dishes due to their mild flavor and delicate texture.', 'Shop now', 'View lookbook', 'fish2.jpg'),
+(3, 'Tilapia', 'fish 100% Organic', 'Tilapia thrive in both fresh and brackish water and are often raised in farms around the world. ', 'Shop now', 'View lookbook', 'fish3.jpeg'),
+(4, 'Katla', 'fish 100% Organic', ' It is rich in protein and omega-3 fatty acids, making it a popular choice in many regional cuisines. ', 'Shop now', 'View lookbook', 'fish4.jpeg');
 
 -- --------------------------------------------------------
 

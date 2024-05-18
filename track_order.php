@@ -52,9 +52,9 @@ include_once("includes/head.php");
 
     </header>
 <body>
-    
-    <h2>Track Order</h2>
-    <form method="post" action="">
+    <div>
+    <h2 class="track">Track Order</h2>
+    <form class="track" method="post" action="">
         <label for="order_id">Order ID:</label><br>
         <input type="text" id="order_id" name="order_id"><br><br>
         <label for="customer_name">Your Name:</label><br>
@@ -99,6 +99,7 @@ include_once("includes/head.php");
         }
     }
     ?>
+    </div>
     <!-- FOOTER -->
     <?php
     include_once("includes/footer.php");

@@ -18,5 +18,6 @@
     <link rel="stylesheet" href="assets/css/slick.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/main-color03-green.css">
+    <link rel="stylesheet" href="assets/css/track.css">
     <script src="assets/js/jquery-3.4.1.min.js"></script>
 </head>
