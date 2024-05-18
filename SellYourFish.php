@@ -60,8 +60,8 @@ include_once("includes/head.php");
     <title>Sell Your Fish</title>
 </head>
 <body>
-    <h2>Sell Your Fish</h2>
-    <form action="process.php" method="post">
+    <h2 class="track">Sell Your Fish</h2>
+    <form class="track" action="process.php" method="post">
         <label for="fish_name">Fish Name:</label><br>
         <input type="text" id="fish_name" name="fish_name"><br>
         
@@ -70,7 +70,10 @@ include_once("includes/head.php");
         
         <label for="price_per_unit">Price per Unit:</label><br>
         <input type="text" id="price_per_unit" name="price_per_unit"><br>
-        
+       
+        <label for="contact_details">Your Contact No.</label><br>
+        <input type="text" id="contact" name="contact_details"><br>
+
         <input type="submit" value="Submit">
     </form>
 
