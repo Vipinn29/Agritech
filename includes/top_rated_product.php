@@ -18,14 +18,14 @@
                                         <div class="contain-product right-info-layout contain-product__right-info-layout">
                                             <div class="product-thumb">
                                                 <a href="single_product.php?status=singleproduct&&id=<?php echo $top_pdt['pdt_id'] ?>" class="link-to-product">
-                                                    <img src="admin/uploads/<?php echo $top_pdt['pdt_img']?>" alt="dd" width="270" height="270" class="product-thumnail">
+                                                    <img src="admin/uploads/products/<?php echo $top_pdt['pdt_img']?>" alt="dd" width="270" height="270" class="product-thumnail">
                                                 </a>
                                             </div>
                                             <div class="info">
-                                                <b class="categories"><?php echo $top_pdt['ctg_name']?></b>
+                                                <!-- <b class="categories"><?php echo $top_pdt['ctg_name']?></b> -->
                                                 <h4 class="product-title"><a href="single_product.php?status=singleproduct&&id=<?php echo $top_pdt['pdt_id'] ?>" class="pr-name"><?php echo $top_pdt['pdt_name']?></a></h4>
                                                 <div class="price ">
-                                                    <ins><span class="price-amount"><span class="currencySymbol">TK. </span><?php echo $top_pdt['pdt_price']?></span></ins>
+                                                    <ins><span class="price-amount"><span class="currencySymbol">Rs. </span><?php echo $top_pdt['pdt_price']?></span></ins>
                                                    
                                                 </div>
                                                 <div class="rating">
@@ -44,7 +44,7 @@
                                         <div class="text-content">
                                             <span class="first-line">Daily Fresh</span>
                                             <b class="second-line">Natural</b>
-                                            <i class="third-line">Fresh Food</i>
+                                            <i class="third-line">Live Fish</i>
                                             <span class="fourth-line">Premium Quality</span>
                                         </div>
                                     </div>
