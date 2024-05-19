@@ -20,7 +20,7 @@ while ($pdt_ftecth = mysqli_fetch_assoc($pdt_info)) {
                         <div class="banner-contain">
                             <div class="media">
                                 <a href="single_product.php?status=singleproduct&&id=<?php echo $pdt_data['pdt_id'] ?>" class="bn-link">
-                                    <figure><img src="admin/uploads/<?php echo $pdt_data['pdt_img'] ?>" width="616" height="483" alt=""></figure>
+                                    <figure><img src="admin/uploads/products/<?php echo $pdt_data['pdt_img'] ?>" width="616" height="483" alt=""></figure>
                                 </a>
                             </div>
                             <a href="single_product.php?status=singleproduct&&id=<?php echo $pdt_data['pdt_id'] ?>">
@@ -31,7 +31,7 @@ while ($pdt_ftecth = mysqli_fetch_assoc($pdt_info)) {
                                     <div class="product-detail">
 
                                         <div class="price price-contain">
-                                            <ins><span class="price-amount"><span class="currencySymbol">TK. </span><?php echo $pdt_data['pdt_price'] ?></span></ins>
+                                            <ins><span class="price-amount"><span class="currencySymbol">Rs. </span><?php echo $pdt_data['pdt_price'] ?></span></ins>
 
                                            
                                         </div>
