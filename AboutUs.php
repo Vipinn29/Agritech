@@ -61,9 +61,22 @@ include_once("includes/head.php");
         <!-- Main content -->
         <div id="main-content" class="main-content">
 
-    <p>This Page Gives Visitors An Insight Into Our Business, Its History And Its Values. It Can Include Information About Our Team, Your Mission And Vision Statements, And Your Unique Selling Proposition.
+    <p>Welcome to KoyturFishFarming, your trusted partner for premium live fish delivered directly from our farms. <br><br>
 
-At Koytur Fish Farming Private Limited, We Take Pride In What We Do. We’re Not Just A Company, We’re A Community Of People Who Are Passionate About Providing High-Quality Fish To The People India, And We’re Just Getting Started.</p>
+At KoyturFishFarming, we take pride in our commitment to sustainable aquaculture and providing you with the freshest, highest quality fish for your culinary delight. With decades of expertise in fish farming, we've mastered the art of raising healthy, flavorful fish in a controlled environment.<br>
+
+When you partner with KoyturFishFarming, you gain access to a diverse selection of premium fish species, meticulously bred and raised to perfection. Whether you're a restaurant, catering service, seafood market, or food distributor, we have the right fish to elevate your offerings and satisfy your customers' discerning palates.<br>
+
+When you choose KoyturFishFarming, you're choosing seafood that's as fresh as it gets. Our live fish are carefully harvested and packed in specialized pouches, preserving their natural taste and texture until they reach your doorstep.<br>
+
+We understand the unique needs of businesses in the food industry, which is why we're dedicated to providing you with unparalleled service and support. From flexible ordering options to reliable, on-time delivery, we're here to ensure that your experience with KoyturFishFarming is seamless and stress-free.<br>
+
+Join us in our mission to provide businesses like yours with the freshest, highest quality seafood available. Experience the KoyturFishFarming difference and take your culinary offerings to the next level!<br>
+
+Partner with us for freshness, quality, and reliability.<br><br>
+
+Koytur Fish Farming Private Limited: Your trusted seafood supplier.<br>
+</p>
 
 <!-- FOOTER -->
     <?php
