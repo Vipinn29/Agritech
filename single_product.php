@@ -138,7 +138,7 @@ include_once("includes/head.php");
                                         <div class="sumary-product single-layout">
                                             <div class="media">
                                                 <ul class="biolife-carousel slider-for" data-slick='{"arrows":false,"dots":false,"slidesMargin":30,"slidesToShow":1,"slidesToScroll":1,"fade":true,"asNavFor":".slider-nav"}'>
-                                                    <li><img src="admin/uploads/<?php echo $pro_data['pdt_img'] ?>" alt="" width="500" height="500"></li>
+                                                    <li><img src="admin/uploads/products/<?php echo $pro_data['pdt_img'] ?>" alt="" width="500" height="500"></li>
 
                                                 </ul>
 
@@ -157,12 +157,12 @@ include_once("includes/head.php");
 
                                                 <p class="excerpt"><?php echo $pro_data['pdt_des'] ?></p>
                                                 <div class="price">
-                                                    <ins><span class="price-amount"><span class="currencySymbol">Tk. </span><?php echo $pro_data['pdt_price'] ?></span></ins>
+                                                    <ins><span class="price-amount"><span class="currencySymbol">Rs. </span><?php echo $pro_data['pdt_price'] ?></span></ins>
 
                                                 </div>
 
                                                 <div class="shipping-info">
-                                                    <p class="shipping-day">3-Day Shipping</p>
+                                                    <p class="shipping-day">24 Hour Shipping</p>
                                                     <p class="for-today">Pree Pickup Today</p>
                                                 </div>
                                             </div>
@@ -170,7 +170,7 @@ include_once("includes/head.php");
 
                                                 <div class="total-price-contain">
                                                     <span class="title">Total Price:</span>
-                                                    <p class="price">Tk.
+                                                    <p class="price">Rs.
                                                         <?php
 
                                                         echo $pro_data['pdt_price'];
@@ -227,8 +227,7 @@ include_once("includes/head.php");
                             </div>
                             <div class="tab-content">
                                 <div id="tab_1st" class="tab-contain desc-tab active">
-                                    <p class="desc">Quisque quis ipsum venenatis, fermentum ante volutpat, ornare enim. Phasellus molestie risus non aliquet cursus. Integer vestibulum mi lorem, id hendrerit ante lobortis non. Nunc ante ante, lobortis non pretium non, vulputate vel nisi. Maecenas dolor elit, fringilla nec turpis ac, auctor vulputate nulla. Phasellus sed laoreet velit.
-                                        Proin fringilla urna vel mattis euismod. Etiam sodales, massa non tincidunt iaculis, mauris libero scelerisque justo, ut rutrum lectus urna sit amet quam. Nulla maximus vestibulum mi vitae accumsan. Donec sit amet ligula et enim semper viverra a in arcu. Vestibulum enim ligula, varius sed enim vitae, posuere molestie velit. Morbi risus orci, congue in nulla at, sodales fermentum magna.</p>
+                                    <p class="desc"><?php echo $pro_data['pdt_des'] ?></p>
                                     <div class="desc-expand">
                                         <span class="title">Organic Fresh Fish</span>
                                         <ul class="list">
@@ -476,20 +475,20 @@ include_once("includes/head.php");
                                         <div class="contain-product layout-default">
                                             <div class="product-thumb">
                                                 <a href="single_product.php?status=singleproduct&&id=<?php echo $r_pro['pdt_id'] ?>" class="link-to-product">
-                                                    <img src="admin/uploads/<?php echo $r_pro['pdt_img'] ?>" alt="dd" width="270" height="270" class="product-thumnail">
+                                                    <img src="admin/uploads/products/<?php echo $r_pro['pdt_img'] ?>" alt="dd" width="270" height="270" class="product-thumnail">
                                                 </a>
                                             </div>
                                             <div class="info">
-                                                <b class="categories"><?php echo $r_pro['ctg_name'] ?></b>
+                                                <!-- <b class="categories"><?php echo $r_pro['ctg_name'] ?></b> -->
                                                 <h4 class="product-title"><a href="single_product.php?status=singleproduct&&id=<?php echo $r_pro['pdt_id'] ?>" class="pr-name"> <?php echo $r_pro['pdt_name'] ?> </a></h4>
                                                 <div class="price">
-                                                    <ins><span class="price-amount"><span class="currencySymbol">$</span>
+                                                    <ins><span class="price-amount"><span class="currencySymbol">Rs.</span>
                                                             <?php echo $r_pro['pdt_price'] ?>
                                                         </span></ins>
 
                                                 </div>
                                                 <div class="slide-down-box">
-                                                    <p class="message">All products are carefully selected to ensure food safety.</p>
+                                                    <p class="message">All products are carefully selected to ensure fish safety.</p>
 
                                                 </div>
                                             </div>
