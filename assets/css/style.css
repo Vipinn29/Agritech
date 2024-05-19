@@ -6922,6 +6922,7 @@ body.open-overlay #overlay{
     background-position: center center;
     background-size: cover;
     height: 560px;
+    filter: brightness(0.7);
 }
 .slider-opt03__layout02 .media.background-geen-02{
     background-image: url('../images/home-03/green-slide-02.jpg');
@@ -6953,6 +6954,7 @@ body.open-overlay #overlay{
     display: block;
     margin: 1px 0 0;
     line-height: 60px;
+    text-transform: uppercase;
 }
 .slider-opt04__layout01 .text-content .third-line,
 .slider-opt03__layout02 .text-content .third-line{
