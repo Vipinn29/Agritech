@@ -85,11 +85,11 @@ include_once("includes/head.php");
                                     <div class="contain-product layout-default">
                                         <div class="product-thumb">
                                             <a href="single_product.php?status=singleproduct&&id=<?php echo $pdt_data['pdt_id'] ?>" class="link-to-product">
-                                                <img src="admin/uploads/<?php echo $pdt_data['pdt_img'] ?>" alt="dd" width="270" height="270" class="product-thumnail">
+                                                <img src="admin/uploads/products/<?php echo $pdt_data['pdt_img'] ?>" alt="dd" width="270" height="270" class="product-thumnail">
                                             </a>
                                         </div>
                                         <div class="info">
-                                        <b class="categories"> <?php echo $pdt_data['ctg_name'] ?> </b>
+                                        <!-- <b class="categories"> <?php echo $pdt_data['ctg_name'] ?> </b> -->
                                             
                                             <h4 class="product-title"><a href="single_product.php?status=singleproduct&&id=<?php echo $pdt_data['pdt_id'] ?>" class="pr-name"><?php echo $pdt_data['pdt_name'] ?></a></h4>
                                             <div class="price">
