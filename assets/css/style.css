@@ -6940,7 +6940,7 @@ body.open-overlay #overlay{
 .slider-opt03__layout02 .text-content .first-line{
     font-size: 30px;
     line-height: 1;
-    color: #666666;
+    color: white;
     display: block;
     margin: 0;
     font-family: 'Playfair Display', sans-serif;
@@ -6949,7 +6949,7 @@ body.open-overlay #overlay{
 .slider-opt03__layout02 .text-content .second-line{
     font-size: 60px;
     font-weight: 700;
-    color: #222222;
+    color: white;
     display: block;
     margin: 1px 0 0;
     line-height: 60px;
@@ -6957,7 +6957,7 @@ body.open-overlay #overlay{
 .slider-opt04__layout01 .text-content .third-line,
 .slider-opt03__layout02 .text-content .third-line{
     font-size: 18px;
-    color: #444444;
+    color: white;
     display: block;
     margin: 14px 0 0;
     line-height: 1;
