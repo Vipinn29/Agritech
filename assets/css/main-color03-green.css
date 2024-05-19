@@ -57,7 +57,7 @@
 .service-inner.color-reverse .number,
 .content-404 .button,
 .biolife-cart-info .icon-qty-combine .qty{
-    background-color: #1aaa43bf;
+    background-color: #16688d;
 }
 .hover-main-color:hover,
 .contain-product__right-info-layout2.cate .cat-info .cat-item:hover,
@@ -162,13 +162,13 @@
 .slider-opt03__layout01 .buttons .btn.btn-bold:not(:hover),
 .slider-opt03__layout01 .buttons .btn-thin:not(:hover),
 .nice-select .option.selected.focus{
-    color: #7faf51;
+    color: #16688d;
 }
 body.top-refine-opened .top-functions-area .flt-item.group-on-mobile .wrap-selectors,
 .newsletter-block_popup-layout .form-content .dismiss-newsletter:hover::before,
 .mobile-search .mobile-search-content,
 .biolife-cart-info .minicart-block .cart-inner{
-    border-top-color: #7faf51;
+    border-top-color: #16688d;
 }
 .btn.btn-thin:hover,
 .testml-elem-2 .avata,
@@ -191,5 +191,5 @@ body.top-refine-opened .top-functions-area .flt-item.group-on-mobile .wrap-selec
 .sidebar .wgt-content .check-list li.selected a::before,
 .slider-opt03__layout01 .buttons .btn-thin:not(:hover),
 .sidebar .wgt-content .check-list li a:hover::before{
-	border-color: #1aaa43bf;
+	border-color: #16688d;
 }
