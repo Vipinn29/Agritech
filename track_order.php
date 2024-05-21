@@ -59,6 +59,8 @@ include_once("includes/head.php");
         <input type="text" id="order_id" name="order_id"><br><br>
         <label for="customer_name">Your Name:</label><br>
         <input type="text" id="customer_name" name="customer_name"><br><br>
+        <label for="birthday">Select Your orderdate:</label>
+        <input type="date" id="birthday" name="birthday"><br><br>
         <input type="submit" name="submit" value="Track Order">
     </form>
     <br>

@@ -61,7 +61,9 @@ include_once("includes/head.php");
 </head>
 <body>
     <h2 class="track">Sell Your Fish</h2>
-    <form class="track" action="process.php" method="post">
+    <form class="track" action="adminback.php" method="post">
+        <label for="fish_name">Your Name / Company Name</label><br>
+        <input type="text" id="you_name" name="your_name"><br>
         <label for="fish_name">Fish Name:</label><br>
         <input type="text" id="fish_name" name="fish_name"><br>
         
@@ -72,7 +74,8 @@ include_once("includes/head.php");
         <input type="text" id="price_per_unit" name="price_per_unit"><br>
        
         <label for="contact_details">Your Contact No.</label><br>
-        <input type="text" id="contact" name="contact_details"><br>
+        <input type="text" id="contact" name="contact_details"><br><br>
+
 
         <input type="submit" value="Submit">
     </form>
