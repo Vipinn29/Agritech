@@ -60,25 +60,7 @@ include_once("includes/head.php");
     <title>Sell Your Fish</title>
 </head>
 <body>
-    <h2 class="track">Sell Your Fish</h2>
-    <form class="track" action="adminback.php" method="post">
-        <label for="fish_name">Your Name / Company Name</label><br>
-        <input type="text" id="you_name" name="your_name"><br>
-        <label for="fish_name">Fish Name:</label><br>
-        <input type="text" id="fish_name" name="fish_name"><br>
-        
-        <label for="quantity">Quantity:</label><br>
-        <input type="number" id="quantity" name="quantity"><br>
-        
-        <label for="price_per_unit">Price per Unit:</label><br>
-        <input type="text" id="price_per_unit" name="price_per_unit"><br>
-       
-        <label for="contact_details">Your Contact No.</label><br>
-        <input type="text" id="contact" name="contact_details"><br><br>
-
-
-        <input type="submit" value="Submit">
-    </form>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeDfh62HMUyIyXkXiE4K7-2OuKhxOqh477KkcykZRRhuvnsMA/viewform?embedded=true" width="640" height="1006" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
     <!-- FOOTER -->
     <?php
