@@ -100,7 +100,7 @@ include_once("includes/head.php");
                                     <div class="contain-product layout-default">
                                         <div class="product-thumb">
                                             <a href="single_product.php?status=singleproduct&&id=<?php echo $search_pdt['pdt_id'] ?>" class="link-to-product">
-                                                <img src="admin/uploads/<?php echo $search_pdt['pdt_img'] ?>" alt="dd" width="270" height="270" class="product-thumnail">
+                                                <img src="admin/uploads/products/<?php echo $search_pdt['pdt_img'] ?>" alt="dd" width="270" height="270" class="product-thumnail">
                                             </a>
                                         </div>
                                         <div class="info">
@@ -108,7 +108,7 @@ include_once("includes/head.php");
                                             
                                             <h4 class="product-title"><a href="single_product.php?status=singleproduct&&id=<?php echo $search_pdt['pdt_id'] ?>" class="pr-name"><?php echo $search_pdt['pdt_name'] ?></a></h4>
                                             <div class="price">
-                                                <ins><span class="price-amount"><span class="currencySymbol">Tk. </span><?php echo $search_pdt['pdt_price'] ?></span></ins>
+                                                <ins><span class="price-amount"><span class="currencySymbol">Rs. </span><?php echo $search_pdt['pdt_price'] ?></span></ins>
 
                                             </div>
                                             <div class="shipping-info">

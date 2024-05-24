@@ -45,9 +45,9 @@ include_once("includes/head.php");
         include_once("includes/header_middle.php");
         ?>
 
-        <!-- <?php
+        <?php
         include_once("includes/header_bottom.php");
-        ?> -->
+        ?>
 
     </header>
 
@@ -59,7 +59,7 @@ include_once("includes/head.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sell Your Fish</title>
 </head>
-<body>
+
     <div class="sell">
     <p>Are you a fish farmer looking for a reliable and profitable way to sell your fish? Look no further! We are here to provide you with a hassle-free and efficient platform to sell your fish directly to us. Our goal is to support local farmers and ensure you get the best value for your hard work.</p>
     <a href="https://forms.gle/qEpb4wvUh8BHyFiC9" target="_blank">

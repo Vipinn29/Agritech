@@ -14,10 +14,10 @@
         <?php 
             foreach($cataDatas as $cataData){
         ?>
-            <li class="menu-item menu-item-has-children has-megamenu">
+            <!-- <li class="menu-item menu-item-has-children has-megamenu">
                 <a href="catagory.php?status=catView&&id=<?php  echo $cataData['ctg_id'] ?>" class="menu-name" data-title="<?php echo $cataData['ctg_name']?>"><?php echo $cataData['ctg_name']?> </a>
                 
-            </li>
+            </li> -->
 
             <?php } ?>
         </ul>

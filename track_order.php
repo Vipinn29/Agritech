@@ -43,17 +43,22 @@ include_once("includes/head.php");
         <?php
         include_once("includes/header_middle.php");
         ?>
-
      
-       <!-- <?php
+       <?php
         include_once("includes/header_bottom.php");
-        ?>  -->
+        ?> 
     
 
     </header>
-<body>
+    
+    <!-- Page Contain -->
+    <div class="page-contain">
+
+        <!-- Main content -->
+        <div id="main-content" class="main-content">
+
     <div class="track">
-    <h2>Track Order</h2>
+        <h2>Track Order</h2>
     <form method="post" action="">
         <label for="order_id">Order ID:</label><br>
         <input type="text" id="order_id" name="order_id"><br><br>
@@ -102,6 +107,9 @@ include_once("includes/head.php");
     }
     ?>
     </div>
+        </div>
+    </div>
+
     <!-- FOOTER -->
     <?php
     include_once("includes/footer.php");
