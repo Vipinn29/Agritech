@@ -60,9 +60,19 @@ include_once("includes/head.php");
     <title>Sell Your Fish</title>
 </head>
 <body>
-<a href="https://forms.gle/qEpb4wvUh8BHyFiC9">Click Here to sell your fish </a>
+    <div class="sell">
+    <p>Are you a fish farmer looking for a reliable and profitable way to sell your fish? Look no further! We are here to provide you with a hassle-free and efficient platform to sell your fish directly to us. Our goal is to support local farmers and ensure you get the best value for your hard work.</p>
+    <a href="https://forms.gle/qEpb4wvUh8BHyFiC9" target="_blank">
+        Click Here to Sell Your Fish</a><br>
+    <p>How to Get Started <br>
+    Fill Out the Form: <a href="https://forms.gle/qEpb4wvUh8BHyFiC9" target="_blank">Click here</a> to access our Google Form.<br>
+    Enter Your Details: Provide information about your farm, the type and quantity of fish you have, and your contact details.<br>
+    Submit: Once you've completed the form, submit it, and our team will review your information.<br>
+    Wait for Confirmation: We will contact you to confirm the details and arrange the logistics.<br>
+    We are committed to building strong relationships with our farmers and ensuring that the process is as smooth and beneficial as possible. By choosing to sell your fish to us, you are choosing a partner who values your dedication and hard work.<br><br>
 
-
+    If you have any questions or need further assistance, please feel free to contact us.</p>
+    </div>
     <!-- FOOTER -->
     <?php
     include_once("includes/footer.php");
