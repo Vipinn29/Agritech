@@ -60,7 +60,8 @@ include_once("includes/head.php");
     <title>Sell Your Fish</title>
 </head>
 <body>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeDfh62HMUyIyXkXiE4K7-2OuKhxOqh477KkcykZRRhuvnsMA/viewform?embedded=true" width="640" height="1006" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<a href="https://forms.gle/qEpb4wvUh8BHyFiC9">Click Here to sell your fish </a>
+
 
     <!-- FOOTER -->
     <?php
