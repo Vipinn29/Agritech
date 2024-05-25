@@ -99,9 +99,9 @@ include_once("includes/head.php");
                                     <thead>
                                         <tr>
                                             <th class="product-name">Product Name</th>
-                                            <th class="product-price">Price (Tk)</th>
+                                            <th class="product-price">Price (Rs)</th>
                                             <th class="product-quantity">Remove</th>
-                                            <!-- <th class="product-subtotal">Total (TK)</th> -->
+                                            <!-- <th class="product-subtotal">Total (Rs)</th> -->
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -117,7 +117,7 @@ include_once("includes/head.php");
                                         <tr class="cart_item">
                                             <td class="product-thumbnail" data-title="Product Name">
                                                 <a class="prd-thumb" href="single_product.php?status=singleproduct&&id=<?php echo $value['pdt_id'] ?>">
-                                                    <figure><img width="113" height="113" src="admin/uploads/<?php echo $value['pdt_img'] ?>" alt="shipping cart"></figure>
+                                                    <figure><img width="113" height="113" src="admin/uploads/products/<?php echo $value['pdt_img'] ?>" alt="shipping cart"></figure>
                                                 </a>
                                                 <a class="prd-name" href="single_product.php?status=singleproduct&&id=<?php echo $value['pdt_id'] ?>"><?php echo $value['pdt_name'] ?></a>
                                             
@@ -156,11 +156,11 @@ include_once("includes/head.php");
                             <div class="shpcart-subtotal-block">
                                 <div class="subtotal-line ">
                                     <b class="stt-name">Subtotal <span class="sub">(<?php echo  $total_product.'Items' ?>)</span></b>
-                                    <span class="stt-price">Tk. <?php echo $subtotal; ?></span>
+                                    <span class="stt-price">Rs. <?php echo $subtotal; ?></span>
                                 </div>
                                 <!-- <div class="subtotal-line">
                                     <b class="stt-name">Shipping</b>
-                                    <span class="stt-price">Tk. 0.00</span>
+                                    <span class="stt-price">Rs. 0.00</span>
                                 </div>
                                 <div class="tax-fee">
                                     <p class="title">Est. Taxes & Fees</p>
