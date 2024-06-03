@@ -242,7 +242,7 @@ class  adminback
 
     function display_product()
     {
-        $query = "SELECT * FROM `product_info_ctg`";
+        $query = "SELECT * FROM `product_info_ct`";
 
         if (mysqli_query($this->connection, $query)) {
             $pdt_info = mysqli_query($this->connection, $query);
@@ -351,7 +351,7 @@ class  adminback
 
     function display_product_byCata($cataId)
     {
-        $query = "SELECT * FROM `product_info_ctg` WHERE ctg_id=$cataId AND pdt_status=1 AND `product_stock`>0";
+        $query = "SELECT * FROM `product_info_ct` WHERE ctg_id=$cataId AND pdt_status=1 AND `product_stock`>0";
         if (mysqli_query($this->connection, $query)) {
             $pdt_info = mysqli_query($this->connection, $query);
             return $pdt_info;
@@ -360,16 +360,25 @@ class  adminback
 
     function display_product_byId($pdtId)
     {
-        $query = "SELECT * FROM `product_info_ctg` WHERE pdt_id=$pdtId";
+        $query = "SELECT * FROM `product_info_ct` WHERE pdt_id=$pdtId";
         if (mysqli_query($this->connection, $query)) {
             $pdt_info = mysqli_query($this->connection, $query);
             return $pdt_info;
         }
     }
 
+    function display_product_byPrice($priceId)
+        {
+            $query = "SELECT * FROM `product_info_ct` WHERE price_id=$priceId";
+            if (mysqli_query($this->connection, $query)) {
+                $pdt_info = mysqli_query($this->connection, $query);
+                return $pdt_info;
+            }
+        }
+        
     function related_product($cataID)
     {
-        $query = "SELECT * FROM `product_info_ctg` WHERE ctg_id=$cataID ORDER BY pdt_id DESC LIMIT 6";
+        $query = "SELECT * FROM `product_info_ct` WHERE ctg_id=$cataID ORDER BY pdt_id DESC LIMIT 4";
         if (mysqli_query($this->connection, $query)) {
             $pdt_info = mysqli_query($this->connection, $query);
             return $pdt_info;
@@ -378,7 +387,7 @@ class  adminback
 
     function ctg_by_id($cataID)
     {
-        $query = "SELECT * FROM `product_info_ctg` WHERE ctg_id=$cataID";
+        $query = "SELECT * FROM `product_info_ct` WHERE ctg_id=$cataID";
         if (mysqli_query($this->connection, $query)) {
             $pdt_info = mysqli_query($this->connection, $query);
             $pdt_fetch = mysqli_fetch_assoc($pdt_info);
@@ -456,7 +465,7 @@ class  adminback
 
     function view_all_product()
     {
-        $query = "SELECT * FROM `product_info_ctg` WHERE `product_stock`>1 ";
+        $query = "SELECT * FROM `product_info_ct` WHERE `product_stock`>1 ";
 
         if (mysqli_query($this->connection, $query)) {
             $pdt_info = mysqli_query($this->connection, $query);
@@ -475,7 +484,7 @@ class  adminback
 
     function display_five_products($ctg_id)
     {
-        $query = "SELECT * FROM `product_info_ctg` WHERE `ctg_id`=$ctg_id LIMIT 8";
+        $query = "SELECT * FROM `product_info_ct` WHERE `ctg_id`=$ctg_id LIMIT 6";
 
         if (mysqli_query($this->connection, $query)) {
             $eight_product = mysqli_query($this->connection, $query);
@@ -485,7 +494,7 @@ class  adminback
 
     function display_top_rated_pdt()
     {
-        $query = "SELECT * FROM `product_info_ctg` WHERE `pdt_price`>200  ORDER BY `pdt_price` LIMIT 12";
+        $query = "SELECT * FROM `product_info_ct` WHERE `pdt_price`>200  ORDER BY `pdt_price` LIMIT 8";
 
         if (mysqli_query($this->connection, $query)) {
             $top_rated = mysqli_query($this->connection, $query);
@@ -495,7 +504,7 @@ class  adminback
 
     function search_product($keyword)
     {
-        $query = "SELECT * FROM `product_info_ctg` WHERE `pdt_name` LIKE '%$keyword%'";
+        $query = "SELECT * FROM `product_info_ct` WHERE `pdt_name` LIKE '%$keyword%'";
 
         if (mysqli_query($this->connection, $query)) {
             $search_query = mysqli_query($this->connection, $query);
