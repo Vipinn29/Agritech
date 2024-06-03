@@ -1,5 +1,5 @@
 <?php
-$pdt_info = $obj->display_product_byCata(1);
+$pdt_info = $obj->display_five_products(1);
 $pdt_datas = array();
 while ($pdt_ftecth = mysqli_fetch_assoc($pdt_info)) {
     $pdt_datas[] = $pdt_ftecth;
@@ -76,7 +76,7 @@ while ($pdt_ftecth = mysqli_fetch_assoc($pdt_info)) {
                     <div class="service-inner color-reverse">
                         <span class="number">3</span>
                         <span class="biolife-icon icon-car"></span>
-                        <a class="srv-name" href="#">Free shipping in the city</a>
+                        <a class="srv-name" href="#">Shipping in the city</a>
                     </div>
                 </li>
             </ul>

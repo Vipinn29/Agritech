@@ -35,7 +35,7 @@
                                 <li class="tab-element active">
                                     <a href="#tab01_1st" class="tab-link"><span class="biolife-icon icon-lemon"></span><?php echo $array_collum['0']; ?></a>
                                 </li>
-                                <!-- <li class="tab-element" >
+                                <li class="tab-element" >
                                     <a href="#tab01_2nd" class="tab-link"><span class="biolife-icon icon-grape2"></span></span><?php echo $array_collum['1']; ?></a>
                                 </li>
                                 <li class="tab-element" >
@@ -46,7 +46,7 @@
                                 </li>
                                 <li class="tab-element" >
                                     <a href="#tab01_5th" class="tab-link"><span class="biolife-icon icon-broccoli"></span></span><?php echo $array_collum['4']; ?></a>
-                                </li> -->
+                                </li>
                             </ul>
                         </div>
                         <div class="tab-content">
@@ -91,7 +91,7 @@
                                         <div class="contain-product layout-default">
                                             <div class="product-thumb">
                                                 <a href="single_product.php?status=singleproduct&&id=<?php echo $eight_pdt_ctg_two['pdt_id'] ?>" class="link-to-product">
-                                                    <img src="admin/uploads/<?php echo $eight_pdt_ctg_two['pdt_img']?>" alt="Vegetables" width="270" height="270" class="product-thumnail">
+                                                    <img src="admin/uploads/products/<?php echo $eight_pdt_ctg_two['pdt_img']?>" alt="Vegetables" width="270" height="270" class="product-thumnail">
                                                 </a>
                                                 <a class="lookup btn_call_quickview" href="#"><i class="biolife-icon icon-search"></i></a>
                                             </div>
@@ -123,7 +123,7 @@
                                         <div class="contain-product layout-default">
                                             <div class="product-thumb">
                                                 <a href="single_product.php?status=singleproduct&&id=<?php echo $eight_pdt_ctg_three['pdt_id'] ?>" class="link-to-product">
-                                                    <img src="admin/uploads/<?php echo $eight_pdt_ctg_three['pdt_img']?>" alt="Vegetables" width="270" height="270" class="product-thumnail">
+                                                    <img src="admin/uploads/products/<?php echo $eight_pdt_ctg_three['pdt_img']?>" alt="Vegetables" width="270" height="270" class="product-thumnail">
                                                 </a>
                                                 <a class="lookup btn_call_quickview" href="#"><i class="biolife-icon icon-search"></i></a>
                                             </div>
@@ -154,7 +154,7 @@
                                         <div class="contain-product layout-default">
                                             <div class="product-thumb">
                                                 <a href="single_product.php?status=singleproduct&&id=<?php echo $eight_pdt_ctg_four['pdt_id'] ?>" class="link-to-product">
-                                                    <img src="admin/uploads/<?php echo $eight_pdt_ctg_four['pdt_img']?>" alt="Vegetables" width="270" height="270" class="product-thumnail">
+                                                    <img src="admin/uploads/products/<?php echo $eight_pdt_ctg_four['pdt_img']?>" alt="Vegetables" width="270" height="270" class="product-thumnail">
                                                 </a>
                                                 <a class="lookup btn_call_quickview" href="#"><i class="biolife-icon icon-search"></i></a>
                                             </div>
@@ -184,7 +184,7 @@
                                         <div class="contain-product layout-default">
                                             <div class="product-thumb">
                                                 <a href="single_product.php?status=singleproduct&&id=<?php echo $eight_pdt_ctg_five['pdt_id'] ?>" class="link-to-product">
-                                                    <img src="admin/uploads/<?php echo $eight_pdt_ctg_five['pdt_img']?>" alt="Vegetables" width="270" height="270" class="product-thumnail">
+                                                    <img src="admin/uploads/products/<?php echo $eight_pdt_ctg_five['pdt_img']?>" alt="Vegetables" width="270" height="270" class="product-thumnail">
                                                 </a>
                                                 <a class="lookup btn_call_quickview" href="#"><i class="biolife-icon icon-search"></i></a>
                                             </div>

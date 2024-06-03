@@ -15,7 +15,7 @@
     if(isset($_POST['action'])){
         if($_POST['action']=='load_product'){
             $cataId= $_POST['cid'];
-            $query = "SELECT * FROM `product_info_ctg` WHERE ctg_id=$cataId AND pdt_status=1";
+            $query = "SELECT * FROM `product_info_ct` WHERE ctg_id=$cataId AND pdt_status=1";
 
            
            if(mysqli_query($connection, $query)){
@@ -37,7 +37,7 @@
     if(isset($_POST['action'])){
         if($_POST['action']=='load_price'){
             $pId= $_POST['pid'];
-            $pricequery = "SELECT * FROM `product_info_ctg` WHERE `pdt_id`=$pId AND pdt_status=1";
+            $pricequery = "SELECT * FROM `product_info_ct` WHERE `pdt_id`=$pId AND pdt_status=1";
 
            
            if(mysqli_query($connection, $pricequery)){
@@ -61,7 +61,7 @@
            $pdtId= $_POST['pdt_id'];
             $quantity = $_POST['quantity'];
 
-            $singlepricequery = "SELECT * FROM `product_info_ctg` WHERE `pdt_id`=$pdtId AND pdt_status=1";
+            $singlepricequery = "SELECT * FROM `product_info_ct` WHERE `pdt_id`=$pdtId AND pdt_status=1";
 
            
            if(mysqli_query($connection, $singlepricequery)){
