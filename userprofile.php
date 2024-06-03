@@ -152,10 +152,10 @@ include_once("includes/head.php");
                                         ?>
                                                 <tr class="cart_item">
                                                     <td class="product-thumbnail" data-title="Product Name">
-                                                        <a class="prd-thumb" href="single_product.php?status=singleproduct&&id=<?php echo $value['price_id'] ?>">
-                                                            <figure><img width="113" height="113" src="admin/uploads/<?php echo $value['pdt_img'] ?>" alt="shipping cart"></figure>
+                                                        <a class="prd-thumb" href="single_product.php?status=singleproduct&&id=<?php echo $value['pdt_id'] ?>">
+                                                            <figure><img width="113" height="113" src="admin/uploads/products/<?php echo $value['pdt_img'] ?>" alt="shipping cart"></figure>
                                                         </a>
-                                                        <a class="prd-name" href="single_product.php?status=singleproduct&&id=<?php echo $value['price_id'] ?>"><?php echo $value['pdt_name'] ?></a>
+                                                        <a class="prd-name" href="single_product.php?status=singleproduct&&id=<?php echo $value['pdt_id'] ?>"><?php echo $value['pdt_name'] ?></a>
 
                                                     </td>
 
@@ -282,7 +282,7 @@ include_once("includes/head.php");
                             </div>
 
                             <div class="subtotal-line ">
-                                <p class="stt-name" style="font-weight: normal;">Use Cupon (Fishbazar)</p>
+                                <p class="stt-name" style="font-weight: normal;">Use Coupon</p>
                                 <br>
                                 <input type="text" name="coupon" id="cupon" class="form-control" style="width:40%; padding:5px; display:inline">
 

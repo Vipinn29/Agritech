@@ -6,9 +6,9 @@
             <tr>
                 <th>Catagory</th>
                 <th>Products</th>
-                <th>Price (TK)</th>
+                <th>Price (Rs)</th>
                 <th>Quantity</th>
-                <th>Total (TK)</th>
+                <th>Total (Rs)</th>
                 <th>Action</th>
 
 

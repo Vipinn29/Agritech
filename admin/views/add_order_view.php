@@ -19,9 +19,9 @@
                  <tr>
                      <th>Catagory</th>
                      <th>Products</th>
-                     <th>Price (TK)</th>
+                     <th>Price (Rs)</th>
                      <th>Quantity</th>
-                     <th>Total (TK)</th>
+                     <th>Total (Rs)</th>
                      <th> <button type="button" name="add" class="btn btn-success btn-sm add"> add </button> </th>
 
 

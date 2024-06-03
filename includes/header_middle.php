@@ -143,14 +143,14 @@ if (isset($_POST['remove_product'])) {
                                                 <li>
                                                     <div class="minicart-item">
                                                         <div class="thumb">
-                                                            <a href="#"><img src="admin/uploads/<?php echo $value['pdt_img'] ?>" width="90" height="90" alt="National Fresh"> </a>
+                                                            <a href="#"><img src="admin/uploads/products/<?php echo $value['pdt_img'] ?>" width="90" height="90" alt="National Fresh"> </a>
                                                         </div>
 
                                                         <div class="left-info">
                                                             <div class="product-title"><a href="#" class="product-name"><?php echo $value['pdt_name'] ?> </a></div>
 
                                                             <div class="price">
-                                                                <ins><span class="price-amount"><span class="currencySymbol">TK. </span><?php echo $value['pdt_price'] ?></span></ins>
+                                                                <ins><span class="price-amount"><span class="currencySymbol">Rs. </span><?php echo $value['pdt_price'] ?></span></ins>
 
                                                             </div>
                                                             <!-- <div class="qty">

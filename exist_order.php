@@ -144,7 +144,7 @@ include_once("includes/head.php");
                                       
                                                     <td class="product-subtotal" data-title="Total">
                                                         <div class="price price-contain">
-                                                            <ins><span class="price-amount"><span class="currencySymbol">Tk. </span><?php echo $order_info['amount'] ?></span></ins>
+                                                            <ins><span class="price-amount"><span class="currencySymbol">Rs. </span><?php echo $order_info['amount'] ?></span></ins>
 
                                                         </div>
                                                     </td>
