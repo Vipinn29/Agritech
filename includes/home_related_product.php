@@ -59,14 +59,14 @@
                                     <li class="product-item">
                                         <div class="contain-product layout-default">
                                             <div class="product-thumb">
-                                                <a href="single_product.php?status=singleproduct&&id=<?php echo $eight_pdt_ctg_one['pdt_id'] ?>" class="link-to-product">
+                                                <a href="single_product.php?status=singleproduct&&id=<?php echo $eight_pdt_ctg_one['price_id'] ?>" class="link-to-product">
                                                     <img src="admin/uploads/products/<?php echo $eight_pdt_ctg_one['pdt_img'] ?>" alt="Vegetables" width="270" height="270" class="product-thumnail">
                                                 </a>
                                                 <a class="lookup btn_call_quickview" href="#"><i class="biolife-icon icon-search"></i></a>
                                             </div>
                                             <div class="info">
                                                 <b class="categories"><?php echo $eight_pdt_ctg_one['ctg_name'] ?></b>
-                                                <h4 class="product-title"><a href="single_product.php?status=singleproduct&&id=<?php echo $eight_pdt['pdt_id'] ?>" class="pr-name"><?php echo $eight_pdt_ctg_one['pdt_name'] ?></a></h4>
+                                                <h4 class="product-title"><a href="single_product.php?status=singleproduct&&id=<?php echo $eight_pdt['price_id'] ?>" class="pr-name"><?php echo $eight_pdt_ctg_one['pdt_name'] ?></a></h4>
                                                 <div class="price ">
                                                     <ins><span class="price-amount"><span class="currencySymbol">Rs. </span><?php echo $eight_pdt_ctg_one['pdt_price'] ?></span></ins>
                                                     
@@ -90,14 +90,14 @@
                                     <li class="product-item">
                                         <div class="contain-product layout-default">
                                             <div class="product-thumb">
-                                                <a href="single_product.php?status=singleproduct&&id=<?php echo $eight_pdt_ctg_two['pdt_id'] ?>" class="link-to-product">
+                                                <a href="single_product.php?status=singleproduct&&id=<?php echo $eight_pdt_ctg_two['price_id'] ?>" class="link-to-product">
                                                     <img src="admin/uploads/products/<?php echo $eight_pdt_ctg_two['pdt_img']?>" alt="Vegetables" width="270" height="270" class="product-thumnail">
                                                 </a>
                                                 <a class="lookup btn_call_quickview" href="#"><i class="biolife-icon icon-search"></i></a>
                                             </div>
                                             <div class="info">
                                                 <b class="categories"><?php echo $eight_pdt_ctg_two['ctg_name']?></b>
-                                                <h4 class="product-title"><a href="single_product.php?status=singleproduct&&id=<?php echo $eight_pdt_ctg_two['pdt_id'] ?>" class="pr-name"><?php echo $eight_pdt_ctg_two['pdt_name']?></a></h4>
+                                                <h4 class="product-title"><a href="single_product.php?status=singleproduct&&id=<?php echo $eight_pdt_ctg_two['price_id'] ?>" class="pr-name"><?php echo $eight_pdt_ctg_two['pdt_name']?></a></h4>
                                                 <div class="price ">
                                                     <ins><span class="price-amount"><span class="currencySymbol">Rs. </span><?php echo $eight_pdt_ctg_two['pdt_price']?></span></ins>
                                                   
@@ -122,14 +122,14 @@
                                     <li class="product-item">
                                         <div class="contain-product layout-default">
                                             <div class="product-thumb">
-                                                <a href="single_product.php?status=singleproduct&&id=<?php echo $eight_pdt_ctg_three['pdt_id'] ?>" class="link-to-product">
+                                                <a href="single_product.php?status=singleproduct&&id=<?php echo $eight_pdt_ctg_three['price_id'] ?>" class="link-to-product">
                                                     <img src="admin/uploads/products/<?php echo $eight_pdt_ctg_three['pdt_img']?>" alt="Vegetables" width="270" height="270" class="product-thumnail">
                                                 </a>
                                                 <a class="lookup btn_call_quickview" href="#"><i class="biolife-icon icon-search"></i></a>
                                             </div>
                                             <div class="info">
                                                 <b class="categories"><?php echo $eight_pdt_ctg_three['ctg_name']?></b>
-                                                <h4 class="product-title"><a href="single_product.php?status=singleproduct&&id=<?php echo $eight_pdt_ctg_three['pdt_id'] ?>" class="pr-name"><?php echo $eight_pdt_ctg_three['pdt_name']?></a></h4>
+                                                <h4 class="product-title"><a href="single_product.php?status=singleproduct&&id=<?php echo $eight_pdt_ctg_three['price_id'] ?>" class="pr-name"><?php echo $eight_pdt_ctg_three['pdt_name']?></a></h4>
                                                 <div class="price ">
                                                     <ins><span class="price-amount"><span class="currencySymbol">Rs. </span><?php echo $eight_pdt_ctg_three['pdt_price']?></span></ins>
                                                   
@@ -153,14 +153,14 @@
                                     <li class="product-item">
                                         <div class="contain-product layout-default">
                                             <div class="product-thumb">
-                                                <a href="single_product.php?status=singleproduct&&id=<?php echo $eight_pdt_ctg_four['pdt_id'] ?>" class="link-to-product">
+                                                <a href="single_product.php?status=singleproduct&&id=<?php echo $eight_pdt_ctg_four['price_id'] ?>" class="link-to-product">
                                                     <img src="admin/uploads/products/<?php echo $eight_pdt_ctg_four['pdt_img']?>" alt="Vegetables" width="270" height="270" class="product-thumnail">
                                                 </a>
                                                 <a class="lookup btn_call_quickview" href="#"><i class="biolife-icon icon-search"></i></a>
                                             </div>
                                             <div class="info">
                                                 <b class="categories"><?php echo $eight_pdt_ctg_four['ctg_name']?></b>
-                                                <h4 class="product-title"><a href="single_product.php?status=singleproduct&&id=<?php echo $eight_pdt_ctg_four['pdt_id'] ?>" class="pr-name"><?php echo $eight_pdt_ctg_four['pdt_name']?></a></h4>
+                                                <h4 class="product-title"><a href="single_product.php?status=singleproduct&&id=<?php echo $eight_pdt_ctg_four['price_id'] ?>" class="pr-name"><?php echo $eight_pdt_ctg_four['pdt_name']?></a></h4>
                                                 <div class="price ">
                                                     <ins><span class="price-amount"><span class="currencySymbol">Rs. </span><?php echo $eight_pdt_ctg_four['pdt_price']?></span></ins>
                                                   
@@ -183,14 +183,14 @@
                                     <li class="product-item">
                                         <div class="contain-product layout-default">
                                             <div class="product-thumb">
-                                                <a href="single_product.php?status=singleproduct&&id=<?php echo $eight_pdt_ctg_five['pdt_id'] ?>" class="link-to-product">
+                                                <a href="single_product.php?status=singleproduct&&id=<?php echo $eight_pdt_ctg_five['price_id'] ?>" class="link-to-product">
                                                     <img src="admin/uploads/products/<?php echo $eight_pdt_ctg_five['pdt_img']?>" alt="Vegetables" width="270" height="270" class="product-thumnail">
                                                 </a>
                                                 <a class="lookup btn_call_quickview" href="#"><i class="biolife-icon icon-search"></i></a>
                                             </div>
                                             <div class="info">
                                                 <b class="categories"><?php echo $eight_pdt_ctg_five['ctg_name']?></b>
-                                                <h4 class="product-title"><a href="single_product.php?status=singleproduct&&id=<?php echo $eight_pdt_ctg_five['pdt_id'] ?>" class="pr-name"><?php echo $eight_pdt_ctg_five['pdt_name']?></a></h4>
+                                                <h4 class="product-title"><a href="single_product.php?status=singleproduct&&id=<?php echo $eight_pdt_ctg_five['price_id'] ?>" class="pr-name"><?php echo $eight_pdt_ctg_five['pdt_name']?></a></h4>
                                                 <div class="price ">
                                                     <ins><span class="price-amount"><span class="currencySymbol">Rs. </span><?php echo $eight_pdt_ctg_five['pdt_price']?></span></ins>
                                                   

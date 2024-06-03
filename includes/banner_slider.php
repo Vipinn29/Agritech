@@ -19,11 +19,11 @@ while ($pdt_ftecth = mysqli_fetch_assoc($pdt_info)) {
                     <div class="slide-contain biolife-banner__special">
                         <div class="banner-contain">
                             <div class="media">
-                                <a href="single_product.php?status=singleproduct&&id=<?php echo $pdt_data['pdt_id'] ?>" class="bn-link">
+                                <a href="single_product.php?status=singleproduct&&id=<?php echo $pdt_data['price_id'] ?>" class="bn-link">
                                     <figure><img src="admin/uploads/products/<?php echo $pdt_data['pdt_img'] ?>" width="616" height="483" alt=""></figure>
                                 </a>
                             </div>
-                            <a href="single_product.php?status=singleproduct&&id=<?php echo $pdt_data['pdt_id'] ?>">
+                            <a href="single_product.php?status=singleproduct&&id=<?php echo $pdt_data['price_id'] ?>">
                                 <div class="text-content">
                                     <b class="first-line">Special Items</b>
                                     <span class="second-line"><?php echo $pdt_data['pdt_name'] ?></span>

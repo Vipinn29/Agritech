@@ -10,9 +10,9 @@ while ($data = mysqli_fetch_assoc($cata_info)) {
 }
 
 if (isset($_GET['status'])) {
-    $pdtId = $_GET['id'];
+    $priceId = $_GET['id'];
     if ($_GET['status'] == 'singleproduct') {
-        $pdt_info = $obj->display_product_byId($pdtId);
+        $pdt_info = $obj->display_product_byPrice($priceId);
         $pdt_fetch = mysqli_fetch_assoc($pdt_info);
         $pro_datas = array();
         $pro_datas[] = $pdt_fetch;
@@ -474,13 +474,13 @@ include_once("includes/head.php");
                                     <li class="product-item">
                                         <div class="contain-product layout-default">
                                             <div class="product-thumb">
-                                                <a href="single_product.php?status=singleproduct&&id=<?php echo $r_pro['pdt_id'] ?>" class="link-to-product">
+                                                <a href="single_product.php?status=singleproduct&&id=<?php echo $r_pro['price_id'] ?>" class="link-to-product">
                                                     <img src="admin/uploads/products/<?php echo $r_pro['pdt_img'] ?>" alt="dd" width="270" height="270" class="product-thumnail">
                                                 </a>
                                             </div>
                                             <div class="info">
                                                 <b class="categories"><?php echo $r_pro['ctg_name'] ?></b>
-                                                <h4 class="product-title"><a href="single_product.php?status=singleproduct&&id=<?php echo $r_pro['pdt_id'] ?>" class="pr-name"> <?php echo $r_pro['pdt_name'] ?> </a></h4>
+                                                <h4 class="product-title"><a href="single_product.php?status=singleproduct&&id=<?php echo $r_pro['price_id'] ?>" class="pr-name"> <?php echo $r_pro['pdt_name'] ?> </a></h4>
                                                 <div class="price">
                                                     <ins><span class="price-amount"><span class="currencySymbol">Rs.</span>
                                                             <?php echo $r_pro['pdt_price'] ?>

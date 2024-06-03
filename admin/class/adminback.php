@@ -367,6 +367,15 @@ class  adminback
         }
     }
 
+    function display_product_byPrice($priceId)
+        {
+            $query = "SELECT * FROM `product_info_ct` WHERE price_id=$priceId";
+            if (mysqli_query($this->connection, $query)) {
+                $pdt_info = mysqli_query($this->connection, $query);
+                return $pdt_info;
+            }
+        }
+        
     function related_product($cataID)
     {
         $query = "SELECT * FROM `product_info_ct` WHERE ctg_id=$cataID ORDER BY pdt_id DESC LIMIT 4";
