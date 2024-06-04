@@ -66,6 +66,7 @@ include_once("includes/head.php");
         .about p {   
             padding: 10px;
             font-weight: bold;
+            color: black;
         }
     </style>
     

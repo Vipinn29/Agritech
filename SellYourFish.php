@@ -89,6 +89,7 @@ include_once("includes/head.php");
 
     h2{
     font-weight: bold;
+    color: black;
     }
     
 </style>
@@ -98,6 +99,7 @@ include_once("includes/head.php");
     <div class="sell">
     <h2>Sell Your Fish To Us</h2><hr>
     <p>Are you a fish farmer looking for a reliable and profitable way to sell your fish? Look no further! We are here to provide you with a hassle-free and efficient platform to sell your fish directly to us. Our goal is to support local farmers and ensure you get the best value for your hard work.</p>
+
     <a href="https://forms.gle/qEpb4wvUh8BHyFiC9" target="_blank" class="sell_link">
         Click Here to Sell Your Fish</a><br><br>
     

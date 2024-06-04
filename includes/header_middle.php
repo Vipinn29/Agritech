@@ -75,7 +75,7 @@ if (isset($_POST['remove_product'])) {
                             <form action="#" class="form-search" name="mobile-seacrh" method="get">
                                 <a href="#" class="btn-close"><span class="biolife-icon icon-close-menu"></span></a>
                                 <input type="text" name="s" class="input-text" value="" placeholder="Search here...">
-                                <select name="category">
+                                <!-- <select name="category">
                                     <option value="-1" selected>All Categories</option>
                                     <option value="vegetables">Vegetables</option>
                                     <option value="fresh_berries">Fresh Berries</option>
@@ -86,7 +86,7 @@ if (isset($_POST['remove_product'])) {
                                     <option value="fresh_onion">Fresh Onion</option>
                                     <option value="papaya_crisps">Papaya & Crisps</option>
                                     <option value="oatmeal">Oatmeal</option>
-                                </select>
+                                </select> -->
                                 <button type="submit" class="btn-submit">go</button>
                             </form>
                         </div>

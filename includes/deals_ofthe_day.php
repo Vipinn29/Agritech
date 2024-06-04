@@ -7,22 +7,22 @@
                                         <div class="contain-product deal-layout contain-product__deal-layout">
                                             <div class="product-thumb">
                                                 <a href="#" class="link-to-product">
-                                                    <img src="assets/images/home-03/product_deal_330x330.jpg" alt="dd" width="330" height="330" class="product-thumnail">
+                                                    <img src="admin/uploads/products/kajuli.jpg" alt="dd" width="330" height="330" class="product-thumnail">
                                                 </a>
                                                 <div class="labels">
-                                                    <span class="sale-label">-50%</span>
+                                                    <span class="sale-label">-10%</span>
                                                 </div>
                                             </div>
                                             <div class="info">
-                                                <div class="biolife-countdown" data-datetime="2020-01-18 00:00 +00:00"></div>
-                                                <b class="categories">Fresh Fish</b>
-                                                <h4 class="product-title"><a href="#" class="pr-name">National Fresh fish</a></h4>
+                                                <div class="biolife-countdown" data-datetime="2024-6-18 00:00 +00:00"></div>
+                                                <b class="categories">100% Live</b>
+                                                <h4 class="product-title"><a href="#" class="pr-name">Fresh fish</a></h4>
                                                 <div class="price ">
-                                                    <ins><span class="price-amount"><span class="currencySymbol">£</span>85.00</span></ins>
-                                                    <del><span class="price-amount"><span class="currencySymbol">£</span>95.00</span></del>
+                                                    <ins><span class="price-amount"><span class="currencySymbol">Rs.</span>630</span></ins>
+                                                    <del><span class="price-amount"><span class="currencySymbol">Rs.</span>700</span></del>
                                                 </div>
                                                 <div class="slide-down-box">
-                                                    <p class="message">All products are carefully selected to ensure food safety.</p>
+                                                    <p class="message">All products are carefully selected to ensure fish safety.</p>
                                                     <div class="buttons">
                                                         <a href="#" class="btn wishlist-btn"><i class="fa fa-heart" aria-hidden="true"></i></a>
                                                         <a href="#" class="btn add-to-cart-btn">add to cart</a>
@@ -32,7 +32,7 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="product-item">
+                                    <!-- <li class="product-item">
                                         <div class="contain-product deal-layout contain-product__deal-layout">
                                             <div class="product-thumb">
                                                 <a href="#" class="link-to-product">
@@ -89,6 +89,6 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </li>
+                                    </li> -->
                                 </ul>
                             </div>

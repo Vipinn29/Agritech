@@ -22,7 +22,7 @@
                                                 </a>
                                             </div>
                                             <div class="info">
-                                                <!-- <b class="categories"><?php echo $top_pdt['ctg_name']?></b> -->
+                                                <b class="categories"><?php echo $top_pdt['ctg_name']?></b>
                                                 <h4 class="product-title"><a href="single_product.php?status=singleproduct&&id=<?php echo $top_pdt['price_id'] ?>" class="pr-name"><?php echo $top_pdt['pdt_name']?></a></h4>
                                                 <div class="price ">
                                                     <ins><span class="price-amount"><span class="currencySymbol">Rs. </span><?php echo $top_pdt['pdt_price']?></span></ins>
