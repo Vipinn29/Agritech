@@ -58,11 +58,47 @@ include_once("includes/head.php");
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sell Your Fish</title>
-</head>
+    <style>
+    .sell {
+        text-align: center; /* Center the content horizontally */
+        font-size: 18px; /* Adjust the font size as needed */
+        margin: 0 auto; /* Center the entire container horizontally */
+        max-width: 800px; /* Set a maximum width for readability */
+    }
 
+    /* Optional: Add some padding for better spacing */
+    .sell p {   
+        padding: 10px;
+    }
+    .sell_link {
+        background-color: #16688d;
+        border: none;
+        color: #fff;
+        padding: 5px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-size: 16px; /* Adjust font size as needed */
+        border-radius: 5px; /* Add rounded corners */
+    }
+
+    .sell_link:hover{
+        opacity: 95%;
+        color: #fff;
+    }
+
+    h2{
+    font-weight: bold;
+    }
+    
+</style>
+
+</head>
+    
     <div class="sell">
+    <h2>Sell Your Fish To Us</h2><hr>
     <p>Are you a fish farmer looking for a reliable and profitable way to sell your fish? Look no further! We are here to provide you with a hassle-free and efficient platform to sell your fish directly to us. Our goal is to support local farmers and ensure you get the best value for your hard work.</p>
-    <a href="https://forms.gle/qEpb4wvUh8BHyFiC9" target="_blank">
+    <a href="https://forms.gle/qEpb4wvUh8BHyFiC9" target="_blank" class="sell_link">
         Click Here to Sell Your Fish</a><br><br>
     
 

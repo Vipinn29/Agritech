@@ -1,3 +1,24 @@
 .track{
-    margin-left: 40vw;
+    text-align: center; /* Center the content horizontally */
+    font-size: 18px; /* Adjust the font size as needed */
+    margin: 0 auto; /* Center the entire container horizontally */
+    max-width: 800px; /* Set a maximum width for readability */
+}
+h2{
+    font-weight: bold;
+}
+.submit_track{
+    background-color: #16688d;
+    border: none;
+    color: #fff;
+    padding: 15px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 16px; /* Adjust font size as needed */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+.submit_track:hover{
+    opacity: 95%;
 }

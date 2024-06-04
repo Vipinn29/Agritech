@@ -58,15 +58,15 @@ include_once("includes/head.php");
         <div id="main-content" class="main-content">
 
     <div class="track">
-        <h2>Track Order</h2>
+        <h2>Track Order</h2><hr>
     <form method="post" action="">
-        <label for="order_id">Order ID:</label><br>
+        <label for="order_id">Enter Your Order ID:</label><br>
         <input type="text" id="order_id" name="order_id"><br><br>
         <label for="customer_name">Your Name:</label><br>
         <input type="text" id="customer_name" name="customer_name"><br><br>
-        <label for="birthday">Select Your orderdate:</label>
-        <input type="date" id="birthday" name="birthday"><br><br>
-        <input type="submit" name="submit" value="Track Order">
+        <!-- <label for="birthday">Select Your orderdate:</label>
+        <input type="date" id="birthday" name="birthday"><br><br> -->
+        <input class="submit_track" type="submit" name="submit" value="Track Order">
     </form>
     <br>
 

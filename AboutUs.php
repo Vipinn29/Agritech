@@ -54,6 +54,21 @@ include_once("includes/head.php");
         ?>
 
     </header>
+
+    <style>
+        .about{
+            text-align: center; /* Center the content horizontally */
+            font-size: 18px; /* Adjust the font size as needed */
+            margin: 0 auto; /* Center the entire container horizontally */
+            max-width: 800px; /* Set a maximum width for readability */
+        }
+
+        .about p {   
+            padding: 10px;
+            font-weight: bold;
+        }
+    </style>
+    
     
     <!-- Page Contain -->
     <div class="page-contain">
@@ -61,22 +76,23 @@ include_once("includes/head.php");
         <!-- Main content -->
         <div id="main-content" class="main-content">
 
-    <p>Welcome to KoyturFishFarming, your trusted partner for premium live fish delivered directly from our farms. <br><br>
+    
+    <div class="about">
+
+    <p>Welcome to Koytur Fish Farming, your trusted partner for premium live fish delivered directly from our farms.</p> <br>
 
     At KoyturFishFarming, we take pride in our commitment to sustainable aquaculture and providing you with the freshest, highest quality fish for your culinary delight. With decades of expertise in fish farming, we've mastered the art of raising healthy, flavorful fish in a controlled environment.<br>
 
-    When you partner with KoyturFishFarming, you gain access to a diverse selection of premium fish species, meticulously bred and raised to perfection. Whether you're a restaurant, catering service, seafood market, or food distributor, we have the right fish to elevate your offerings and satisfy your customers' discerning palates.<br>
-
-    When you choose KoyturFishFarming, you're choosing seafood that's as fresh as it gets. Our live fish are carefully harvested and packed in specialized pouches, preserving their natural taste and texture until they reach your doorstep.<br>
-
-    We understand the unique needs of businesses in the food industry, which is why we're dedicated to providing you with unparalleled service and support. From flexible ordering options to reliable, on-time delivery, we're here to ensure that your experience with KoyturFishFarming is seamless and stress-free.<br>
+    When you choose KoyturFishFarming, you're choosing seafood that's as fresh as it gets. Our live fish are carefully harvested and packed in specialized pouches, preserving their natural taste and texture until they reach your doorstep.<br><br>
 
     Join us in our mission to provide businesses like yours with the freshest, highest quality seafood available. Experience the KoyturFishFarming difference and take your culinary offerings to the next level!<br>
 
     Partner with us for freshness, quality, and reliability.<br><br>
 
-    Koytur Fish Farming Private Limited: Your trusted seafood supplier.<br></p>
-        </div>
+    <p>Koytur Fish Farming Private Limited<br></p>
+    </div>  
+        
+</div>
     </div>
 
 <!-- FOOTER -->
