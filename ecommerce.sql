@@ -137,7 +137,7 @@ CREATE TABLE `cupon` (
 
 LOCK TABLES `cupon` WRITE;
 /*!40000 ALTER TABLE `cupon` DISABLE KEYS */;
-INSERT INTO `cupon` VALUES (1,'koyturfish','It\'s a discount coupon.',10,1),(2,'eid2021','Eid discount',15,1),(3,'eid2021','Eid discount',15,1);
+INSERT INTO `cupon` VALUES (1,'koyturfish','It\'s a discount coupon.',10,1),(2,'NEW5','It\'s a discount coupon.',5,1),(3,'DIS7','It\'s a discount coupon.',7,1);
 /*!40000 ALTER TABLE `cupon` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -218,7 +218,7 @@ CREATE TABLE `order_details` (
   `order_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   `order_date` date DEFAULT NULL,
   PRIMARY KEY (`order_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=29 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -227,7 +227,6 @@ CREATE TABLE `order_details` (
 
 LOCK TABLES `order_details` WRITE;
 /*!40000 ALTER TABLE `order_details` DISABLE KEYS */;
-INSERT INTO `order_details` VALUES (1,1,' Apple Gala(1 kg)',1,245,'',2,'afasfsaf','1246798',' SubarnaChar, Noakhali ','2021-09-11 09:18:53','2021-09-13'),(2,1,'Apple Golden Delicious (1kg)',1,250,'',2,'afasfsaf','1246798',' SubarnaChar, Noakhali ','2021-09-11 09:18:53','2021-09-13'),(3,1,' Banana (Shobri) (1 P)',1,10,'',2,'afasffa','1246798',' SubarnaChar, Noakhali ','2021-09-11 09:22:16','2021-09-13'),(4,1,' Grapes Red (Kg)',1,300,'',2,'afasffa','1246798',' SubarnaChar, Noakhali ','2021-09-11 09:22:16','2021-09-11'),(5,1,'Coconut',1,10,'',2,'afasfsaf','1246798',' SubarnaChar, Noakhali ','2021-09-11 09:31:12','2021-09-13'),(6,1,' Apple Gala(1 kg)',1,245,'fruitsbazar',2,'afasfsaf','1246798',' SubarnaChar, Noakhali ','2021-09-11 10:21:33','2021-09-11'),(7,1,' Grapes White (Kg)',1,250,'fruitsbazar',1,'afasfsaf','1246798',' SubarnaChar, Noakhali ','2021-09-11 10:21:33','2021-09-11'),(8,1,' Banana (Shobri) (1 P)',1,10,'',2,'afasfsaf','1246798',' SubarnaChar, Noakhali ','2021-09-12 19:34:21','2021-09-12'),(9,1,'Black Apple',1,150,'',1,'afasfsaf','1246798',' SubarnaChar, Noakhali ','2021-09-12 19:34:21','2021-09-12'),(10,2,' Banana (Shagor Kola) (1 P)',1,12,'',0,'156464631afdasf','1246798',' Maijdee, Noakhali ','2021-09-12 20:52:40','2021-09-13'),(11,2,' Banana (Shobri) (1 P)',1,10,'',2,'156464631afdasf','1246798',' Maijdee, Noakhali ','2021-09-12 20:52:40','2021-09-13'),(12,2,'Black Apple',1,150,'',1,'156464631afdasf','1246798',' Maijdee, Noakhali ','2021-09-12 20:52:40','2020-09-13'),(13,5,' Apple Gala(1 kg)',1,245,'',2,'avxev125','1840239402',' Jatrabari, Dhaka ','2021-09-14 07:06:53','2021-09-14'),(14,5,'  Apple Golden Delicious (1kg)',1,250,'',0,'avxev125','1840239402',' Jatrabari, Dhaka ','2021-09-14 07:06:53','2021-09-14'),(15,5,' Apple Fuji(1 Kg)',1,208,'',0,'avxev125','1840239402',' Jatrabari, Dhaka ','2021-09-14 08:02:43','2021-09-14'),(16,5,' Banana (Chini Chompa) (1 P)',1,10,'',0,'avxev125','1840239402',' Jatrabari, Dhaka ','2021-09-14 08:02:43','2021-09-14'),(17,5,'  Apple Golden Delicious (1kg)',1,250,'',0,'avxev125','1840239402',' Jatrabari, Dhaka ','2021-09-14 08:02:43','2021-09-14'),(18,5,' Navel Oranges.',1,150,'',0,'164614618','1840239402',' Jatrabari, Dhaka ','2021-09-15 09:05:37','2021-09-15'),(19,5,' Grapes Black (Kg)',1,250,'',0,'164614618','1840239402',' Jatrabari, Dhaka ','2021-09-15 09:05:37','2021-09-15'),(20,1,' Banana (Shagor Kola) (1 P)',1,12,'',0,'afasfsaf','1246798',' SubarnaChar, Noakhali ','2021-09-15 10:28:12','2021-09-15'),(21,1,'  Apple Golden Delicious (1kg)',1,250,'',0,'afasfsaf','1246798',' SubarnaChar, Noakhali ','2021-09-15 10:28:12','2021-09-15'),(22,1,' Navel Oranges.',1,150,'fruitsbazar',0,'afasfsaf','1246798',' SubarnaChar, Noakhali ','2021-09-16 09:23:53','2021-09-16'),(23,1,' Banana (Shobri) (1 P)',1,10,'fruitsbazar',0,'afasfsaf','1246798',' SubarnaChar, Noakhali ','2021-09-16 09:23:53','2021-09-16'),(24,1,'Black Apple',1,150,'fruitsbazar',0,'afasfsaf','1246798',' SubarnaChar, Noakhali ','2021-09-16 09:23:53','2021-09-16'),(25,1,' Apple Fuji(1 Kg)',1,208,'fruitsbazar',0,'avxev125','1246798',' SubarnaChar, Noakhali ','2021-09-16 09:25:36','2021-09-16'),(26,1,' Apple Gala(1 kg)',1,245,'fruitsbazar',1,'afasfsaf','1246798',' SubarnaChar, Noakhali ','2021-09-16 09:57:19','2021-09-16'),(27,1,'  Apple Golden Delicious (1kg)',1,250,'fruitsbazar',0,'afasfsaf','1246798',' SubarnaChar, Noakhali ','2021-09-16 09:57:19','2021-09-16'),(28,1,' Grapes White (Kg)',1,250,'fruitsbazar',0,'afasfsaf','1246798',' SubarnaChar, Noakhali ','2021-09-16 09:59:31','2021-09-16');
 /*!40000 ALTER TABLE `order_details` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -419,7 +418,7 @@ CREATE TABLE `users` (
   PRIMARY KEY (`user_id`),
   UNIQUE KEY `user_name` (`user_name`),
   UNIQUE KEY `user_email` (`user_email`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -428,7 +427,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'saiful',' saiful',' islam','saifulislamsapon@gmail.com','202cb962ac59075b964b07152d234b70',1246798,'SubarnaChar, Noakhali',5,'2021-08-21 13:38:23','2021-08-21 13:38:23'),(2,'Yearul',' Yerarul',' islam','yearul@gmail.com','202cb962ac59075b964b07152d234b70',1246798,'Maijdee, Noakhali',5,'2021-08-21 13:38:23','2021-08-21 13:38:23'),(3,'Omar6627',' Omar Bin',' Faruk','omarbfaruk@gmail.com','ad126b79a449eb003915c3917c8a30e1',1684734323,'Feni',5,'2021-08-21 18:56:24','2021-08-21 18:56:24'),(4,'Omar_6627',' Omar Bin',' Faruk','omarbinfaruk97@gmail.com','8d5dcd9520e2712d648297f0f116c284',1684734323,'Dhaka',5,'2021-08-30 11:04:09','2021-08-30 11:04:09'),(5,'karim',' karim',' ','karim@gmail.com','202cb962ac59075b964b07152d234b70',1840239402,'Jatrabari, Dhaka',5,'2021-09-14 05:03:25','2021-09-14 05:03:25'),(6,'rahim',' Rahim',' ','rahim@gmail.com','202cb962ac59075b964b07152d234b70',1840239415,'Mirpur, Dhaka. ',5,'2021-09-14 07:05:48','2021-09-14 07:05:48');
+INSERT INTO `users` VALUES (1,'saiful',' saiful',' islam','saifulislamsapon@gmail.com','202cb962ac59075b964b07152d234b70',1246798,'SubarnaChar, Noakhali',5,'2021-08-21 13:38:23','2021-08-21 13:38:23'),(8,'Vipinn29',' Vipin',' Gupta','vipingupta2k4@gmail.com','81dc9bdb52d04dc20036dbd8313ed055',2147483647,'Raipur',5,'2024-06-05 12:42:56','2024-06-05 12:42:56');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -477,4 +476,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-06-02 17:11:34
+-- Dump completed on 2024-06-05 18:18:10
