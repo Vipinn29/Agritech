@@ -7,12 +7,19 @@
             <div class="glb-item my-account">
                 <b class="title">My Account</b>
                 <ul class="list">
-                    <li class="list-item"><a href="#">Login/register</a></li>
-                    <li class="list-item"><a href="#">Wishlist <span class="index">(8)</span></a></li>
-                    <li class="list-item"><a href="#">Checkout</a></li>
+                    <li class="list-item"><a href="user_login.php" class="login-link">
+                    <?php 
+                        if(isset($_SESSION['username'])){
+                            echo $_SESSION['username'];
+                        }else{
+                            echo "Login/Register";
+                        }
+                        ?></a></li>
+                    <!-- <li class="list-item"><a href="#">Wishlist <span class="index">(8)</span></a></li> -->
+                    <li class="list-item"><a href="userprofile.php">Checkout</a></li>
                 </ul>
             </div>
-            <div class="glb-item currency">
+            <!-- <div class="glb-item currency">
                 <b class="title">Currency</b>
                 <ul class="list">
                     <li class="list-item"><a href="#">€ EUR (Euro)</a></li>
@@ -20,7 +27,7 @@
                     <li class="list-item"><a href="#">£ GBP (Pound)</a></li>
                     <li class="list-item"><a href="#">¥ JPY (Yen)</a></li>
                 </ul>
-            </div>
+            </div> -->
             <div class="glb-item languages">
                 <b class="title">Language</b>
                 <ul class="list inline">

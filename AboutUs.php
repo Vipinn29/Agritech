@@ -80,7 +80,7 @@ include_once("includes/head.php");
     
     <div class="about">
 
-    <p>Welcome to Koytur Fish Farming, your trusted partner for premium live fish delivered directly from our farms.</p> <br>
+    <p>Welcome to Koytur Fish Farming, your trusted partner for premium live fish delivered directly from our farms.</p>
 
     At KoyturFishFarming, we take pride in our commitment to sustainable aquaculture and providing you with the freshest, highest quality fish for your culinary delight. With decades of expertise in fish farming, we've mastered the art of raising healthy, flavorful fish in a controlled environment.<br>
 

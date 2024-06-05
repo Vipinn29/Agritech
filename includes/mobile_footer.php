@@ -13,7 +13,7 @@
                 </a>
             </div>
             <div class="mobile-block block-minicart">
-                <a class="link-to-cart" href="#">
+                <a class="link-to-cart" href="addtocart.php">
                     <span class="fa fa-shopping-bag" aria-hidden="true"></span>
                     <span class="text">Cart</span>
                 </a>

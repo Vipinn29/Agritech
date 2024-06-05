@@ -16,7 +16,7 @@ $obj= new adminback();
 
                                   
                         <li>
-                            <a class="fa fa-envelope" href="" > &nbsp;
+                            <a class="fa fa-envelope" href="mailto:koyturfishfarming@gmail.com" > &nbsp;
                            <?php  echo $link['email'];  ?>
                              
 
