@@ -187,7 +187,7 @@ include_once("includes/head.php");
                                                     <td class="product-price" data-title="Price">
                                                         <?php $count=1; ?>
                                                         <div class="">
-                                                            <input type="number" value="1" name="quantity" class="quantity" style="width: 65px;" id="quantity" min="1" max="10" onchange="subtotal(), totalOfAll()">
+                                                            <input type="number" value="1" name="quantity" class="quantity" style="width: 65px;" id="quantity" min="1" max="100" onchange="subtotal(), totalOfAll()">
 
                                                         </div>
                                                     </td>
