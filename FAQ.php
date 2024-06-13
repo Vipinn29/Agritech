@@ -229,16 +229,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 05 केज कल्चर,"
             ],
             [
-                "question" => "camera Montering charges?",
-                "answer" => "शुल्क 5 हजार/माह*
-
-                08 कैमरा ,
-                01 हैक्टेयर का तालाब ,
-                02 पोंड लाइनर,
-                25 टैंक तक का बायोफ्लॉक,
-                05 केज कल्चर,"
-            ],
-            [
                 "question" => "premium consultancy charges or services ?",
                 "answer" => "टेक्निकल स्टॉफ कम्पनी भेजेगी (with charges)
 
@@ -374,86 +364,6 @@ document.addEventListener("DOMContentLoaded", function() {
             ],
             [
                 "question"=>"",
-                "answer"=> ""
-            ],
-            [
-                "question"=>"",
-                "answer"=> ""
-            ],
-            [
-                "question"=>"",
-                "answer"=> ""
-            ],
-            [
-                "question"=>"",
-                "answer"=> ""
-            ],
-            [
-                "question"=>"",
-                "answer"=> ""
-            ],
-            [
-                "question"=>"",
-                "answer"=> ""
-            ],
-            [
-                "question"=>"",
-                "answer"=> ""
-            ],
-            [
-                "question"=>"",
-                "answer"=> ""
-            ],
-            [
-                "question"=>"",
-                "answer"=> ""
-            ],
-            [
-                "question"=>"",
-                "answer"=> ""
-            ],
-            [
-                "question"=>"",
-                "answer"=> ""
-            ],
-            [
-                "question"=>"",
-                "answer"=> ""
-            ],
-            [
-                "question"=>"",
-                "answer"=> ""
-            ],
-            [
-                "question"=>"",
-                "answer"=> ""
-            ],
-            [
-                "question"=>"",
-                "answer"=> ""
-            ],
-            [
-                "question"=>"",
-                "answer"=> ""
-            ],
-            [
-                "question"=>"",
-                "answer"=> ""
-            ],
-            [
-                "question"=>"",
-                "answer"=> ""
-            ],
-            [
-                "question"=>"",
-                "answer"=> ""
-            ],
-            [
-                "question"=>"",
-                "answer"=> ""
-            ],
-            [
-                "question" => "" ,
                 "answer"=> ""
             ],
             // Add more FAQs as needed
