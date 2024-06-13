@@ -51,7 +51,7 @@ if (isset($_POST['remove_product'])) {
                         <li class="menu-item"><a href="all_product.php">All Product</a></li>
                         <li class="menu-item"><a href="track_order.php">Track Order</a></li>
                         <li class="menu-item"><a href="SellYourFish.php">Sell Your Fish</a></li>
-                        <li class="menu-item"><a href="FAQ.php">About Us</a></li>
+                        <li class="menu-item"><a href="AboutUs.php">About Us</a></li>
                         <!-- <li class="menu-item"><a href="#">Privacy Policy </a></li> -->
                         <?php 
                             if(isset($_SESSION['user_id'])){
