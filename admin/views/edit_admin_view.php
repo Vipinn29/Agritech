@@ -28,10 +28,10 @@
         <input type="email" name="u-user-email" class="form-control" value="<?php echo $admin['admin_email'] ?>" required>
     </div>
 
-    <!-- <div class="form-group">
+    <div class="form-group">
         <h4>Password</h4>
         <input type="password" name="user_password" class="form-control" required>
-    </div> -->
+    </div>
 
     <input type="hidden" name="user_id" value="<?php echo $admin['admin_id'] ?>">
 
