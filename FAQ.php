@@ -132,16 +132,241 @@ document.addEventListener("DOMContentLoaded", function() {
         <?php
         $faqs = [
             [
-                "question" => "What is your return policy?",
-                "answer" => "Our return policy lasts 30 days. If 30 days have gone by since your purchase, unfortunately, we can’t offer you a refund or exchange."
+                "question" => "What is the procedure of contract farming ?",
+                "answer" => "*1= न्यूनतम खरीदी 20 हजार प्लस(एयर पंप, मछली बच्चा, प्रोबायोटिक, मेडिसिन, लाइनर, तारपोलिन आदि।) 
+                2 = न्यू सेटअप लगवाना(बायोफ्लाॅक, पोंड लाइनर,RAS)
+                3 = कम्पनी का एडवर्टिस्मेंट फ्लेक्सी लगवाना
+                फ्लेक्सी साइज 2.5×03 feet जिसमे लिखा होगा फ्री कंसल्टेंसी, बाय Koytur fish farming Pvt limited
+                Youtube - https://youtu.be/nE1w8_SohQc"
             ],
             [
-                "question" => "How do I track my order?",
-                "answer" => "You will receive an email with tracking information once your order has shipped."
+                "question" => "camera Montering charges?",
+                "answer" => "शुल्क 5 हजार/माह*
+
+                08 कैमरा ,
+                01 हैक्टेयर का तालाब ,
+                02 पोंड लाइनर,
+                25 टैंक तक का बायोफ्लॉक,
+                05 केज कल्चर,"
             ],
             [
-                "question" => "Can I change my order?",
-                "answer" => "We start working on your order as soon as we get it, so we are unable to make changes after it is placed."
+                "question" => "camera Montering charges?",
+                "answer" => "शुल्क 5 हजार/माह*
+
+                08 कैमरा ,
+                01 हैक्टेयर का तालाब ,
+                02 पोंड लाइनर,
+                25 टैंक तक का बायोफ्लॉक,
+                05 केज कल्चर,"
+            ],
+            [
+                "question" => "premium consultancy charges or services ?",
+                "answer" => "टेक्निकल स्टॉफ कम्पनी भेजेगी (with charges)
+
+                सुपरवाइजर विजिट जीरो 
+                मैनेजर विजिट चार्जेस जीरो 
+                कैमेरा मॉनिटरिंग चार्जेस जीरो 
+                एक्सपर्ट विजिट चार्जेस जीरो 
+                👉 हार्वेस्ट के बाद प्रति किलोग्राम 10/ का सर्विस चार्ज
+                Remark - किसान का वर्किंग कैपिटल नुकसान होने की स्थिति में कंसल्टेंसी चार्जेस फ्री
+                Rs - 10"
+            ],
+            [
+                "question" => "Online training zoom app or Google meet?",
+                "answer"=> "Online classes ke bad aap kumhari farms me 01 year फ्री विजिट कर ऑफलाइन सिख सकते हैं
+                Rs -599"
+            ],
+           [ 
+                    "question"=>"how to visit offline site ? ",
+                    "answer"=> "Morning 10 से दोपहर 03 बजे तक,365 days
+                    Search Google map koytur fish farming kumhari chhattisgarh --Koytur fish farming kumhari
+                    088004 46453
+                    https://maps.app.goo.gl/2NnU3AHJnEtbK4Nc9"
+                ],
+            
+            [
+                "question"=>"Pondliner (small Setup) How much fish will be reared in 01 lakh liter tank and how much will it cost?
+                ",
+                "answer"=> "03 लाख लीटर,
+                #टैंक साइज 52 फिट ×52×04 feet
+               
+               #लाइनर प्राइस 60 हजार
+               
+               #एयर पंप 22, हज़ार
+               
+               #सीड स्टॉक 3000 से 4000 पीस
+               Rs - 200000"
+            ],
+            [
+                "question"=>"Pondlinear (medium setup) The 150×50 size pond liner that you see in the video will cost how much it will cost and how much fish farming will be done.
+                ?",
+                "answer"=> "8.5 लाख लीटर,
+                #टैंक साइज 50फिट ×150×05feet
+               
+               #पोंड लाइनर शीट 1.40 लाख 
+               
+               #एयर पंप 02 एचपी के 02 सेट 
+               
+               #सीड स्टॉक 8000 से 10,000 पीस
+               Rs -4,50,000
+               Remark - All set-up cost with, आउटलेट, इनलेट, एंटी बर्डनेट, एयरेशन सिस्टम "
+            ],
+            [
+                "question"=>"Pondliner (small Setup) How much will 0.2 lakh liter pond liner tank cost and how much fish will be cultivated?
+                ",
+                "answer"=> "02 लाख लीटर,
+                टैंक साइज 45 फिट ×45×04 feet
+                लाइनर प्राइस 50 हजार
+                एयर पंप 22, हज़ार
+                सीड स्टॉक 1500 से 2000 पीस
+                Rs -1,50,000"
+            ],
+            [
+                "question"=>"Pondliner (small Setup) How much will be the cost of 03 lakh liter size pond liner tank and how much fish will be cultivated?
+                ",
+                "answer"=> "03 लाख लीटर,
+               टैंक साइज 52 फिट ×52×04 feet
+               लाइनर प्राइस 60 हजार
+               एयर पंप 22, हज़ार
+               सीड स्टॉक 3000 से 4000 पीस
+               Rs -2,00,000"
+            ],
+            [
+                "question"=>"Subsidy Setup Tank size, cost, stocking density??",
+                "answer"=> "12 लाख लीटर,
+                 टैंक साइज 100फिट ×110 ×05feet
+                 pondliner sheet 1.80 लाख 
+                 एयर पंप 02 एचपी के 04 सेट 
+                सीड स्टॉक 10,000 से 15000 पीस
+                Rs - 7,50,000"
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question"=>"",
+                "answer"=> ""
+            ],
+            [
+                "question" => "" ,
+                "answer"=> ""
             ],
             // Add more FAQs as needed
         ];
