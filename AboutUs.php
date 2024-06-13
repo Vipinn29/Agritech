@@ -68,6 +68,60 @@ include_once("includes/head.php");
             font-weight: bold;
             color: black;
         }
+
+.secndary-nav {
+    background-color: #fff; /* Set background to white */
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.secndary-nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.secndary-nav-menu li {
+    margin: 0 15px;
+}
+
+.secndary-nav-menu li a {
+    color: #333; /* Link color */
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    position: relative; /* Position relative for pseudo-element */
+    overflow: hidden; /* Hide overflow for smoother animation */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for color and background */
+}
+
+.secndary-nav-menu li a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #333; /* Default underline color */
+    transition: transform 0.3s ease; /* Smooth transition for underline */
+    transform: scaleX(0); /* Initial width of underline set to 0 */
+    transform-origin: left; /* Expand from left to right */
+}
+
+.secndary-nav-menu li a:hover::before {
+    transform: scaleX(1); /* Expand the underline */
+}
+
+.secndary-nav-menu li a:hover {
+    color: #000; /* Text color on hover */
+    background-color: rgba(0, 0, 0, 0.05); /* Background color on hover */
+}
+    
+
     </style>
     
     
@@ -77,10 +131,21 @@ include_once("includes/head.php");
         <!-- Main content -->
         <div id="main-content" class="main-content">
 
+        <nav class="secndary-nav">
+        <div class="container">
+            <ul class="secndary-nav-menu">
+                <li><a href="AboutUs.php">Our Services</a></li>
+                <li><a href="FAQ.php">FAQ's</a></li>
+                <li><a href="#">Farming</a></li>
+                
+            </ul>
+        </div>
+        </nav>
+
     
     <div class="about">
 
-    <p>Welcome to Koytur Fish Farming, your trusted partner for premium live fish delivered directly from our farms.</p>
+    <br><p>Welcome to Koytur Fish Farming, your trusted partner for premium live fish delivered directly from our farms.</p>
 
     At KoyturFishFarming, we take pride in our commitment to sustainable aquaculture and providing you with the freshest, highest quality fish for your culinary delight. With decades of expertise in fish farming, we've mastered the art of raising healthy, flavorful fish in a controlled environment.<br>
 
