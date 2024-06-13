@@ -262,32 +262,41 @@ document.addEventListener("DOMContentLoaded", function() {
                 Rs - 7,50,000"
             ],
             [
-                "question"=>"",
-                "answer"=> ""
+                "question"=>"(Tarpauline tank,Biofloc ) What is the water holding capacity? ",
+                "answer"=> "(4meter * 05feet) 10 से 15 हजार लीटर , सेटअप बनाने की कीमत 
+                Rs - 45000"
             ],
             [
-                "question"=>"",
-                "answer"=> ""
+                "question"=>" (4meter * 05feet)How many fish can you farm?",
+                "answer"=> " 500 kg "
             ],
             [
-                "question"=>"",
-                "answer"=> ""
+                "question"=>"How much subsidy will you get?",
+                "answer"=> "एसटी, एससी और महिलाओं को कुल बजट का 60% जबकि अन्य को कुल बजट का 40%
+                7.5 लाख
+                25 लाख"
             ],
             [
-                "question"=>"",
-                "answer"=> ""
+                "question"=>"How much fish can you raise?",
+                "answer"=> "30 decimals biofloc 07 tank 04m dia 
+                1/2 अकड़ biofloc 25 टैंक, 04 मीटर डाया 
+                प्रति एकड़ 04 पॉन्डलाइनर टैंक 150/50 फीट वाला 
+                प्रति एकड़ 02 पॉन्डलानर 30/33 मीटर "
             ],
             [
-                "question"=>"",
-                "answer"=> ""
+                "question"=>"How many talab fish can be reared per acre?",
+                "answer"=> " रोहू, कतला, मृगल (IMC) 3000 से 5000 पीस 
+                तिलापिया मछ्ली 6000 से 10000 प्रति एकड़ 
+                पैंगेसियस/प्यासी 10 से 15 हजार "
             ],
             [
-                "question"=>"",
-                "answer"=> ""
-            ],
-            [
-                "question"=>"",
-                "answer"=> ""
+                "question"=>"how much price of fish seed ?",
+                "answer"=> "प्राइस है।
+                3000 लाइन = 1.30/
+                2000 लाइन=1.50/
+                1000 लाइन = 02/
+                500 लाइन = 2.5/
+                Rs - सभी कीमत 25 हजार से ऊपर बच्चे की खरीदी पर है।"
             ],
             [
                 "question"=>"",
