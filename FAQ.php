@@ -55,12 +55,13 @@ include_once("includes/head.php");
 
     </header>
 
- <style>   body {
+<style>   
+ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-}
+    }
 
 .faq-container {
     max-width: 800px;
@@ -68,23 +69,34 @@ include_once("includes/head.php");
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
 .faq-container h1 {
     text-align: center;
     margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
 }
 
 .faq-item {
     margin-bottom: 15px;
     border-bottom: 1px solid #ddd;
     padding-bottom: 10px;
+    transition: background-color 0.3s ease, padding-left 0.3s ease;
+}
+
+.faq-item:hover {
+    background-color: #f9f9f9;
+    padding-left: 15px;
 }
 
 .faq-question {
     font-size: 18px;
     cursor: pointer;
     position: relative;
+    padding: 10px 0;
+    transition: color 0.3s ease;
 }
 
 .faq-question::after {
@@ -92,6 +104,7 @@ include_once("includes/head.php");
     position: absolute;
     right: 0;
     font-size: 24px;
+    transition: transform 0.3s ease;
 }
 
 .faq-answer {
@@ -99,14 +112,22 @@ include_once("includes/head.php");
     padding: 10px 0;
     font-size: 16px;
     line-height: 1.5;
+    color: #666;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
 }
 
 .faq-item.active .faq-answer {
     display: block;
+    max-height: 500px; /* Adjust as needed */
+    opacity: 1;
 }
 
 .faq-item.active .faq-question::after {
     content: '-';
+    transform: rotate(180deg);
 }
 </style>
 
