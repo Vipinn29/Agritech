@@ -46,8 +46,8 @@ $obj= new adminback();
                                 <div class="col-lg-6 col-sm-6 col-xs-6">
                                     <div class="wrap-custom-menu vertical-menu-2">
                                         <ul class="menu">
-                                            <li><a href="#">About Us</a></li>
-                                            <li><a href="#">About Our Shop</a></li>
+                                            <li><a href="AboutUs.php">About Us</a></li>
+                                            <li><a href="AboutUs.php">About Our Shop</a></li>
                                             <li><a href="#">Secure Shopping</a></li>
                                             <li><a href="#">Delivery infomation</a></li>
                                             <li><a href="#">Privacy Policy</a></li>
@@ -72,13 +72,13 @@ $obj= new adminback();
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 md-margin-top-5px sm-margin-top-50px xs-margin-top-40px">
                         <section class="footer-item">
-                            <h3 class="section-title">Transport Offices</h3>
+                            <h3 class="section-title">Our Offices</h3>
                             <div class="contact-info-block footer-layout xs-padding-top-10px">
                                 <ul class="contact-lines">
                                     <li>
                                         <p class="info-item">
                                             <i class="biolife-icon icon-location"></i>
-                                            <b class="desc"> Office Address – Paikara Badi, Ahiwara Road, Kumhari, Dstt. Durg Chattisgargh. </b>
+                                            <a class="desc" target="blank" href="https://maps.app.goo.gl/gikspB9k7CksC2Jk7"> Office Address – Paikara Badi, Ahiwara Road, Kumhari, Dstt. Durg Chhattisgarh. </a>
                                         </p>
                                     </li>
                                     <li>
@@ -96,7 +96,7 @@ $obj= new adminback();
                                     <li>
                                         <p class="info-item">
                                             <i class="biolife-icon icon-clock"></i>
-                                            <b class="desc">Hours: 7 Days a week from 10:00 am</b>
+                                            <b class="desc">Hours: 7 Days a week from 9:00 am</b>
                                         </p>
                                     </li>
                                 </ul>
