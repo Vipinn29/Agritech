@@ -1,9 +1,7 @@
 <nav class="navbar header-navbar pcoded-header">
                <div class="navbar-wrapper">
                    <div class="navbar-logo">
-                       <a class="mobile-menu" id="mobile-collapse" href="#!">
-                           <i class="ti-menu"></i>
-                       </a>
+                       
                        <div class="mobile-search">
                            <div class="header-search">
                                <div class="main-search morphsearch-search">
@@ -33,6 +31,9 @@
 
                    <div class="navbar-container container-fluid">
                        <ul class="nav-left">
+                        <li><a class="mobile-menu" id="mobile-collapse" href="#!">
+                           <i class="ti-menu"></i>
+                       </a></li>
                            <li>
                                <div class="sidebar_toggle"><a href="javascript:void(0)"><i class="ti-menu"></i></a></div>
                            </li>

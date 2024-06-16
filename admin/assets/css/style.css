@@ -5697,8 +5697,8 @@ table tbody .border-bottom-info td {
     height: 56px;
     text-align: center;
     text-transform: uppercase;
-    width: 235px;
-    padding: 10px; }
+    width: 140px;
+    padding: 10px;}
     @media only screen and (max-width: 992px) {
       .header-navbar .navbar-wrapper .navbar-logo {
         -webkit-box-pack: center;
