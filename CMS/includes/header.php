@@ -41,7 +41,7 @@ while ($row=mysqli_fetch_array($query)) {
 
                 <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
                   <li><a href="index.php" class="nav-link">Home</a></li>
-                 <li><a href="#about-section" class="nav-link">About Us</a></li>
+                 <!-- <li><a href="#about-section" class="nav-link">About Us</a></li>
 <li><a href="#branch-section" class="nav-link">Branch</a></li>
  <li><a href="#contact-section" class="nav-link">Contact</a></li>
  <li class="has-children">
@@ -51,7 +51,7 @@ while ($row=mysqli_fetch_array($query)) {
                       <li><a href="track-complain.php" class="nav-link">Track Complaint</a></li>
                       
                     </ul>
-                  </li>
+                  </li> -->
 <li><a href="staff/index.php" class="nav-link">Employee</a></li>
 <li><a href="admin/index.php" class="nav-link">Admin</a></li>
                   

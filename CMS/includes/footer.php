@@ -43,9 +43,7 @@ while ($row=mysqli_fetch_array($query)) {
           <div class="col-md-12">
             <div class="border-top pt-5">
               <p class="copyright">
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-        Courier Management System 
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Courier Management System 
             </p>
             </div>
           </div>

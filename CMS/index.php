@@ -29,7 +29,7 @@ echo "<script>window.location.href ='index.php'</script>";
 <html lang="en">
 
   <head>
-    <title>Courier Management System|| Home Page</title>
+    <title>KoyturFishFarming- Track Panel</title>
    
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700|Oswald:400,700" rel="stylesheet">
 
@@ -89,7 +89,7 @@ echo "<script>window.location.href ='index.php'</script>";
             </div>
           </div>
         </div>
-        <!-- END .ftco-cover-1 -->
+        <!-- END .ftco-cover-1
         <div class="ftco-service-image-1 pb-5">
           <div class="container">
             <div class="owl-carousel owl-all">
@@ -251,9 +251,9 @@ while ($row=mysqli_fetch_array($query)) {
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
-<?php include_once('includes/footer.php');?>
+<!-- <?php include_once('includes/footer.php');?> -->
 
     </div>
 
