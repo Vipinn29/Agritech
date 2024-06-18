@@ -21,7 +21,85 @@ while($pdt_ftecth = mysqli_fetch_assoc($pdt_info)){
             $pdt_datas[] = $pdt_ftecth;
 }
 
+include('CMS/includes/dbconnection.php');
+// session_start();
+error_reporting(0);
+    if(isset($_POST['submit']))
+  {
+
+$name=$_POST['name'];
+    $phone=$_POST['phone'];
+    $email=$_POST['email'];
+    $message=$_POST['message'];
+ $query=mysqli_query($con,"insert into tblcontact(Name,MobileNumber,Email,Message) value('$name','$phone','$email','$message')");
+
+    if ($query) {
+    echo "<script>alert('Your message was sent successfully!.');</script>";
+echo "<script>window.location.href ='index.php'</script>";
+  }
+  else
+    {
+       echo '<script>alert("Something Went Wrong. Please try again")</script>';
+    }
+
+  
+}
+
 ?>
+<style>
+.secndary-nav {
+    background-color: #fff; /* Set background to white */
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.secndary-nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.secndary-nav-menu li {
+    margin: 0 15px;
+}
+
+.secndary-nav-menu li a {
+    color: #333; /* Link color */
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    position: relative; /* Position relative for pseudo-element */
+    overflow: hidden; /* Hide overflow for smoother animation */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for color and background */
+}
+
+.secndary-nav-menu li a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #333; /* Default underline color */
+    transition: transform 0.3s ease; /* Smooth transition for underline */
+    transform: scaleX(0); /* Initial width of underline set to 0 */
+    transform-origin: left; /* Expand from left to right */
+}
+
+.secndary-nav-menu li a:hover::before {
+    transform: scaleX(1); /* Expand the underline */
+}
+
+.secndary-nav-menu li a:hover {
+    color: #000; /* Text color on hover */
+    background-color: rgba(0, 0, 0, 0.05); /* Background color on hover */
+}
+</style>
+
 <?php
 include_once("includes/head.php");
 ?>
@@ -57,56 +135,32 @@ include_once("includes/head.php");
         <!-- Main content -->
         <div id="main-content" class="main-content">
 
-    <div class="track">
-        <h2>Track Order</h2><hr>
-    <form method="post" action="">
-        <label for="order_id">Enter Your Order ID:</label><br>
-        <input type="text" id="order_id" name="order_id"><br><br>
-        <label for="customer_name">Your Name:</label><br>
-        <input type="text" id="customer_name" name="customer_name"><br><br>
-        <!-- <label for="birthday">Select Your orderdate:</label>
-        <input type="date" id="birthday" name="birthday"><br><br> -->
-        <input class="submit_track" type="submit" name="submit" value="Track Order">
-    </form>
-    <br>
+        <nav class="secndary-nav">
+        <div class="container">
+            <ul class="secndary-nav-menu">
+                <li><a href="track_order.php">Track</a></li>
+                <li><a href="CMS/staff/index.php">Employee</a></li>
+                <li><a href="CMS/admin/index.php">Admin</a></li>
+                
+            </ul>
+        </div>
+        </nav>
 
-    <?php
-    // Check if the form is submitted
-    if(isset($_POST['submit'])) {
-        // Retrieve order ID and customer name from the form
-        $order_id = $_POST['order_id'];
-        $customer_name = $_POST['customer_name'];
-
-        // Simulate checking for the order details in a hypothetical system
-        // You can replace this with actual logic to retrieve order information from your system
-        $order_found = false;
-        $order_status = '';
-
-        // Simulated order data
-        $orders = array(
-            array("id" => "123456", "name" => "John Doe", "status" => "Order received"),
-            array("id" => "789012", "name" => "Jane Smith", "status" => "Order in transit"),
-            array("id" => "345678", "name" => "Alice Johnson", "status" => "Order delivered")
-        );
-
-        // Check if the provided order ID and customer name match any order in the simulated data
-        foreach($orders as $order) {
-            if($order['id'] == $order_id && $order['name'] == $customer_name) {
-                $order_found = true;
-                $order_status = $order['status'];
-                break;
-            }
-        }
-
-        // Display order status if found, otherwise show a message
-        if($order_found) {
-            echo "<p>Order Status for Order ID $order_id, Name $customer_name: $order_status</p>";
-        } else {
-            echo "<p>No orders found matching Order ID $order_id and Name $customer_name</p>";
-        }
-    }
-    ?>
-    </div>
+        <div class="track">       
+        <h2>Track Your Order <img src="assets/new/track.png" alt="track-img" width="50px"></h2><hr>
+                <p class="mb-5">Choose Your Quality Delivery of Your Cargo</p><br>
+                <form action="CMS/track-parcel.php" name="search" method="post">
+                  <div class="form-group d-flex">
+                    <label>Tracking/reference number:</label><br>
+                    <input type="text" class="form-control" name="searchdata" placeholder="Enter your tracking number"><br>
+                    <input type="submit" name="search" class="btn btn-primary text-white px-4" value="Track Now">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        
         </div>
     </div>
 

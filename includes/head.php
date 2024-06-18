@@ -19,5 +19,16 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/main-color03-green.css">
     <link rel="stylesheet" href="assets/css/track.css">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700|Oswald:400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="CMS/fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="CMS/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CMS/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="CMS/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="CMS/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="CMS/fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="CMS/css/aos.css">
+    <link rel="stylesheet" href="CMS/css/style.css"> -->
     <script src="assets/js/jquery-3.4.1.min.js"></script>
 </head>
