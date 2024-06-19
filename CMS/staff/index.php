@@ -30,7 +30,7 @@ if($status=='1'){
 <html lang="en">
 
     <head>
-        <title>CMS Login</title>
+        <title>Koytur- Staff Panel</title>
 
         <!-- Bootstrap CSS -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -40,6 +40,7 @@ if($status=='1'){
 
         <!-- Modernizr js -->
         <script src="assets/js/modernizr.min.js"></script>
+        <link rel="shortcut icon" type="image/x-icon" href="assets/new/favicon.png" />
 
     </head>
 
@@ -55,7 +56,7 @@ if($status=='1'){
                     <div class="text-center m-t-20">
                         <a href="../index.php" class="logo">
                             <i class="zmdi zmdi-group-work icon-c-logo"></i>
-                            <span>CMS|| Staff Login</span>
+                            <span>Koytur Fish Farming || Staff Login</span>
                         </a>
                     </div>
                     <div class="m-t-10 p-20">

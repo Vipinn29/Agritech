@@ -29,7 +29,7 @@ echo "<script>window.location.href ='index.php'</script>";
 <html lang="en">
 
   <head>
-    <title>KoyturFishFarming- Track Panel</title>
+    <title>Koytur - Track Panel</title>
    
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700|Oswald:400,700" rel="stylesheet">
 
@@ -41,6 +41,7 @@ echo "<script>window.location.href ='index.php'</script>";
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
     <link rel="stylesheet" href="css/aos.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/new/favicon.png" />
 
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -78,7 +79,7 @@ echo "<script>window.location.href ='index.php'</script>";
             <div class="row align-items-center">
               <div class="col-lg-6">
                 <h1>Choose Your Quality Delivery of Your Cargo</h1>
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est magni perferendis fugit modi similique, suscipit, deserunt a iure.</p>
+                <p class="mb-5">Track your order easily with our real-time tracking system. Enter your order details to get the latest updates on your shipment.</p>
                 <form action="track-parcel.php" name="search" method="post">
                   <div class="form-group d-flex">
                     <input type="text" class="form-control" name="searchdata" placeholder="Enter your tracking number">

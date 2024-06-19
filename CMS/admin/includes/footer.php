@@ -1,3 +1,3 @@
 <footer class="footer">
-              <p style="text-align: center;"> Courier Managment System</p>
+              <p style="text-align: center;">Koytur Fish Farming</p>
             </footer>

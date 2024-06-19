@@ -7,16 +7,16 @@ $query=mysqli_query($con,"select * from tblpage where PageType='contactus'");
 while ($row=mysqli_fetch_array($query)) {
 
 ?>
-              <a href="#" class=""><span class="mr-2  icon-envelope-open-o"></span> <span class="d-none d-md-inline-block"><?php  echo htmlentities($row['Email']);?></span></a>
+              <a href="mailto:koyturfishfarming@gmail.com" class=""><span class="mr-2  icon-envelope-open-o"></span> <span class="d-none d-md-inline-block"><?php  echo htmlentities($row['Email']);?></span></a>
               <span class="mx-md-2 d-inline-block"></span>
               <a href="#" class=""><span class="mr-2  icon-phone"></span> <span class="d-none d-md-inline-block"><?php  echo htmlentities ($row['MobileNumber']);?></span></a>
 
 <?php } ?>
               <div class="float-right">
 
-                <a href="#" class=""><span class="mr-2  icon-twitter"></span> <span class="d-none d-md-inline-block">Twitter</span></a>
+                <a href="https://follow.it/koytur-fish-farming?action=followPub" target="blank" class=""><span class="mr-2  icon-twitter"></span> <span class="d-none d-md-inline-block">Twitter</span></a>
                 <span class="mx-md-2 d-inline-block"></span>
-                <a href="#" class=""><span class="mr-2  icon-facebook"></span> <span class="d-none d-md-inline-block">Facebook</span></a>
+                <a href="https://www.facebook.com/koyturfishfarming/" target="blank" class=""><span class="mr-2  icon-facebook"></span> <span class="d-none d-md-inline-block">Facebook</span></a>
 
               </div>
 
@@ -33,7 +33,7 @@ while ($row=mysqli_fetch_array($query)) {
 
 
             <div class="site-logo">
-              <a href="index.php" class="text-black"><span class="text-primary">Courier Mgmt System</a>
+              <a href="index.php" class="text-black"><span class="text-primary">Koytur Fish Farming</a>
             </div>
 
             <div class="col-12">

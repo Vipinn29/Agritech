@@ -26,7 +26,7 @@ if(isset($_POST['login']))
 
     <head>
   
-        <title>CMS Admin Login</title>
+        <title>Koytur- Admin Panel</title>
 
         <!-- Bootstrap CSS -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -36,6 +36,7 @@ if(isset($_POST['login']))
 
         <!-- Modernizr js -->
         <script src="assets/js/modernizr.min.js"></script>
+        <link rel="shortcut icon" type="image/x-icon" href="assets/new/favicon.png" />
 
     </head>
 
@@ -51,7 +52,7 @@ if(isset($_POST['login']))
                     <div class="text-center m-t-20">
                         <a href="../index.php" class="logo">
                             <i class="zmdi zmdi-group-work icon-c-logo"></i>
-                            <span>CMS|| Admin Login</span>
+                            <span>Koytur Fish Farming || Admin Login</span>
                         </a>
                     </div>
                     <div class="m-t-10 p-20">

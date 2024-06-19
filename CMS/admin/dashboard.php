@@ -10,7 +10,7 @@ if (strlen($_SESSION['cmsaid']==0)) {
 <html lang="en">
 
     <head>
-        <title>CMS|| Dashboard</title>
+        <title>Koytur || Dashboard</title>
 
         <!--Morris Chart CSS -->
 		<link rel="stylesheet" href="../plugins/morris/morris.css">
@@ -26,6 +26,7 @@ if (strlen($_SESSION['cmsaid']==0)) {
 
         <!-- Modernizr js -->
         <script src="assets/js/modernizr.min.js"></script>
+        <link rel="shortcut icon" type="image/x-icon" href="assets/new/favicon.png" />
 
     </head>
 
