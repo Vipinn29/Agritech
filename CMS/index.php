@@ -80,7 +80,7 @@ echo "<script>window.location.href ='index.php'</script>";
               <div class="col-lg-6">
                 <h1>Choose Your Quality Delivery of Your Cargo</h1>
                 <p class="mb-5">Track your order easily with our real-time tracking system. Enter your order details to get the latest updates on your shipment.</p>
-                <form action="track-parcel.php" name="search" method="post">
+                <form action="../track-parcel.php" name="search" method="post">
                   <div class="form-group d-flex">
                     <input type="text" class="form-control" name="searchdata" placeholder="Enter your tracking number">
                     <input type="submit" name="search" class="btn btn-primary text-white px-4" value="Track Now">

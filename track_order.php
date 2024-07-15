@@ -149,7 +149,7 @@ include_once("includes/head.php");
         <div class="track">       
         <h2>Track Your Order <img src="assets/new/track.png" alt="track-img" width="50px"></h2><hr>
                 <p class="mb-5">Choose Your Quality Delivery of Your Cargo</p><br>
-                <form action="CMS/track-parcel.php" name="search" method="post">
+                <form action="track-parcel.php" name="search" method="post">
                   <div class="form-group d-flex">
                     <label>Tracking/reference number:</label><br>
                     <input type="text" class="form-control" name="searchdata" placeholder="Enter your tracking number"><br>
