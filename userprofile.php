@@ -184,13 +184,20 @@ include_once("includes/head.php");
 
                      <form class="shopping-cart-form" action="#" method="POST">
 
-                                                    <td class="product-price" data-title="Price">
-                                                        <?php $count=1; ?>
-                                                        <div class="">
-                                                            <input type="number" value="1" name="quantity" class="quantity" style="width: 65px;" id="quantity" min="1" max="1000" onchange="subtotal(), totalOfAll()">
+                     <td class="product-price" data-title="Price">
+    <div class="">
+        <input type="number" 
+               value="<?php echo isset($value['quantity']) ? $value['quantity'] : 1; ?>" 
+               name="quantity" 
+               class="quantity" 
+               style="width: 65px;" 
+               id="quantity_<?php echo $key; ?>" 
+               min="1" 
+               max="100" 
+               onchange="updateQuantity(<?php echo $key; ?>), subtotal(), totalOfAll()">
+    </div>
+</td>
 
-                                                        </div>
-                                                    </td>
 
 
                                                     <td class="product-subtotal" data-title="Total">
@@ -346,10 +353,52 @@ include_once("includes/head.php");
     <br>
 
 
-<script>
+    <script>
         var item_price = document.getElementsByClassName("pdt_price");
         var item_quantity = document.getElementsByClassName("quantity");
         var item_total = document.getElementsByClassName("subtotal");
+
+        // add new java for net quantity 
+        function updateQuantity(index) {
+    let quantityInput = document.getElementById("quantity_" + index);
+    let quantityValue = quantityInput.value;
+
+    // Update quantity in the session via AJAX
+    $.ajax({
+        url: "update_cart.php", // This is the file where you update the session cart
+        method: "POST",
+        data: {
+            action: 'update_quantity',
+            index: index,
+            quantity: quantityValue
+        },
+        success: function(response) {
+            subtotal();
+            totalOfAll();
+        }
+    });
+}
+
+function subtotal() {
+    let item_price = document.getElementsByClassName("pdt_price");
+    let item_quantity = document.getElementsByClassName("quantity");
+    let item_total = document.getElementsByClassName("subtotal");
+
+    for (let i = 0; i < item_price.length; i++) {
+        item_total[i].innerText = item_price[i].value * item_quantity[i].value;
+    }
+}
+
+function totalOfAll() {
+    let item_total = document.getElementsByClassName("subtotal");
+    let totalAll = document.getElementById("totalOfall");
+    let total = 0;
+
+    for (let i = 0; i < item_total.length; i++) {
+        total += parseInt(item_total[i].innerText);
+    }
+    totalAll.innerText = total;
+}
 
         function subtotal() {
             for (let i = 0; i < item_price.length; i++) {
@@ -372,123 +421,87 @@ include_once("includes/head.php");
 
         }
 
-        // $(document).ready(function() {
-                    
-        //     var cupon_code = $("#cupon");
-
-        //     var discount = $("#discount");
-        //     var total_price = parseInt($("#totalOfall").text());
-
-        //         $("#afterdiscount").text(total_price);
-              
-           
-        //     $(cupon_code).on("keyup keydown keypress blur", function() {
-
-
-        //         // alert (cupon_code.val());
-
-        //         $.ajax({
-        //             url: "json/coupon.php",
-        //             method: "POST",
-        //             data: {
-        //                 action: 'load_discount',
-        //                 cupon: cupon_code.val(),
-        //                 price: total_price
-        //             },
-        //             success: function(data) {
-
-        //                 var html = Math.round(data);
-        //                 discount.text(html);
-        //             }
-        //         })
-
-              
-        //             $("#afterdiscount").text(total_price - parseInt(discount.text()));
-                
-        //     });
-
-        //     $("#quantity").change(function(){
-        //         var cupon_code = $("#cupon");
-
-        //     var discount = $("#discount");
-        //     var total_price = parseInt($("#totalOfall").text());
-
-        //         $("#afterdiscount").text(total_price);
-              
-           
-        //     $(cupon_code).on("keyup keydown keypress blur", function() {
-
-        //         // alert (cupon_code.val());
-
-        //         $.ajax({
-        //             url: "json/coupon.php",
-        //             method: "POST",
-        //             data: {
-        //                 action: 'load_discount',
-        //                 cupon: cupon_code.val(),
-        //                 price: total_price
-        //             },
-        //             success: function(data) {
-
-        //                 var html = Math.round(data);
-        //                 discount.text(html);
-        //             }
-        //         })
-
-              
-        //             $("#afterdiscount").text(total_price - parseInt(discount.text()));
-                
-        //     });
-        //     });
-        // });
-
         $(document).ready(function() {
+            
+            
             var cupon_code = $("#cupon");
+
             var discount = $("#discount");
             var total_price = parseInt($("#totalOfall").text());
-        
-            // Initialize afterdiscount value
-            $("#afterdiscount").text(total_price);
-        
-            // Bind keyup, keydown, keypress, and blur events to the cupon_code input
+
+                $("#afterdiscount").text(total_price);
+              
+           
             $(cupon_code).on("keyup keydown keypress blur", function() {
-                // Get the current coupon code value
-                var cupon_value = $(this).val();
-            
-                // Check if the coupon code is not empty
-                if (cupon_value !== "") {
-                    // Send AJAX request to validate the coupon code
-                    $.ajax({
-                        url: "json/coupon.php",
-                        method: "POST",
-                        data: {
-                            action: 'load_discount',
-                            cupon: cupon_value,
-                            price: total_price
-                        },
-                        success: function(data) {
-                            // Get the discount value from the response
-                            var discount_value = Math.round(data);
-                        
-                            // Update the discount and afterdiscount values
-                            discount.text(discount_value);
-                            $("#afterdiscount").text(total_price - discount_value);
-                        }
-                    });
-                } else {
-                    // Reset discount and afterdiscount values if coupon code is empty
-                    discount.text("0");
-                    $("#afterdiscount").text(total_price);
-                }
+
+
+                // alert (cupon_code.val());
+
+                $.ajax({
+                    url: "json/coupon.php",
+                    method: "POST",
+                    data: {
+                        action: 'load_discount',
+                        cupon: cupon_code.val(),
+                        price: total_price
+                    },
+                    success: function(data) {
+
+                        var html = Math.round(data);
+                        discount.text(html);
+                    }
+                })
+
+              
+                    $("#afterdiscount").text(total_price - parseInt(discount.text()));
+                
+
+
             });
 
-            $("#quantity").change(function() {
-            total_price = parseInt($("#totalOfall").text());
-            $("#afterdiscount").text(total_price - parseInt(discount.text()));
-            });
+            $("#quantity").change(function(){
+                var cupon_code = $("#cupon");
 
-        });
-</script>
+            var discount = $("#discount");
+            var total_price = parseInt($("#totalOfall").text());
+
+                $("#afterdiscount").text(total_price);
+              
+           
+            $(cupon_code).on("keyup keydown keypress blur", function() {
+
+
+                // alert (cupon_code.val());
+
+                $.ajax({
+                    url: "json/coupon.php",
+                    method: "POST",
+                    data: {
+                        action: 'load_discount',
+                        cupon: cupon_code.val(),
+                        price: total_price
+                    },
+                    success: function(data) {
+
+                        var html = Math.round(data);
+                        discount.text(html);
+                    }
+                })
+
+              
+                    $("#afterdiscount").text(total_price - parseInt(discount.text()));
+                
+
+
+            });
+            })
+
+
+
+
+
+        })
+    </script>
     <!-- FOOTER -->
 
     <?php
