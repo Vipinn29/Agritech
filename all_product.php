@@ -55,6 +55,80 @@ include_once("includes/head.php");
 
     </header>
 
+    <style>
+            .city-head {
+              text-align: center;
+              font-size: 24px;
+              font-weight: bold;
+              margin-bottom: 20px;
+            }
+
+            .category-selection {
+              text-align: center;
+              margin: 0 auto;
+              background-color: #fff; /* Set background to white */
+              padding: 15px 0;
+              box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+            }
+
+            .secndary-nav-menu {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            .secndary-nav-menu li {
+                margin: 0 15px ;
+            }
+
+            .secndary-nav-menu li a {
+                color: #333; /* Link color */
+                text-decoration: none;
+                font-weight: 600;
+                font-size: 17px;
+                padding: 10px 15px;
+                border-radius: 4px;
+                position: relative; /* Position relative for pseudo-element */
+                overflow: hidden; /* Hide overflow for smoother animation */
+                transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for color and background */
+            }
+
+            .secndary-nav-menu li a::before {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 2px;
+                background-color: #333; /* Default underline color */
+                transition: transform 0.3s ease; /* Smooth transition for underline */
+                transform: scaleX(0); /* Initial width of underline set to 0 */
+                transform-origin: left; /* Expand from left to right */
+            }
+
+            .secndary-nav-menu li a:hover::before {
+                transform: scaleX(1); /* Expand the underline */
+            }
+
+            .secndary-nav-menu li a:hover {
+                color: #16688d; /* Text color on hover */
+                background-color: rgba(0, 0, 0, 0.05); /* Background color on hover */
+            }
+
+            @media only screen and (max-width: 768px) {
+             .secndary-nav-menu {
+               flex-direction: column; /* Change flex direction to column on small screens */
+             }
+             .secndary-nav-menu li {
+               margin: 10px 0; /* Add margin between list items on small screens */
+             }
+            }
+    </style>
+
     <!-- Page Contain -->
     <div class="page-contain">
 
@@ -67,10 +141,20 @@ include_once("includes/head.php");
 
             <!--Navigation section-->
            
-
+            <!-- Category selection -->
+            <H2 class="city-head">Please select your city</H2>
+            <nav class="category-selection">
+             <ul class="secndary-nav-menu">
+             <?php foreach($cataDatas as $cataData){ ?>
+                 <li>
+                   <a href="catagory.php?status=catView&&id=<?php  echo $cataData['ctg_id'] ?>" data-title="<?php echo $cataData['ctg_name']?>"><?php echo $cataData['ctg_name']?> </a>
+                 </li>
+               <?php } ?>
+             </ul>
+            </nav>
 
             <!-- Product -->
-            <div class="container">
+            <!-- <div class="container">
 
                 <div class="product-category grid-style">
 
@@ -113,8 +197,8 @@ include_once("includes/head.php");
 
                         </ul>
                     </div>
-
-                    <!-- Pagination block -->
+ 
+                    
 
                     <div class="biolife-panigations-block">
                         <ul class="panigation-contain">
@@ -133,7 +217,7 @@ include_once("includes/head.php");
 
 
 
-            </div>
+            </div> -->
         </div>
     </div>
 

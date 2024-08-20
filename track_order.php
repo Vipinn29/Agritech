@@ -95,7 +95,7 @@ echo "<script>window.location.href ='index.php'</script>";
 }
 
 .secndary-nav-menu li a:hover {
-    color: #000; /* Text color on hover */
+    color: #16688d; /* Text color on hover */
     background-color: rgba(0, 0, 0, 0.05); /* Background color on hover */
 }
 </style>
