@@ -206,13 +206,13 @@ include_once("includes/head.php");
                      <td class="product-price" data-title="Price">
     <div class="">
         <input type="number" 
-               value="<?php echo isset($value['quantity']) ? $value['quantity'] : 1; ?>" 
+               value="<?php echo isset($value['quantity'])?>" 
                name="quantity" 
                class="quantity" 
                style="width: 65px;" 
                id="quantity_<?php echo $key; ?>" 
                min="1" 
-               max="100" 
+               max="500" 
                onchange="updateQuantity(<?php echo $key; ?>), subtotal(), totalOfAll()">
     </div>
 </td>
