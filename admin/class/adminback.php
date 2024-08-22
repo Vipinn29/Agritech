@@ -535,28 +535,64 @@ class  adminback
         }
     }
 
-    function confirm_order($post, $session){
+    function confirm_order($post, $session) {
         $user_id = $post['user_id'];
         $order_status = $post['order_status'];
         $trans_id = $post['txid'];
         $mobile = $post['shipping_Mobile'];
         $shiping = $post['shiping'];
-        $coupon = $_POST['coupon'];
+        $coupon = $_POST['coupon']; 
+    
+        // Apply coupon discount
+        if (!empty($coupon)) {
+            // Retrieve the coupon details from the database
+            $coupon_query = "SELECT * FROM `cupon` WHERE `cupon_code`='$coupon' AND `status`=1";
+            $coupon_result = mysqli_query($this->connection, $coupon_query);
+            
+            $discount = 0;
+            foreach($coupon_result as $result){
+                $discount = $result['discount'];
+            }
 
-        foreach($session as $key){
-            $pdt_name = $key['pdt_name'];
-            $pdt_price= $key['pdt_price'];
-            $pdt_id= $key['pdt_id'];
-            $pdt_quantity=$key['quantity'];
+            // $coupon_data = mysqli_fetch_assoc($coupon_result);
 
-           $query= "INSERT INTO `order_details`(`user_id`, `product_name`,`pdt_quantity`, `amount`,`uses_coupon`, `order_status`, `trans_id`, `Shipping_mobile`, `shiping`, `order_time`) VALUES ($user_id,'$pdt_name',$pdt_quantity, $pdt_price,'$coupon', $order_status,'$trans_id','$mobile','$shiping',NOW())";
-           $result= mysqli_query($this->connection, $query);
-           unset($_SESSION['cart']);
-            header("location:exist_order.php");
-           
-
+            // if ($coupon_data) {
+            //     $discount_type = $coupon_data['discount_type'];
+            //     $discount_value = $coupon_data['discount_value'];
+    
+            //     if ($discount_type == 'percentage') {
+            //         $discount_amount = ($total_amount / 100) * $discount_value;
+            //     } elseif ($discount_type == 'fixed') {
+            //         $discount_amount = $discount_value;
+            //     }
+            // }
         }
 
+        else {
+            $discount = 0;
+        }
+    
+        // Insert order details into the database
+        foreach ($session as $key) {
+            $pdt_name = $key['pdt_name'];
+            $pdt_price = $key['pdt_price'];
+            $pdt_id = $key['pdt_id'];
+            $pdt_quantity = $key['quantity'];
+            
+            // Calculate the total amount for this product
+            $sub_total = $pdt_price * $pdt_quantity;
+
+            // Apply coupon discount to this product
+            $discount_amount = ($sub_total * $discount/100);
+
+            $total_amount = $sub_total - $discount_amount;
+    
+            $query = "INSERT INTO `order_details`(`user_id`, `product_name`, `pdt_quantity`, `sub_total`, `amount`, `discount`, `uses_coupon`, `order_status`, `trans_id`, `Shipping_mobile`, `shiping`, `order_time`) VALUES ($user_id, '$pdt_name', $pdt_quantity, $sub_total, $total_amount, $discount_amount, '$coupon', $order_status, '$trans_id', '$mobile', '$shiping', NOW())";
+            $result = mysqli_query($this->connection, $query);
+        }
+        
+        unset($_SESSION['cart']);
+        header("location:exist_order.php");
     }
 
     function order_details_by_id($user_id)

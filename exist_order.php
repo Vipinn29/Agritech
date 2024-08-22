@@ -101,7 +101,9 @@ include_once("includes/head.php");
                                             <th class="product-name">Order Id</th>
                                             <th class="product-price">Products</th>
                                             <th class="product-quantity">Quantity</th>
-                                            <th class="product-subtotal">Amount</th>
+                                            <th class="product-subtotal">Sub Total</th>
+                                            <th class="product-subtotal">Discount</th>
+                                            <th class="product-subtotal">Total Amount</th>
                                             <th class="product-subtotal">Order Status</th>
                                             <th class="product-subtotal">Placing Time</th>
                                         </tr>
@@ -138,6 +140,20 @@ include_once("includes/head.php");
                                                     <td class="product-subtotal" data-title="Total">
                                                         <div class="price price-contain">
                                                             <ins><span class="price-amount"><span class="currencySymbol"></span><?php echo $order_info['pdt_quantity'] ?></span></ins>
+
+                                                        </div>
+                                                    </td>
+
+                                                    <td class="product-subtotal" data-title="Total">
+                                                        <div class="price price-contain">
+                                                            <ins><span class="price-amount"><span class="currencySymbol">Rs. </span><?php echo $order_info['sub_total'] ?></span></ins>
+
+                                                        </div>
+                                                    </td>
+
+                                                    <td class="product-subtotal" data-title="Total">
+                                                        <div class="price price-contain">
+                                                            <ins><span class="price-amount"><span class="currencySymbol">Rs. </span><?php echo $order_info['discount'] ?></span></ins>
 
                                                         </div>
                                                     </td>

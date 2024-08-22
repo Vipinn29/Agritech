@@ -26,11 +26,12 @@ if(isset( $status_msg)){
         <thead>
             <tr>
                 <th class="product-name">Order Id</th>
+                <th class="product-subtotal">Customer ID</th>
+                <th class="product-subtotal">Customer Name</th>
                 <th class="product-price">Products</th>
                 <th class="product-quantity">Quantity</th>
                 <th class="product-subtotal">Amount</th>
                 <th class="product-subtotal">Uses Coupon</th>
-                <th class="product-subtotal">Customer Name</th>
                 <th class="product-subtotal">Customer Mobile</th>
                 <th class="product-subtotal">Trans No</th>
                 <th class="product-subtotal">Shiping</th>
@@ -47,11 +48,12 @@ if(isset( $status_msg)){
         ?>
         <tr>
                 <td class="product-name"><?php echo $order_info['order_id'] ?></td>
+                <td class="product-subtotal"><?php echo $order_info['customer_id'] ?></td>
+                <td class="product-subtotal"><?php echo $order_info['customer_name'] ?></td>
                 <td class="product-price"><?php echo $order_info['product_name'] ?></td>
                 <td class="product-quantity"><?php echo $order_info['pdt_quantity'] ?></td>
                 <td class="product-subtotal"><?php echo $order_info['amount'] ?></td>
                 <td class="product-subtotal"><?php echo $order_info['uses_coupon'] ?></td>
-                <td class="product-subtotal"><?php echo $order_info['customer_name'] ?></td>
                 <td class="product-subtotal"><?php echo $order_info['Shipping_mobile'] ?></td>
                 <td class="product-subtotal"><?php echo $order_info['trans_id'] ?></td>
                 <td class="product-subtotal"><?php echo $order_info['shiping_address'] ?></td>
