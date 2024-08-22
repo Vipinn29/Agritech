@@ -5,7 +5,7 @@
                             <div class="pcoded-navigatio-lavel" data-i18n="nav.category.navigation"></div>
                             <ul class="pcoded-item pcoded-left-item">
                                 <li class="active">
-                                    <a href="dashboard.php">
+                                    <a href="manage_order.php">
                                         <span class="pcoded-micon"><i class="ti-home"></i><b>D</b></span>
                                         <span class="pcoded-mtext" data-i18n="nav.dash.main">Dashboard</span>
                                         <span class="pcoded-mcaret"></span>
@@ -13,7 +13,7 @@
                                 </li>
 
 
-                                <li class="pcoded-hasmenu">
+                                <!-- <li class="pcoded-hasmenu">
                                     <a href="javascript:void(0)">
                                         <span class="pcoded-micon"><i class="ti-layout-grid2-alt"></i></span>
                                         <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">Report</span>
@@ -32,7 +32,7 @@
                                      
 
                                     </ul>
-                                </li>
+                                </li> -->
 
 
 

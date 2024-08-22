@@ -7,7 +7,7 @@
     }
     session_start();
     if(isset($_SESSION['admin_id'])){
-        header("location:dashboard.php");
+        header("location:manage_order.php");
     }
 ?>
 
@@ -71,7 +71,7 @@
                                 </div>
                                 <hr/>
 
-                                <!-- <p class="text-dark h5">saifulislamsapon@gmail.com</p> -->
+                                <!-- <p class="text-dark h5">vipingupta2k4@gmail.com</p> -->
                                 <!-- <p class="text-dark">Password: 1234</p> -->
                                 <div class="row">
                                     <div class="col-md-10">
