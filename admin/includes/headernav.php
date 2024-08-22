@@ -29,6 +29,30 @@
                        </a>
                    </div>
 
+                   <style>
+                    @media only screen and (max-width: 560px){
+                        .img-fluid{
+                        max-width: 25%
+                        }
+                    }
+                    @media only screen and (min-width: 561px){
+                        .img-fluid{
+                        max-width: 20%
+                        }
+                    }
+                    @media only screen and (min-width: 602px){
+                        .img-fluid{
+                        max-width: 14%
+                        }
+                    }
+                    @media only screen and (min-width: 992px){
+                        .img-fluid{
+                        max-width: 100%
+                        }
+                    }
+
+                   </style>
+
                    <div class="navbar-container container-fluid">
                        <ul class="nav-left">
                         <li><a class="mobile-menu" id="mobile-collapse" href="#!">
