@@ -79,7 +79,7 @@ include_once("includes/head.php");
 
                       
                                 <p class="form-row">
-                                    <label for="username">Username:<span class="requite">*</span></label>
+                                    <label for="username">Username</span></label>
                                     <input type="text" name="username" class="txt-input form-control" required>
                                 </p>
 
