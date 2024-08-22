@@ -127,6 +127,16 @@ include_once("includes/head.php");
                margin: 10px 0; /* Add margin between list items on small screens */
              }
             }
+
+            @media only screen and (min-width: 769px) {
+             .secndary-nav-menu {
+               flex-direction: row; /* Change flex direction to column on small screens */
+               flex-wrap: wrap;
+             }
+             .secndary-nav-menu li {
+               margin: 10px 3px; /* Add margin between list items on small screens */
+             }
+            }
     </style>
 
     <!-- Page Contain -->
