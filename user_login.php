@@ -78,10 +78,10 @@ include_once("includes/head.php");
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <div class="signin-container">
                             <form action="" name="frm-login" method="post">
-                                <p class="form-row">
-                                    <label for="email">Email</label>
-                                    <input type="email" id="fid-name" name="user_email" class="txt-input">
-                                </p>
+                            <p class="form-row">
+                               <label for="login">Login with Email or Phone Number</label>
+                               <input type="text" id="fid-login" name="login" class="txt-input" placeholder="Email or Phone Number">
+                            </p>
                                 <p class="form-row">
                                     <label for="user_password">Password:</label>
                                     <input type="password" name="user_password" class="txt-input">
