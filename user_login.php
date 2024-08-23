@@ -79,8 +79,8 @@ include_once("includes/head.php");
                         <div class="signin-container">
                             <form action="" name="frm-login" method="post">
                             <p class="form-row">
-                               <label for="login">Login with Email or Phone Number</label>
-                               <input type="text" id="fid-login" name="login" class="txt-input" placeholder="Email or Phone Number">
+                               <label for="login">Login with Phone Number</label>
+                               <input type="tel" id="fid-login" name="login" class="txt-input" placeholder="Phone Number">
                             </p>
                                 <p class="form-row">
                                     <label for="user_password">Password:</label>

@@ -95,8 +95,8 @@ include_once("includes/head.php");
                                 </p>
 
                                 <p class="form-row">
-                                    <label for="user_email">Email</span> </label>
-                                    <input type="email" name="user_email" class="form-control" required>
+                                    <label for="user_email">Email </label>
+                                    <input type="email" name="user_email" class="form-control" >
                                 </p>
 
                                 <p class="form-row">

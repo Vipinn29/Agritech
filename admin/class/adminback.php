@@ -444,11 +444,11 @@ class  adminback
 
     function user_login($data)
     {
-        $user_email = $_POST['user_email'];
+        $user_mobile = $_POST['login'];
         $user_password = md5($_POST['user_password']);
-
-        $query = "SELECT * FROM `users` WHERE `user_email`='$user_email' AND `user_password`='$user_password'";
-
+    
+        $query = "SELECT * FROM `users` WHERE `user_mobile`='$user_mobile' AND `user_password`='$user_password'";
+    
         if (mysqli_query($this->connection, $query)) {
             $result = mysqli_query($this->connection, $query);
             $user_info = mysqli_fetch_array($result);
@@ -456,13 +456,12 @@ class  adminback
                 header("location:userprofile.php");
                 session_start();
                 $_SESSION['user_id'] = $user_info['user_id'];
-                $_SESSION['email'] = $user_info['user_email'];
                 $_SESSION['mobile'] = $user_info['user_mobile'];
+                $_SESSION['email'] = $user_info['user_email'];
                 $_SESSION['address'] = $user_info['user_address'];
-
                 $_SESSION['username'] = $user_info['user_name'];
             } else {
-                $logmsg = "Your username or password is incorrect";
+                $logmsg = "Your mobile number or password is incorrect";
                 return $logmsg;
             }
         }
