@@ -78,10 +78,10 @@ include_once("includes/head.php");
                             <form action="" name="frm-register" method="POST">
 
                       
-                                <p class="form-row">
+                                <!-- <p class="form-row">
                                     <label for="username">Username</span></label>
                                     <input type="text" name="username" class="txt-input form-control" required>
-                                </p>
+                                </p> -->
 
                                 <p class="form-row">
                                     <label for="user_firstname">First Name<span class="requite">*</span></label>
@@ -95,7 +95,7 @@ include_once("includes/head.php");
                                 </p>
 
                                 <p class="form-row">
-                                    <label for="user_email">Email <span class="requite">*</span> </label>
+                                    <label for="user_email">Email</span> </label>
                                     <input type="email" name="user_email" class="form-control" required>
                                 </p>
 
