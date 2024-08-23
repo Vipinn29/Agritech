@@ -161,10 +161,12 @@ include_once("includes/head.php");
 
                                                 </div>
 
-                                                <div class="shipping-info">
-                                                    <p class="shipping-day">24 Hour Shipping</p>
-                                                    <p class="for-today">Pree Pickup Today</p>
-                                                </div>
+                                                
+
+<div class="shipping-info">
+  <p class="shipping-day">This price is valid for minimum 10 kg order</p>
+  <p class="for-today" >If you order today, your delivery will arrive by tomorrow</p>
+</div>This price is valid for minimum 10 kg order
                                             </div>
                                             <div class="action-form">
 
