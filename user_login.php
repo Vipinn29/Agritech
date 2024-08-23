@@ -84,7 +84,7 @@ include_once("includes/head.php");
                             </p>
                                 <p class="form-row">
                                     <label for="user_password">Password:</label>
-                                    <input type="password" name="user_password" class="txt-input">
+                                    <input type="password" name="user_password" class="txt-input" placeholder="Password">
                                 </p>
                                 <p class="wrap-btn">
                                     <input type="submit" value="Log In" name="user_login_btn" class="btn btn-success">

@@ -412,30 +412,31 @@ class  adminback
 
     function user_register($data)
     {
-        $username = $data['username'];
+        // $username = $data['username'];
         $user_firstname = $data['user_firstname'];
         $user_lastname = $data['user_lastname'];
         $user_email = $data['user_email'];
+        $user_pass = $data['user_password'];
         $user_password = md5($data['user_password']);
         $user_mobile = $data['user_mobile'];
         $user_address = $data['user_address'];
         $user_roles = $data['user_roles'];
 
 
-        $user_check = "SELECT * FROM `users` WHERE user_name='$username' or user_email='$user_email'";
+        $user_check = "SELECT * FROM `users` WHERE user_mobile='$user_mobile'";
 
         $mysqli_result = mysqli_query($this->connection, $user_check);
 
         $row = mysqli_num_rows($mysqli_result);
 
         if ($row == 1) {
-            $msg = "Username or email already exist";
+            $msg = "Phone no. already exist";
             return $msg;
         } else {
-            $query = "INSERT INTO `users`( `user_name`, `user_firstname`, `user_lastname`, `user_email`, `user_password`, `user_mobile`,`user_address`, `user_roles`) VALUES ('$username',' $user_firstname',' $user_lastname','$user_email','$user_password',$user_mobile,'$user_address',$user_roles)";
+            $query = "INSERT INTO `users`(`user_firstname`, `user_lastname`, `user_email`, `user_password`, `user_mobile`,`user_address`, `user_roles`) VALUES (' $user_firstname',' $user_lastname','$user_email','$user_password',$user_mobile,'$user_address',$user_roles)";
 
             if (mysqli_query($this->connection, $query)) {
-                $msg = "Your registration done";
+                $msg = "Your Registration is done! <br> Your phone no. is $user_mobile and Password is $user_pass <br> Now go to login";
                 return $msg;
             }
         }
