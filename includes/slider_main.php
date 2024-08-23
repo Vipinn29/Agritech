@@ -20,7 +20,7 @@
                                 <p class="third-line"><?php echo $row['third_line']; ?></p>
                                 <p class="buttons">
                                      <!-- <a href="./all_product.php" class="btn btn-bold"><?php echo $row['btn_left']; ?></a> -->
-                                    <a href="#" class="btn btn-bold"><?php echo $row['btn_left']; ?></a>
+                                    <a href="all_product.php" class="btn btn-bold"><?php echo $row['btn_left']; ?></a>
                                     <a href="#" class="btn btn-thin"><?php echo $row['btn_right']; ?></a>
                                 </p>
                             </div>
