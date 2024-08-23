@@ -1,6 +1,6 @@
 <?php 
 
-ini_set("display_erros", "Off");
+ini_set("display_errors", "Off");
     $obj=new adminback();
     $cata_info = $obj-> p_display_catagory();
     if(isset($_GET['prostatus'])){
@@ -14,8 +14,12 @@ ini_set("display_erros", "Off");
 
     if(isset($_POST['update_pdt'])){
         $update_msg = $obj->update_product($_POST); 
+        if($update_msg === true){
+            echo "Product updated successfully";
+        } else {
+            echo "Error updating product: " . $update_msg;
+        }
     }
-
 
 ?>
 <h4>Update Product</h4>
@@ -31,7 +35,7 @@ ini_set("display_erros", "Off");
         <input type="text" name="u_pdt_name" class="form-control" value="<?php echo $pdt['pdt_name'] ?>" >
     </div>
 
-    <input type="hidden" name="pdt_id" value="<?php echo $pdt['pdt_id'] ?>">
+    <input type="hidden" name="pdt_id" value="<?php echo $pdt['price_id'] ?>">
     <div class="form-group">
         <label for="pdt_price">Product Price</label>
         <input type="text" name="u_pdt_price" class="form-control" value="<?php echo $pdt['pdt_price'] ?>">
@@ -44,11 +48,11 @@ ini_set("display_erros", "Off");
 
     <div class="form-group">
         <label for="pdt_stock">Product Stock</label>
-        <input type="number" name="pdt_stock" class="form-control" max='30' min='1' value="<?php echo $pdt['product_stock']?>">
+        <input type="number" name="pdt_stock" class="form-control" max='500' min='1' value="<?php echo $pdt['product_stock']?>">
     </div>
 
 
-    <div class="form-group">
+    <!-- <div class="form-group">
         <label for="pdt_ctg">Product Catagories</label>
         <select name="u_pdt_ctg" class="form-control">
         <option value="">Select a Catagory</option>
@@ -58,14 +62,14 @@ ini_set("display_erros", "Off");
 
         <?php }?>
         </select>
-    </div>
+    </div> -->
 
    
 
     <div class="form-group">
         <label for="pdt_img">Product Image</label>
         <div class="mb-3">
-        <img src="uploads/<?php echo $pdt['pdt_img']?>" style="width: 80px;" >
+        <img src="uploads/products/<?php echo $pdt['pdt_img']?>" style="width: 80px;" >
     </div>
         <input type="file" name="u_pdt_img" class="form-control">
     </div>

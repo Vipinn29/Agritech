@@ -87,7 +87,7 @@
                                        <h6>Notifications</h6>
                                        <label class="label label-danger">New</label>
                                    </li>
-                                   <li>
+                                   <!-- <li>
                                        <div class="media">
                                            <img class="d-flex align-self-center img-radius" src="assets/images/avatar-2.jpg" alt="Generic placeholder image">
                                            <div class="media-body">
@@ -116,13 +116,13 @@
                                                <span class="notification-time">30 minutes ago</span>
                                            </div>
                                        </div>
-                                   </li>
+                                   </li> -->
                                </ul>
                            </li>
                            
                            <li class="user-profile header-notification">
                                <a href="#!">
-                                   <img src="assets/images/avatar-4.jpg" class="img-radius" alt="User-Profile-Image">
+                                   <img src="../assets/new/favicon.png" class="img-radius" alt="User-Profile-Image">
                                    <span> <?php echo $admin_email ?> </span>
                                    <i class="ti-angle-down"></i>
                                </a>

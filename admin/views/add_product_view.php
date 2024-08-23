@@ -1,9 +1,15 @@
-
 <?php 
+    $obj=new adminback();
     $cata_info = $obj-> p_display_catagory();
 
     if(isset($_POST['add_pdt'])){
         $rtn_msg = $obj->add_product($_POST);
+        if($rtn_msg === true){
+            echo "Product Added Successfully";
+            }
+        else{  
+             echo "Error in Adding Product: " . $rtn_msg;
+            }           
     }
 ?>
 
