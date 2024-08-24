@@ -490,6 +490,14 @@ class adminback
         return $users;
     }
     
+    function delete_user($id) {
+        $query = "DELETE FROM `users` WHERE `user_id` = $id";
+        
+        if(mysqli_query($this->connection, $query)){
+            $del_msg = "Customer deleted successfully";
+            return $del_msg;
+        }
+    }
 
 
     function view_all_product()

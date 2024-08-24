@@ -246,7 +246,7 @@
                                 <li class="pcoded-hasmenu">
                                     <a href="javascript:void(0)">
                                         <span class="pcoded-micon"><i class="ti-layout-grid2-alt"></i></span>
-                                        <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">Customer</span>
+                                        <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">Customers</span>
                                         <span class="pcoded-mcaret"></span>
                                     </a>
 
@@ -255,7 +255,7 @@
                                         <li class=" ">
                                             <a href="manage_slider.php">
                                                 <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
-                                                <span class="pcoded-mtext" data-i18n="nav.basic-components.alert" style="font-weight: 400;">Manag customer </span>
+                                                <span class="pcoded-mtext" data-i18n="nav.basic-components.alert" style="font-weight: 400;">Manage customers </span>
                                                 <span class="pcoded-mcaret"></span>
                                             </a>
                                         </li>

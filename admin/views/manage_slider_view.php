@@ -11,10 +11,24 @@ if (!isset($_SESSION['admin_id'])) {
 
 $users = $obj->get_all_users();
 
+if(isset($_GET['prostatus'])){
+    $id = $_GET['id'];
+    if($_GET['prostatus']=="delete"){
+     $del_msg = $obj->delete_user($id);
+ }
+}
+
 include_once("includes/head.php");
 ?>
 
 <body class="biolife-body">
+    <h4>
+        <?php 
+        if(isset($del_msg)){
+            echo "{$del_msg}";
+        }
+        ?>
+    </h4>
     <!-- Preloader -->
     <!-- <?php include_once("includes/preloader.php"); ?> -->
 
@@ -34,7 +48,7 @@ include_once("includes/head.php");
                 <table class="table table-striped">
                     <thead>
                         <tr>
-                            <th>ID</th>
+                            <th>Customer ID</th>
                             <th>First Name</th>
                             <th>Last Name</th>
                             <th>Email</th>
@@ -60,7 +74,7 @@ include_once("includes/head.php");
                                 <td><?php echo $user['user_address']; ?></td>
                                 <td>
                                     <!-- <a href="admin_edit_user.php?user_id=<?php echo $user['user_id']; ?>" class="btn btn-primary">Edit</a> -->
-                                    <a href="admin_delete_user.php?user_id=<?php echo $user['user_id']; ?>" class="btn btn-danger">Delete</a>
+                                    <a href="?prostatus=delete&&id=<?php echo $user['user_id'] ?>" class="btn btn-danger">Delete</a>
                                 </td>
                             </tr>
                         <?php } ?>

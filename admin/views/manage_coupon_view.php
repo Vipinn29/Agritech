@@ -40,9 +40,8 @@
             <td> <?php echo $result['description'] ?></td>
             <td> <?php echo $result['discount'] ?></td>
             <td>
-                <button class="btn btn-secondary" ><a href="?prostatus=delete&&id=<?php echo $result['cupon_id'] ?>">Delete</a> </button> 
-                <!-- <a href=".php?prostatus=edit&&id=<?php echo $result['cupon_id'] ?>">Edit</a>  -->
-                <br>  
+            <a href="?prostatus=delete&&id=<?php echo $result['cupon_id'] ?>" class="btn btn-danger">Delete</a><br>  
+        <!-- <a href=".php?prostatus=edit&&id=<?php echo $result['cupon_id'] ?>"class="btn btn-success">Edit</a> -->
             </td>
            
         </tr>
