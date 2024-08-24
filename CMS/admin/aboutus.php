@@ -32,7 +32,7 @@ $pagedes=addslashes($_POST['pagedes']);
     <head>
 
         <!-- App title -->
-        <title>CMS About Us</title>
+        <title>koytur About Us</title>
         <link rel="shortcut icon" type="image/x-icon" href="assets/new/favicon.png" />
 
         <!-- Switchery css -->

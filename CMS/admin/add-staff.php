@@ -47,7 +47,7 @@ echo "<script>window.location.href ='add-staff.php'</script>";
         <link rel="shortcut icon" href="assets/images/favicon.ico">
 
         <!-- App title -->
-        <title>CMS</title>
+        <title>koytur</title>
 
         <!-- Switchery css -->
         <link href="../plugins/switchery/switchery.min.css" rel="stylesheet" />

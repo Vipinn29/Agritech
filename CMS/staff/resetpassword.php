@@ -26,7 +26,8 @@ session_destroy();
 <html lang="en">
 
     <head>
-        <title>CMS Forgot Password</title>
+        <title> Forgot Password</title>
+        <link rel="shortcut icon" type="image/x-icon" href="assets/new/favicon.png" />
 
         <!-- Bootstrap CSS -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />

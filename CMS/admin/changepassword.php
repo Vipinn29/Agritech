@@ -33,7 +33,7 @@ echo '<script>alert("Your current password is wrong")</script>';
 <html lang="en">
 
     <head>
-        <title>CMS</title>
+        <title>koytur</title>
         <link rel="shortcut icon" type="image/x-icon" href="assets/new/favicon.png" />
 
         <!-- Switchery css -->

@@ -25,7 +25,7 @@ echo "<script>alert('Something went wrong. Please try again.');</script>";
 <html lang="en">
 
     <head>
-        <title>CMS Read Enquiry</title>
+        <title> Read Enquiry</title>
         <link rel="shortcut icon" type="image/x-icon" href="assets/new/favicon.png" />
 
         <!-- DataTables -->

@@ -30,7 +30,7 @@ if (strlen($_SESSION['cmsaid']==0)) {
     <head>
 
         <!-- App title -->
-        <title>CMS</title>
+        <title>koytur</title>
         <link rel="shortcut icon" type="image/x-icon" href="assets/new/favicon.png" />
 
         <!-- Switchery css -->

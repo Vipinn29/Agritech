@@ -38,7 +38,8 @@ $bcountry=$_POST['country'];
 <html lang="en">
 
     <head>
-        <title>CMS Branches</title>
+        <title>Koytur Branches</title>
+        <link rel="shortcut icon" type="image/x-icon" href="assets/new/favicon.png" />
 
         <!-- Switchery css -->
         <link href="../plugins/switchery/switchery.min.css" rel="stylesheet" />

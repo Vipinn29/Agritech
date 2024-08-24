@@ -34,7 +34,7 @@ $phonenum=$_POST['phonenum'];
     <head>
 
         <!-- App title -->
-        <title>CMS Contact Us</title>
+        <title>koytur Contact Us</title>
         <link rel="shortcut icon" type="image/x-icon" href="assets/new/favicon.png" />
 
         <!-- Switchery css -->
