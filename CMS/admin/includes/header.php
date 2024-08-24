@@ -2,9 +2,10 @@
 
                 <div class="topbar-left">
                     <a class="logo">
-                        <i class="zmdi zmdi-group-work icon-c-logo"></i>
-                        <span>Admin Panel</span></a>
-                </div>
+                        <i class=""></i>
+                        <span>Koytur-Admin</span></a>
+                    </div>
+                    <!-- //zmdi zmdi-group-work icon-c-logo -->
 
                 <nav class="navbar-custom">
 
