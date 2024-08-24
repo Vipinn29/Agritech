@@ -7,7 +7,7 @@
                                         <div class="contain-product deal-layout contain-product__deal-layout">
                                             <div class="product-thumb">
                                                 <a href="#" class="link-to-product">
-                                                    <img src="admin/uploads/products/kajuli.jpg" alt="dd" width="330" height="330" class="product-thumnail">
+                                                    <img src="admin/uploads/products/kajuli.jpeg" alt="dd" width="330" height="330" class="product-thumnail">
                                                 </a>
                                                 <div class="labels">
                                                     <span class="sale-label">-10%</span>
@@ -18,8 +18,8 @@
                                                 <b class="categories">100% Live</b>
                                                 <h4 class="product-title"><a href="#" class="pr-name">Fresh fish</a></h4>
                                                 <div class="price ">
-                                                    <ins><span class="price-amount"><span class="currencySymbol">Rs.</span>630</span></ins>
-                                                    <del><span class="price-amount"><span class="currencySymbol">Rs.</span>700</span></del>
+                                                    <ins><span class="price-amount"><span class="currencySymbol">Rs.</span>700</span></ins>
+                                                    <del><span class="price-amount"><span class="currencySymbol">Rs.</span>770</span></del>
                                                 </div>
                                                 <div class="slide-down-box">
                                                     <p class="message">All products are carefully selected to ensure fish safety.</p>
