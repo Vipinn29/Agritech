@@ -927,4 +927,21 @@ class  adminback
             return $result;
         }
     }
+
+    function edit_coupon($id) {
+        // modify required
+        $query = "SELECT * FROM `cupon` WHERE `cupon_id` = $id";
+        $result = mysqli_query($this->connection, $query);
+        $coupon = mysqli_fetch_assoc($result);
+        return $coupon;
+    }
+
+    function delete_coupon($id) {
+        $query = "DELETE FROM `cupon` WHERE `cupon_id` = $id";
+        
+        if(mysqli_query($this->connection, $query)){
+            $del_msg = "Coupon deleted successfully";
+            return $del_msg;
+        }
+    }
 }

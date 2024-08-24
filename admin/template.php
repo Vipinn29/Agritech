@@ -103,7 +103,9 @@
                                             include ("views/edit_admin_view.php");
                                         }elseif($views=="make_report"){
                                             include ("views/make_report_view.php");
-                                        }
+                                        }elseif($views=="edit_coupon"){
+                                            include ("views/edit_coupon_view.php");
+                                        }                                  
 
                                     }
                                 ?>
