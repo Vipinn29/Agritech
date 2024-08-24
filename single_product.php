@@ -165,8 +165,8 @@ include_once("includes/head.php");
 
 <div class="shipping-info">
   <p class="shipping-day">This price is valid for minimum 10 kg order</p>
-  <p class="for-today" >If you order today, your delivery will arrive by tomorrow</p>
-</div>This price is valid for minimum 10 kg order
+  <p class="for-today" ><span style="text-decoration: underline;">If you order today, your delivery will arrive by tomorrow</p>
+</div>
                                             </div>
                                             <div class="action-form">
 
