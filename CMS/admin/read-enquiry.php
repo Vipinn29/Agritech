@@ -26,6 +26,7 @@ echo "<script>alert('Something went wrong. Please try again.');</script>";
 
     <head>
         <title>CMS Read Enquiry</title>
+        <link rel="shortcut icon" type="image/x-icon" href="assets/new/favicon.png" />
 
         <!-- DataTables -->
         <link href="../plugins/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />

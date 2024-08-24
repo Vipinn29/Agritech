@@ -15,6 +15,7 @@ if (strlen($_SESSION['cmsaid']==0)) {
 
     <head>
         <title>Request Count Report</title>
+        <link rel="shortcut icon" type="image/x-icon" href="assets/new/favicon.png" />
 
         <!-- Switchery css -->
         <link href="../plugins/switchery/switchery.min.css" rel="stylesheet" />

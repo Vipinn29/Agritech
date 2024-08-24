@@ -40,6 +40,7 @@ $semail=$_POST['email'];
     <head>
         <!-- App title -->
         <title>CMS</title>
+        <link rel="shortcut icon" type="image/x-icon" href="assets/new/favicon.png" />
 
         <!-- Switchery css -->
         <link href="../plugins/switchery/switchery.min.css" rel="stylesheet" />

@@ -39,6 +39,7 @@ if(isset($_POST['submit']))
 
     <head>
         <title>View Complains</title>
+        <link rel="shortcut icon" type="image/x-icon" href="assets/new/favicon.png" />
 
         <!-- DataTables -->
         <link href="../plugins/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />

@@ -43,6 +43,7 @@ echo "<script>window.location.href ='add-branch.php'</script>";
 
         <!-- App title -->
         <title>CMS Branches</title>
+        <link rel="shortcut icon" type="image/x-icon" href="assets/new/favicon.png" />
 
         <!-- Switchery css -->
         <link href="../plugins/switchery/switchery.min.css" rel="stylesheet" />

@@ -45,6 +45,7 @@ $bcountry=$_POST['country'];
 
         <!-- App Favicon -->
         <link rel="shortcut icon" href="assets/images/favicon.ico">
+        <link rel="shortcut icon" type="image/x-icon" href="assets/new/favicon.png" />
 
         <!-- App title -->
         <title>CMS Branches</title>

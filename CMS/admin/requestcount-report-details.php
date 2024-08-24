@@ -14,6 +14,7 @@ if (strlen($_SESSION['cmsaid']==0)) {
 
     <head>
         <title>CMS Reports Counts</title>
+        <link rel="shortcut icon" type="image/x-icon" href="assets/new/favicon.png" />
 
         <!-- DataTables -->
         <link href="../plugins/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />

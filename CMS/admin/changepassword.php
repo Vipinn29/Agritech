@@ -34,6 +34,7 @@ echo '<script>alert("Your current password is wrong")</script>';
 
     <head>
         <title>CMS</title>
+        <link rel="shortcut icon" type="image/x-icon" href="assets/new/favicon.png" />
 
         <!-- Switchery css -->
         <link href="../plugins/switchery/switchery.min.css" rel="stylesheet" />
