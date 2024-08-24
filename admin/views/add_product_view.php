@@ -40,7 +40,7 @@
 
     <div class="form-group">
         <label for="pdt_img">Product Stock</label>
-        <input type="number" name="pdt_stock" class="form-control" max='30' min='1'>
+        <input type="number" name="pdt_stock" class="form-control" max='500' min='1'>
     </div>
 
 
