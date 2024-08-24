@@ -192,7 +192,7 @@ $totalbranch=mysqli_num_rows($qry1);
                                 </div>
                             </div>
 
-<?php $query11=mysqli_query($con,"Select * from tblcomplains");
+<!-- <?php $query11=mysqli_query($con,"Select * from tblcomplains");
 $totalcomp=mysqli_num_rows($query11);
 ?>
                <div class="col-md-6 col-xl-3" >
@@ -202,10 +202,10 @@ $totalcomp=mysqli_num_rows($query11);
                                     <h2 ><?php echo $totalcomp;?></h2></a>
                                     
                                 </div>
-                            </div>
+                            </div> -->
 
 
-<?php $query111=mysqli_query($con,"Select * from tblcontact");
+<!-- <?php $query111=mysqli_query($con,"Select * from tblcontact");
 $totalenq=mysqli_num_rows($query111);
 ?>
                <div class="col-md-6 col-xl-3" >
@@ -221,7 +221,7 @@ $totalenq=mysqli_num_rows($query111);
 
 
 
-                        </div>
+                        </div> -->
 
 
 

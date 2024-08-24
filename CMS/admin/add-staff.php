@@ -44,10 +44,10 @@ echo "<script>window.location.href ='add-staff.php'</script>";
         <meta name="author" content="Coderthemes">
 
         <!-- App Favicon -->
-        <link rel="shortcut icon" href="assets/images/favicon.ico">
+        <link rel="shortcut icon" href="assets/new/favicon.png">
 
         <!-- App title -->
-        <title>koytur</title>
+        <title>koytur Staff</title>
 
         <!-- Switchery css -->
         <link href="../plugins/switchery/switchery.min.css" rel="stylesheet" />

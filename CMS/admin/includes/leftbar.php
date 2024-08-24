@@ -41,27 +41,27 @@
                                       <li><a href="delivered.php">Delivered</a></li>
                                                                     </ul>
                             </li>
-                            <li class="has_sub">
+                            <!-- <li class="has_sub">
                                 <a href="javascript:void(0);" class="waves-effect"><i class="icon-rocket float-left text-muted"></i></i><span> Complaints </span> <span class="menu-arrow"></span></a>
                                 <ul class="list-unstyled">
                                     <li><a href="open-complains.php">Open Complaints</a></li>
                                     <li><a href="closed-complains.php">Closed Complaintss</a></li>
                                                                     </ul>
-                            </li>
+                            </li> -->
  <li class="has_sub">
                                 <a href="javascript:void(0);" class="waves-effect"><i class="zmdi zmdi-collection-text"></i><span> Pages </span> <span class="menu-arrow"></span></a>
                                 <ul class="list-unstyled">
                                     <li><a href="aboutus.php">About Us</a></li>
                                     <li><a href="contactus.php">Contact Us</a></li>
                                                                     </ul>
-                            </li>
+                            <!-- </li>
 <li class="has_sub">
                                 <a href="javascript:void(0);" class="waves-effect"><i class="icon-layers float-left text-muted"></i><span> Enquiry </span> <span class="menu-arrow"></span></a>
                                 <ul class="list-unstyled">
                                     <li><a href="unread-enquiry.php">Unread Enquiry</a></li>
                                     <li><a href="read-enquiry.php">Read Enquiry</a></li>
                                                                     </ul>
-                            </li>
+                            </li> -->
 
                             <li class="has_sub">
                                 <a href="javascript:void(0);" class="waves-effect"> <i class="icon-chart float-left text-muted"></i><span> Reports </span> <span class="menu-arrow"></span></a>
