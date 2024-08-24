@@ -124,8 +124,8 @@ include_once("includes/head.php");
 
                                             </div>
                                             <div class="shipping-info">
-                                                <p class="shipping-day">This price is valid for minimum 10 kg order</p>
-                                                <p class="for-today">If you order today, your delivery will arrive by tomorrow</p>
+                                                <p class="shipping-day">Valid for minimum 10 kg order</p>
+                                                <p class="for-today">Free Pickup</p>
                                                 >
                                             </div>
                                             <div class="slide-down-box">
