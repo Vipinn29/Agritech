@@ -16,7 +16,7 @@ if (strlen($_SESSION['cmsaid']==0)) {
     <head>
 
         <!-- App title -->
-        <title>CMS Sales Report</title>
+        <title> Sales Report</title>
         <link rel="shortcut icon" type="image/x-icon" href="assets/new/favicon.png" />
 
         <!-- Switchery css -->

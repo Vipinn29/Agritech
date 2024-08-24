@@ -13,7 +13,7 @@ if (strlen($_SESSION['cmsaid']==0)) {
 <html lang="en">
 
     <head>
-        <title>CMS Reports Counts</title>
+        <title> Reports Counts</title>
         <link rel="shortcut icon" type="image/x-icon" href="assets/new/favicon.png" />
 
         <!-- DataTables -->

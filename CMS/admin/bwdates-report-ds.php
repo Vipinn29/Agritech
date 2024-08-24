@@ -14,7 +14,7 @@ if (strlen($_SESSION['cmsaid']==0)) {
 <html lang="en">
 
     <head>
-        <title>CMS Report</title>
+        <title>koytur Report</title>
         <link rel="shortcut icon" type="image/x-icon" href="assets/new/favicon.png" />
 
         <!-- Switchery css -->

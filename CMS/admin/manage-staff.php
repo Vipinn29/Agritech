@@ -40,7 +40,7 @@ echo "<script>alert('Something went wrong. Please try again.');</script>";
 
     <head>
         <!-- App title -->
-        <title>CMS Staff</title>
+        <title>koytur Staff</title>
          <!-- faviocn  -->
          <link rel="shortcut icon" type="image/x-icon" href="assets/new/favicon.png" />
 

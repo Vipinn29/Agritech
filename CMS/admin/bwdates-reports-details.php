@@ -27,7 +27,7 @@ echo "<script>alert('Something went wrong. Please try again.');</script>";
 
     <head>
         <!-- App title -->
-        <title>CMS Courier View</title>
+        <title>koytur Courier View</title>
         <link rel="shortcut icon" type="image/x-icon" href="assets/new/favicon.png" />
 
         <!-- DataTables -->

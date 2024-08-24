@@ -2,9 +2,9 @@
                 <!-- LOGO -->
                 <div class="topbar-left">
                     <a href="index.html" class="logo">
-                        <i class="zmdi zmdi-group-work icon-c-logo"></i>
+                        <!-- <i class="zmdi zmdi-group-work icon-c-logo"></i> -->
                          
-                        <span>Staff Panel </span></a>
+                        <span>koytur-Staff  </span></a>
                 </div>
 
                 <nav class="navbar-custom">
