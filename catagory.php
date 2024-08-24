@@ -124,8 +124,9 @@ include_once("includes/head.php");
 
                                             </div>
                                             <div class="shipping-info">
-                                                <p class="shipping-day">Same Day Shipping</p>
-                                                <p class="for-today">Free Pickup Today</p>
+                                                <p class="shipping-day">Valid for minimum 10 kg order</p>
+                                                <p class="for-today">Free Pickup</p>
+                                                >
                                             </div>
                                             <div class="slide-down-box">
                                                 <p class="message">All products are carefully selected to ensure fish safety.</p>
