@@ -760,7 +760,7 @@ body{
 }
 .hero-background{
     background-image: url('../images/hero_bg.jpg');
-    height: 194px;
+    height: 120px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
