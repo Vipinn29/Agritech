@@ -41,6 +41,8 @@ echo "<script>alert('Something went wrong. Please try again.');</script>";
     <head>
         <!-- App title -->
         <title>CMS Staff</title>
+         <!-- faviocn  -->
+         <link rel="shortcut icon" type="image/x-icon" href="assets/new/favicon.png" />
 
         <!-- DataTables -->
         <link href="../plugins/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />

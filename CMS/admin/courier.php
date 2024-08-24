@@ -28,6 +28,9 @@ echo "<script>alert('Something went wrong. Please try again.');</script>";
     <head>
         <title>CMS Courier</title>
 
+        <!-- faviocn  -->
+        <link rel="shortcut icon" type="image/x-icon" href="assets/new/favicon.png" />
+
         <!-- DataTables -->
         <link href="../plugins/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
         <link href="../plugins/datatables/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css" />
