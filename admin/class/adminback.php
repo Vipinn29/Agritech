@@ -1,6 +1,6 @@
 <?php
 
-class  adminback
+class adminback
 {
     private $connection;
     function __construct()
@@ -477,6 +477,20 @@ class  adminback
         header("location:user_login.php");
         session_destroy();
     }
+
+
+    //new for get all user 
+    function get_all_users() {
+        $query = "SELECT * FROM `users`";
+        $result = mysqli_query($this->connection, $query);
+        $users = array();
+        while ($user = mysqli_fetch_assoc($result)) {
+            $users[] = $user;
+        }
+        return $users;
+    }
+    
+
 
     function view_all_product()
     {
