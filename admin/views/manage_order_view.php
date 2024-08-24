@@ -19,9 +19,9 @@ if(isset( $status_msg)){
     echo  $status_msg ;
 }
 
-
 ?>
-<div>
+
+<div style="overflow-x: auto; width: 100%;">
     <table class="table table-striped">
         <thead>
             <tr>
@@ -85,7 +85,7 @@ if(isset( $status_msg)){
                 <td class="product-subtotal"><?php echo $order_info['order_time'] ?></td>
             </tr>
 
-                <?php }?>
+                <?php } ?>
         </tbody>
     </table>
 </div>
