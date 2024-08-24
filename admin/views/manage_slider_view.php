@@ -1,5 +1,4 @@
 <?php
-
 // include_once("admin/class/adminback.php");
 
 
@@ -47,7 +46,13 @@ include_once("includes/head.php");
                     <tbody>
                         <?php foreach ($users as $user) { ?>
                             <tr>
-                                <td><?php echo $user['user_id']; ?></td>
+                                <td><?php 
+            // Extract the first two letters of the address
+            $addressPrefix = substr($user['user_address'], 0, 2);
+            // Generate the user ID
+            $userId = $addressPrefix . str_pad($user['user_id'], 2, '0', STR_PAD_LEFT);
+            echo $userId; 
+        ?></td>
                                 <td><?php echo $user['user_firstname']; ?></td>
                                 <td><?php echo $user['user_lastname']; ?></td>
                                 <td><?php echo $user['user_email']; ?></td>
@@ -75,5 +80,7 @@ include_once("includes/head.php");
     <a class="btn-scroll-top"><i class="biolife-icon icon-left-arrow"></i></a>
 
     <?php include_once("includes/script.php"); ?>
+
+    
 </body>
 </html>
