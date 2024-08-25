@@ -31,7 +31,7 @@ CREATE TABLE `tbladmin` (
   `Password` varchar(120) DEFAULT NULL,
   `AdminRegdate` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`ID`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -40,7 +40,7 @@ CREATE TABLE `tbladmin` (
 
 LOCK TABLES `tbladmin` WRITE;
 /*!40000 ALTER TABLE `tbladmin` DISABLE KEYS */;
-INSERT INTO `tbladmin` VALUES (1,'Admin','admin',6265335331,'koyturfishfarming@gmail.com','f925916e2754e5e03f75dd58a5733251','2023-12-02 06:14:39');
+INSERT INTO `tbladmin` VALUES (1,'Koytur','koytur',6265335331,'koyturfishfarming@gmail.com','0f3a900b23616ab0224ba62f32b9225a','2023-12-02 06:14:39'),(2,'Admin','admin',1234567890,'abc@gmail.com','f925916e2754e5e03f75dd58a5733251','2023-12-02 06:14:39');
 /*!40000 ALTER TABLE `tbladmin` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -220,4 +220,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-08-24 17:50:28
+-- Dump completed on 2024-08-25  6:28:46

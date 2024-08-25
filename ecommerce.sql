@@ -52,7 +52,7 @@ CREATE TABLE `admin_info` (
   `admin_pass` varchar(60) NOT NULL,
   `role` int(11) NOT NULL DEFAULT '1',
   PRIMARY KEY (`admin_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -61,7 +61,7 @@ CREATE TABLE `admin_info` (
 
 LOCK TABLES `admin_info` WRITE;
 /*!40000 ALTER TABLE `admin_info` DISABLE KEYS */;
-INSERT INTO `admin_info` VALUES (1,'saifulislamsapon@gmail.com','81dc9bdb52d04dc20036dbd8313ed055',1),(4,'yearul@gmail.com','81dc9bdb52d04dc20036dbd8313ed055',2),(5,'koyturfishfarming@gmail.com','0f3a900b23616ab0224ba62f32b9225a',1),(6,'vipingupta2k4@gmail.com','81dc9bdb52d04dc20036dbd8313ed055',1);
+INSERT INTO `admin_info` VALUES (1,'koyturfishfarming@gmail.com','0f3a900b23616ab0224ba62f32b9225a',1),(2,'vipingupta2k4@gmail.com','81dc9bdb52d04dc20036dbd8313ed055',1),(3,'ekantdewangan510@gmail.com','81dc9bdb52d04dc20036dbd8313ed055',1);
 /*!40000 ALTER TABLE `admin_info` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -129,7 +129,7 @@ CREATE TABLE `cupon` (
   `discount` int(5) NOT NULL,
   `status` int(2) NOT NULL DEFAULT '0',
   PRIMARY KEY (`cupon_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -413,7 +413,7 @@ CREATE TABLE `users` (
   `user_lastname` varchar(60) NOT NULL,
   `user_email` varchar(60) DEFAULT NULL,
   `user_password` varchar(255) NOT NULL,
-  `user_mobile` int(11) NOT NULL,
+  `user_mobile` bigint(11) NOT NULL,
   `user_address` varchar(255) NOT NULL,
   `user_roles` tinyint(4) NOT NULL,
   `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -478,4 +478,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-08-24 17:49:50
+-- Dump completed on 2024-08-25  6:28:18
