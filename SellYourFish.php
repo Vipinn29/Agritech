@@ -70,16 +70,23 @@ include_once("includes/head.php");
     .sell p {   
         padding: 10px;
     }
+
     .sell_link {
         background-color: #16688d;
-        border: none;
-        color: #fff;
-        padding: 5px;
-        text-decoration: none;
-        margin: 4px 2px;
-        cursor: pointer;
-        font-size: 16px; /* Adjust font size as needed */
-        border-radius: 5px; /* Add rounded corners */
+        color: white; /* White text */
+        padding: 10px 15px; /* Padding */
+        text-align: center; /* Centered text */
+        text-decoration: none; /* No underline */
+        display: inline-block; /* Inline block */
+        font-size: 18px; /* Larger font */
+        border: none; /* No border */
+        border-radius: 5px; /* Rounded corners */
+        cursor: pointer; /* Pointer cursor */
+        transition: transform 0.3s; /* Smooth transition */
+    }
+
+    .sell_link:hover {
+        transform: scale(1.05); /* Slightly enlarge on hover */
     }
 
     .sell_link:hover{
@@ -91,6 +98,21 @@ include_once("includes/head.php");
     font-weight: bold;
     color: black;
     }
+
+    .image-gallery {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 0;
+    }
+    .gallery-image {
+        width: 45%; /* Adjust as necessary */
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s;
+    }
+    .gallery-image:hover {
+        transform: scale(1.05); /* Slight zoom effect on hover */
+    }
     
 </style>
 
@@ -101,10 +123,16 @@ include_once("includes/head.php");
     <p>Are you a fish farmer looking for a reliable and profitable way to sell your fish? Look no further! We are here to provide you with a hassle-free and efficient platform to sell your fish directly to us. Our goal is to support local farmers and ensure you get the best value for your hard work.</p>
 
     <a href="https://forms.gle/qEpb4wvUh8BHyFiC9" target="_blank" class="sell_link">
-        Click Here to Sell Your Fish</a><br><br>
+        Click Here to Sell Your Fish 🦈</a><br><br>
+
+        <div class="image-gallery">
+        <!-- <img src="assets/BLOG/img.jpeg" alt="Image 1" class="gallery-image"> -->
+        <img src="assets/BLOG/fish sell.jpeg" alt="Image 2" class="gallery-image">
+        <img src="assets/BLOG/fish sell2.jpg" alt="Image 3" class="gallery-image">
+        </div>
     
 
-    If you have any questions or need further assistance, please feel free to contact us.</p>
+    <p>If you have any questions or need further assistance, please feel free to contact us.</p>
     </div>
     <!-- FOOTER -->
     <?php

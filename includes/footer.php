@@ -113,13 +113,17 @@ $obj= new adminback();
                     </div>
                 </div>
                 <div class="row">
+
                     <div class="col-xs-12">
                         <div class="separator sm-margin-top-62px xs-margin-top-40px"></div>
+
+                        <div class="">
+                            <div class="copy-right-text"><p>Copyright &copy; 2024 KOYTUR FISH FARMING PRIVATE LIMITED</p></div>
+                        </div>
+
                     </div>
-                    <div class="col-lg-6 col-sm-6 col-xs-12">
-                       <div class="copy-right-text"><p>WE ACCEPT</p></div>
-                    </div>
-                    <div class="col-lg-6 col-sm-6 col-xs-12">
+                    
+                    <!-- <div class="col-lg-6 col-sm-6 col-xs-12">
                         <div class="payment-methods">
                             <ul>
                                 <li><a href="#" class="payment-link"><img src="assets/images/card1.jpg" width="51" height="36" alt=""></a></li>
@@ -129,7 +133,7 @@ $obj= new adminback();
                                 <li><a href="#" class="payment-link"><img src="assets/images/card5.jpg" width="51" height="36" alt=""></a></li>
                             </ul>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

@@ -65,6 +65,7 @@ include_once("includes/head.php");
 
         .about p {   
             padding: 10px;
+            font-size: 22px;
             font-weight: bold;
             color: black;
         }
@@ -120,6 +121,23 @@ include_once("includes/head.php");
     color: #16688d; /* Text color on hover */
     background-color: rgba(0, 0, 0, 0.05); /* Background color on hover */
 }
+
+        .image-gallery {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+
+        .gallery-image {
+            width: 45%; /* Adjust as necessary */
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .gallery-image:hover {
+            transform: scale(1.05); /* Slight zoom effect on hover */
+        }
     
 
     </style>
@@ -135,8 +153,8 @@ include_once("includes/head.php");
         <div class="container">
             <ul class="secndary-nav-menu">
                 <li><a href="AboutUs.php">Our Services</a></li>
-                <li><a href="FAQ.php">FAQ's</a></li>
-                <li><a href="#">Farming</a></li>
+                <li><a href="FAQ.php">FAQs</a></li>
+                <li><a href="BLOG.php">BLOG</a></li>
                 
             </ul>
         </div>
@@ -151,10 +169,21 @@ include_once("includes/head.php");
 
     When you choose KoyturFishFarming, you're choosing seafood that's as fresh as it gets. Our live fish are carefully harvested and packed in specialized pouches, preserving their natural taste and texture until they reach your doorstep.<br><br>
 
+    <div class="image-gallery">
+        <!-- <img src="assets/BLOG/img.jpeg" alt="Image 1" class="gallery-image"> -->
+        <img src="assets/BLOG/img3.jpg" alt="Image 3" class="gallery-image">
+        <img src="assets/BLOG/img2.jpg" alt="Image 2" class="gallery-image">
+    </div>
+
     Join us in our mission to provide businesses like yours with the freshest, highest quality seafood available. Experience the KoyturFishFarming difference and take your culinary offerings to the next level!<br>
 
     Partner with us for freshness, quality, and reliability.<br><br>
 
+    
+    <div class="image-gallery">
+        <img src="assets/BLOG/imgp1.jpeg" alt="Image 1" class="gallery-image">
+        <img src="assets/BLOG/imgp2.jpeg" alt="Image 2" class="gallery-image">
+    </div>
     <p>Koytur Fish Farming Private Limited<br></p>
     </div>  
         

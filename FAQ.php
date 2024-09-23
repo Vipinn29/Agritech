@@ -58,9 +58,8 @@ include_once("includes/head.php");
 <style>   
 .faq-container {
     max-width: 800px;
-    margin: 50px auto;
+    margin: 2px auto;
     padding: 20px;
-    background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
@@ -69,7 +68,8 @@ include_once("includes/head.php");
     text-align: center;
     margin-bottom: 20px;
     font-size: 2em;
-    color: #333;
+    font-weight: bold;
+    color: black;
 }
 
 .faq-item {
@@ -199,8 +199,8 @@ document.addEventListener("DOMContentLoaded", function() {
         <div class="container">
             <ul class="secndary-nav-menu">
                 <li><a href="AboutUs.php">Our Services</a></li>
-                <li><a href="FAQ.php">FAQ's</a></li>
-                <li><a href="#">Farming</a></li>
+                <li><a href="FAQ.php">FAQs</a></li>
+                <li><a href="BLOG.php">BLOG</a></li>
                 
             </ul>
         </div>
