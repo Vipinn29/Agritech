@@ -31,5 +31,8 @@ Agritech is a PHP-based e-commerce platform designed to facilitate online sales 
 - `CMS/` - Content management system related files
 - Various PHP files in the root directory handle user-facing pages and functionality.
 
+## Live Site
+The project is live and accessible at: [koyturfishfarming.com](https://koyturfishfarming.com)
+
 ## Contact / Support
 For support or inquiries, please contact the project maintainer at the admin email above.
